@@ -18,5 +18,4 @@ public class TestMixin {
     public void onUse(Level level, Player player, InteractionHand usedHand, CallbackInfoReturnable<InteractionResultHolder<ItemStack>> cir) {
         // Do something when any an item is used...
     }
-
 }
