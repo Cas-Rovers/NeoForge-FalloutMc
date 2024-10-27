@@ -1,0 +1,13 @@
+{
+  "values": {
+    "falloutmc:nuka_cola": {
+      "weight": 1.0
+    },
+    "minecraft:apple": {
+      "weight": 1.0
+    },
+    "minecraft:golden_apple": {
+      "weight": 10.0
+    }
+  }
+}
