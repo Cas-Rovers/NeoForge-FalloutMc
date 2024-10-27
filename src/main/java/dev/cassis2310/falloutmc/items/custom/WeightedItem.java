@@ -1,6 +1,5 @@
     package dev.cassis2310.falloutmc.items.custom;
 
-    import dev.cassis2310.falloutmc.items.ItemWeightRegistry;
     import dev.cassis2310.falloutmc.items.enums.ItemType;
     import net.minecraft.ChatFormatting;
     import net.minecraft.network.chat.Component;
@@ -14,19 +13,19 @@
 
     public class WeightedItem extends Item
     {
-        private final double weight;
         private final ItemType itemType;
+        private final double defaultWeight;
 
-        public WeightedItem(Properties properties, double weight, ItemType itemType)
+        public WeightedItem(Properties properties, double defaultWeight, ItemType itemType)
         {
             super(properties);
-            this.weight = weight;
+            this.defaultWeight = defaultWeight;
             this.itemType = itemType;
         }
 
         public double getWeight()
         {
-            return this.weight;
+            return this.defaultWeight;
         }
 
         public ItemType getItemType()
