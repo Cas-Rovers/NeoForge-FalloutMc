@@ -6,14 +6,14 @@ import net.minecraft.world.item.crafting.RecipeManager;
 import net.neoforged.neoforge.server.ServerLifecycleHooks;
 import org.jetbrains.annotations.Nullable;
 
-import java.util.logging.Logger;
+import org.slf4j.Logger;
 
 public class RecipeHelpers
 {
     /**
      * The logger for this class.
      */
-    private static final Logger LOGGER = (Logger) LogUtils.getLogger();
+    private static final Logger LOGGER = LogUtils.getLogger();
 
     /**
      * Stores a reference to the recipe manager (initially null).

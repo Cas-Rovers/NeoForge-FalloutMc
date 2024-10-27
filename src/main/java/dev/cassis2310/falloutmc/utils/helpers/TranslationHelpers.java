@@ -6,14 +6,14 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.MutableComponent;
 
 import java.util.Locale;
-import java.util.logging.Logger;
+import org.slf4j.Logger;
 
 public class TranslationHelpers
 {
     /**
      * The logger for this class.
      */
-    private static final Logger LOGGER = (Logger) LogUtils.getLogger();
+    private static final Logger LOGGER = LogUtils.getLogger();
 
     private TranslationHelpers()
     {

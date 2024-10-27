@@ -9,14 +9,14 @@ import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockState;
 
-import java.util.logging.Logger;
+import org.slf4j.Logger;
 
 public class SoundHelpers
 {
     /**
      * The logger for this class.
      */
-    private static final Logger LOGGER = (Logger) LogUtils.getLogger();
+    private static final Logger LOGGER = LogUtils.getLogger();
 
     private SoundHelpers()
     {

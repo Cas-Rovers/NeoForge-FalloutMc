@@ -25,7 +25,7 @@ import net.minecraft.world.phys.Vec3;
 
 import java.util.Optional;
 import java.util.function.Consumer;
-import java.util.logging.Logger;
+import org.slf4j.Logger;
 import java.util.stream.Stream;
 
 public class BlockHelpers
@@ -33,7 +33,7 @@ public class BlockHelpers
     /**
      * The logger for this class.
      */
-    private static final Logger LOGGER = (Logger) LogUtils.getLogger();
+    private static final Logger LOGGER = LogUtils.getLogger();
 
     private BlockHelpers()
     {

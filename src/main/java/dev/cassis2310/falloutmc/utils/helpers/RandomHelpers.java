@@ -9,14 +9,14 @@ import net.minecraft.util.RandomSource;
 import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
-import java.util.logging.Logger;
+import org.slf4j.Logger;
 
 public class RandomHelpers
 {
     /**
      * The logger for this class.
      */
-    private static final Logger LOGGER = (Logger) LogUtils.getLogger();
+    private static final Logger LOGGER = LogUtils.getLogger();
 
     private RandomHelpers()
     {

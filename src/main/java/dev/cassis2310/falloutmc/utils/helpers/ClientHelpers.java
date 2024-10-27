@@ -12,14 +12,14 @@ import net.minecraft.world.phys.BlockHitResult;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.Objects;
-import java.util.logging.Logger;
+import org.slf4j.Logger;
 
 public class ClientHelpers
 {
     /**
      * The logger for this class.
      */
-    private static final Logger LOGGER = (Logger) LogUtils.getLogger();
+    private static final Logger LOGGER = LogUtils.getLogger();
 
     private ClientHelpers()
     {

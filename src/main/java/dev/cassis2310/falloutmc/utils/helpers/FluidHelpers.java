@@ -7,7 +7,7 @@ import net.minecraft.tags.TagKey;
 import net.minecraft.world.level.material.Fluid;
 import net.minecraft.world.level.material.FluidState;
 
-import java.util.logging.Logger;
+import org.slf4j.Logger;
 import java.util.stream.Stream;
 
 public class FluidHelpers
@@ -15,7 +15,7 @@ public class FluidHelpers
     /**
      * The logger for this class.
      */
-    private static final Logger LOGGER = (Logger) LogUtils.getLogger();
+    private static final Logger LOGGER = LogUtils.getLogger();
 
     private FluidHelpers()
     {

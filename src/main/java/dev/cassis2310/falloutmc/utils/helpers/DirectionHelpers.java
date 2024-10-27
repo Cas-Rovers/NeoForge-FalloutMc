@@ -3,14 +3,14 @@ package dev.cassis2310.falloutmc.utils.helpers;
 import com.mojang.logging.LogUtils;
 import net.minecraft.core.Direction;
 
-import java.util.logging.Logger;
+import org.slf4j.Logger;
 
 public class DirectionHelpers
 {
     /**
      * The logger for this class.
      */
-    private static final Logger LOGGER = (Logger) LogUtils.getLogger();
+    private static final Logger LOGGER = LogUtils.getLogger();
 
     private DirectionHelpers()
     {

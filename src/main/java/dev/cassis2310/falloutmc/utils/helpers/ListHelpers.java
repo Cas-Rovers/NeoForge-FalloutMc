@@ -6,14 +6,14 @@ import com.mojang.logging.LogUtils;
 import java.util.Collections;
 import java.util.List;
 import java.util.function.Supplier;
-import java.util.logging.Logger;
+import org.slf4j.Logger;
 
 public class ListHelpers
 {
     /**
      * The logger for this class.
      */
-    private static final Logger LOGGER = (Logger) LogUtils.getLogger();
+    private static final Logger LOGGER = LogUtils.getLogger();
 
     private ListHelpers()
     {

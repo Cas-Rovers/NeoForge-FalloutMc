@@ -7,14 +7,14 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.phys.shapes.VoxelShape;
 
 import java.util.function.Function;
-import java.util.logging.Logger;
+import org.slf4j.Logger;
 
 public class GeometryHelpers
 {
     /**
      * The logger for this class.
      */
-    private static final Logger LOGGER = (Logger) LogUtils.getLogger();
+    private static final Logger LOGGER = LogUtils.getLogger();
 
     private GeometryHelpers()
     {

@@ -3,11 +3,11 @@ package dev.cassis2310.falloutmc.utils.helpers;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.DyeColor;
 
-import java.util.logging.Logger;
+import org.slf4j.Logger;
 
 public class ColorHelpers
 {
-    private static final Logger LOGGER = (Logger) LogUtils.getLogger();
+    private static final Logger LOGGER = LogUtils.getLogger();
 
     private ColorHelpers() {
         throw new UnsupportedOperationException("Utility class cannot be instantiated");

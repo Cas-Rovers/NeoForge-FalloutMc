@@ -4,14 +4,14 @@ import com.machinezoo.noexception.throwing.ThrowingRunnable;
 import com.machinezoo.noexception.throwing.ThrowingSupplier;
 import com.mojang.logging.LogUtils;
 
-import java.util.logging.Logger;
+import org.slf4j.Logger;
 
 public class ExceptionHelpers
 {
     /**
      * The logger for this class.
      */
-    private static final Logger LOGGER = (Logger) LogUtils.getLogger();
+    private static final Logger LOGGER = LogUtils.getLogger();
 
     private ExceptionHelpers()
     {

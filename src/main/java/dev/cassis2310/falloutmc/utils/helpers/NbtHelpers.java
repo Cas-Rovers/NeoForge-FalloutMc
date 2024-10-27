@@ -6,14 +6,14 @@ import net.minecraft.nbt.ListTag;
 import net.minecraft.world.item.ItemStack;
 
 import java.util.List;
-import java.util.logging.Logger;
+import org.slf4j.Logger;
 
 public class NbtHelpers
 {
     /**
      * The logger for this class.
      */
-    private static final Logger LOGGER = (Logger) LogUtils.getLogger();
+    private static final Logger LOGGER = LogUtils.getLogger();
 
     private NbtHelpers()
     {

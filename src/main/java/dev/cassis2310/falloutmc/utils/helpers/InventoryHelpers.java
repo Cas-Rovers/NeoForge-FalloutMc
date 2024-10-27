@@ -9,14 +9,14 @@ import net.neoforged.neoforge.items.IItemHandlerModifiable;
 
 import java.util.Iterator;
 import java.util.List;
-import java.util.logging.Logger;
+import org.slf4j.Logger;
 
 public class InventoryHelpers
 {
     /**
      * The logger for this class.
      */
-    private static final Logger LOGGER = (Logger) LogUtils.getLogger();
+    private static final Logger LOGGER = LogUtils.getLogger();
 
     private InventoryHelpers()
     {

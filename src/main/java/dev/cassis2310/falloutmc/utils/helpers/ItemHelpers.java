@@ -26,7 +26,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
-import java.util.logging.Logger;
+import org.slf4j.Logger;
 import java.util.stream.Stream;
 
 public class ItemHelpers
@@ -34,7 +34,7 @@ public class ItemHelpers
     /**
      * The logger for this class.
      */
-    private static final Logger LOGGER = (Logger) LogUtils.getLogger();
+    private static final Logger LOGGER = LogUtils.getLogger();
 
     private ItemHelpers()
     {

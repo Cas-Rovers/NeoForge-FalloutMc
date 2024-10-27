@@ -4,14 +4,14 @@ import com.mojang.logging.LogUtils;
 import dev.cassis2310.falloutmc.FalloutMc;
 import net.minecraft.resources.ResourceLocation;
 
-import java.util.logging.Logger;
+import org.slf4j.Logger;
 
 public class ResourceHelpers
 {
     /**
      * The logger for this class.
      */
-    private static final Logger LOGGER = (Logger) LogUtils.getLogger();
+    private static final Logger LOGGER = LogUtils.getLogger();
 
     private ResourceHelpers()
     {

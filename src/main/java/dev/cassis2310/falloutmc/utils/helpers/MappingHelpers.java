@@ -10,7 +10,7 @@ import java.util.EnumMap;
 import java.util.Map;
 import java.util.function.Function;
 import java.util.function.Predicate;
-import java.util.logging.Logger;
+import org.slf4j.Logger;
 import java.util.stream.Collectors;
 
 public class MappingHelpers
@@ -18,7 +18,7 @@ public class MappingHelpers
     /**
      * The logger for this class.
      */
-    private static final Logger LOGGER = (Logger) LogUtils.getLogger();
+    private static final Logger LOGGER = LogUtils.getLogger();
 
     private MappingHelpers() {
         throw new UnsupportedOperationException("Utility class cannot be instantiated");

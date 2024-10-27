@@ -16,9 +16,20 @@ import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
+/**
+ * This class manages the data generation process for the Fallout Minecraft mod.
+ * It registers various data providers for loot tables, recipes, block tags, item tags,
+ * data maps, and models, ensuring that all necessary data is generated for the mod.
+ */
 @EventBusSubscriber(modid = FalloutMc.MOD_ID, bus = EventBusSubscriber.Bus.MOD)
 public class DataGenerators
 {
+    /**
+     * Gathers data by registering various providers when the {@link GatherDataEvent} is fired.
+     *
+     * @param event the event containing the context for data generation, including
+     *              the generator, output location, existing file helper, and lookup provider.
+     */
     @SubscribeEvent
     public static void gatherData(GatherDataEvent event)
     {
