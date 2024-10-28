@@ -19,13 +19,5 @@ import static dev.cassis2310.falloutmc.datagen.datamaps.FalloutMcDataMaps.ITEM_W
 @Mixin(Item.class)
 public class ItemMixin
 {
-    @Inject(method = "appendHoverText", at = @At("TAIL"), cancellable = true)
-    public void onUse(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag, CallbackInfo ci) {
-        Holder<Item> holder = stack.getItemHolder();
-        ItemWeightData data = holder.getData(ITEM_WEIGHT);
-
-        if (data != null) {
-            tooltipComponents.add(Component.translatable("tooltip.item.weight", data.weight()).withStyle(ChatFormatting.GRAY));
-        }
-    }
+ //
 }
