@@ -1,7 +1,7 @@
 package dev.cassis2310.falloutmc.datagen.datamaps;
 
 import dev.cassis2310.falloutmc.FalloutMc;
-import dev.cassis2310.falloutmc.datagen.records.ItemWeightData;
+import dev.cassis2310.falloutmc.datagen.records.ItemAttributes;
 import dev.cassis2310.falloutmc.utils.helpers.ResourceHelpers;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.Item;
@@ -20,18 +20,18 @@ public class FalloutMcDataMaps
      * A data map type for item weights.
      *
      * <p>This data map type links item weights to the {@link Item} class and uses
-     * {@link ItemWeightData#CODEC} for serialization.</p>
+     * {@link ItemAttributes#CODEC} for serialization.</p>
      *
      * <p>The data map is marked as synced, meaning its values will be transmitted to clients.
      * The syncing codec can be the same as the main codec or a simplified version that
      * excludes unnecessary fields for the client. In this case, it is specified using
-     * {@link ItemWeightData#ITEM_WEIGHT_CODEC} as the syncing codec.</p>
+     * {@link ItemAttributes#ITEM_ATTRIBUTES_CODEC} as the syncing codec.</p>
      */
-    public static final DataMapType<Item, ItemWeightData> ITEM_WEIGHT = DataMapType.builder(
-            ResourceHelpers.resourceLocation(FalloutMc.MOD_ID, "item_weights"),
+    public static final DataMapType<Item, ItemAttributes> ITEM_WEIGHT = DataMapType.builder(
+            ResourceHelpers.resourceLocation(FalloutMc.MOD_ID, "item_attributes"),
             Registries.ITEM,
-            ItemWeightData.CODEC
-    ).synced(ItemWeightData.ITEM_WEIGHT_CODEC, false).build();
+            ItemAttributes.CODEC
+    ).synced(ItemAttributes.ITEM_ATTRIBUTES_CODEC, false).build();
 
     /**
      * Registers the custom data map types for the Fallout Minecraft mod.

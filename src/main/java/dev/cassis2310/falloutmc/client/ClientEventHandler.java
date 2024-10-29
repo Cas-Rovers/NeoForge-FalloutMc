@@ -1,7 +1,7 @@
 package dev.cassis2310.falloutmc.client;
 
 import dev.cassis2310.falloutmc.FalloutMc;
-import dev.cassis2310.falloutmc.datagen.records.ItemWeightData;
+import dev.cassis2310.falloutmc.datagen.records.ItemAttributes;
 import net.minecraft.ChatFormatting;
 import net.minecraft.core.Holder;
 import net.minecraft.network.chat.Component;
@@ -23,7 +23,7 @@ public class ClientEventHandler
     {
         ItemStack stack = event.getItemStack();
         Holder<Item> holder = stack.getItemHolder();
-        ItemWeightData data = holder.getData(ITEM_WEIGHT);
+        ItemAttributes data = holder.getData(ITEM_WEIGHT);
 
         if (data != null)
         {
