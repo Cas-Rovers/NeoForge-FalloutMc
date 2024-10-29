@@ -1,0 +1,1381 @@
+{
+  "values": {
+    "falloutmc:nuka_cola": {
+      "weight": 1.0
+    },
+    "minecraft:acacia_button": {
+      "weight": 0.1
+    },
+    "minecraft:acacia_door": {
+      "weight": 7.0
+    },
+    "minecraft:acacia_fence": {
+      "weight": 3.0
+    },
+    "minecraft:acacia_fence_gate": {
+      "weight": 4.5
+    },
+    "minecraft:acacia_log": {
+      "weight": 12.0
+    },
+    "minecraft:acacia_planks": {
+      "weight": 2.5
+    },
+    "minecraft:acacia_pressure_plate": {
+      "weight": 0.5
+    },
+    "minecraft:acacia_sign": {
+      "weight": 1.0
+    },
+    "minecraft:acacia_slab": {
+      "weight": 1.0
+    },
+    "minecraft:acacia_stairs": {
+      "weight": 4.0
+    },
+    "minecraft:acacia_trapdoor": {
+      "weight": 3.5
+    },
+    "minecraft:acacia_wood": {
+      "weight": 10.0
+    },
+    "minecraft:amethyst_block": {
+      "weight": 6.0
+    },
+    "minecraft:andesite": {
+      "weight": 7.0
+    },
+    "minecraft:andesite_slab": {
+      "weight": 5.0
+    },
+    "minecraft:andesite_stairs": {
+      "weight": 6.0
+    },
+    "minecraft:andesite_wall": {
+      "weight": 7.0
+    },
+    "minecraft:apple": {
+      "weight": 0.2
+    },
+    "minecraft:baked_potato": {
+      "weight": 0.4
+    },
+    "minecraft:bamboo_block": {
+      "weight": 6.0
+    },
+    "minecraft:bamboo_button": {
+      "weight": 0.1
+    },
+    "minecraft:bamboo_door": {
+      "weight": 0.7
+    },
+    "minecraft:bamboo_fence": {
+      "weight": 0.5
+    },
+    "minecraft:bamboo_fence_gate": {
+      "weight": 0.5
+    },
+    "minecraft:bamboo_mosaic": {
+      "weight": 0.5
+    },
+    "minecraft:bamboo_mosaic_slab": {
+      "weight": 0.4
+    },
+    "minecraft:bamboo_mosaic_stairs": {
+      "weight": 0.5
+    },
+    "minecraft:bamboo_planks": {
+      "weight": 0.4
+    },
+    "minecraft:bamboo_pressure_plate": {
+      "weight": 0.4
+    },
+    "minecraft:bamboo_sign": {
+      "weight": 0.3
+    },
+    "minecraft:bamboo_slab": {
+      "weight": 0.4
+    },
+    "minecraft:bamboo_stairs": {
+      "weight": 0.5
+    },
+    "minecraft:bamboo_trapdoor": {
+      "weight": 0.5
+    },
+    "minecraft:basalt": {
+      "weight": 5.0
+    },
+    "minecraft:beetroot": {
+      "weight": 0.3
+    },
+    "minecraft:beetroot_soup": {
+      "weight": 0.5
+    },
+    "minecraft:birch_button": {
+      "weight": 0.1
+    },
+    "minecraft:birch_door": {
+      "weight": 6.0
+    },
+    "minecraft:birch_fence": {
+      "weight": 2.5
+    },
+    "minecraft:birch_fence_gate": {
+      "weight": 4.0
+    },
+    "minecraft:birch_log": {
+      "weight": 12.0
+    },
+    "minecraft:birch_planks": {
+      "weight": 2.5
+    },
+    "minecraft:birch_pressure_plate": {
+      "weight": 0.4
+    },
+    "minecraft:birch_sign": {
+      "weight": 1.0
+    },
+    "minecraft:birch_slab": {
+      "weight": 0.8
+    },
+    "minecraft:birch_stairs": {
+      "weight": 4.0
+    },
+    "minecraft:birch_trapdoor": {
+      "weight": 3.0
+    },
+    "minecraft:birch_wood": {
+      "weight": 9.5
+    },
+    "minecraft:blackstone": {
+      "weight": 5.0
+    },
+    "minecraft:blackstone_slab": {
+      "weight": 4.5
+    },
+    "minecraft:blackstone_stairs": {
+      "weight": 6.0
+    },
+    "minecraft:blackstone_wall": {
+      "weight": 6.0
+    },
+    "minecraft:bread": {
+      "weight": 0.4
+    },
+    "minecraft:brick_slab": {
+      "weight": 3.5
+    },
+    "minecraft:brick_stairs": {
+      "weight": 5.5
+    },
+    "minecraft:brick_wall": {
+      "weight": 6.0
+    },
+    "minecraft:bricks": {
+      "weight": 4.0
+    },
+    "minecraft:cake": {
+      "weight": 0.7
+    },
+    "minecraft:carrot": {
+      "weight": 0.3
+    },
+    "minecraft:chain": {
+      "weight": 2.5
+    },
+    "minecraft:cherry_button": {
+      "weight": 0.2
+    },
+    "minecraft:cherry_door": {
+      "weight": 7.0
+    },
+    "minecraft:cherry_fence": {
+      "weight": 3.0
+    },
+    "minecraft:cherry_fence_gate": {
+      "weight": 4.5
+    },
+    "minecraft:cherry_log": {
+      "weight": 11.0
+    },
+    "minecraft:cherry_planks": {
+      "weight": 2.5
+    },
+    "minecraft:cherry_pressure_plate": {
+      "weight": 0.6
+    },
+    "minecraft:cherry_sign": {
+      "weight": 1.2
+    },
+    "minecraft:cherry_slab": {
+      "weight": 1.0
+    },
+    "minecraft:cherry_stairs": {
+      "weight": 4.0
+    },
+    "minecraft:cherry_trapdoor": {
+      "weight": 3.5
+    },
+    "minecraft:cherry_wood": {
+      "weight": 9.0
+    },
+    "minecraft:chicken": {
+      "weight": 0.5
+    },
+    "minecraft:chiseled_copper": {
+      "weight": 4.0
+    },
+    "minecraft:chiseled_deepslate": {
+      "weight": 9.0
+    },
+    "minecraft:chiseled_nether_bricks": {
+      "weight": 4.5
+    },
+    "minecraft:chiseled_polished_blackstone": {
+      "weight": 6.0
+    },
+    "minecraft:chiseled_quartz_block": {
+      "weight": 5.0
+    },
+    "minecraft:chiseled_red_sandstone": {
+      "weight": 4.0
+    },
+    "minecraft:chiseled_sandstone": {
+      "weight": 4.0
+    },
+    "minecraft:chiseled_stone_bricks": {
+      "weight": 6.0
+    },
+    "minecraft:chiseled_tuff": {
+      "weight": 6.0
+    },
+    "minecraft:chiseled_tuff_bricks": {
+      "weight": 5.5
+    },
+    "minecraft:chorus_fruit": {
+      "weight": 0.4
+    },
+    "minecraft:coal_block": {
+      "weight": 6.0
+    },
+    "minecraft:cobbled_deepslate": {
+      "weight": 8.0
+    },
+    "minecraft:cobbled_deepslate_slab": {
+      "weight": 6.0
+    },
+    "minecraft:cobbled_deepslate_stairs": {
+      "weight": 7.0
+    },
+    "minecraft:cobbled_deepslate_wall": {
+      "weight": 8.0
+    },
+    "minecraft:cobblestone": {
+      "weight": 5.0
+    },
+    "minecraft:cobblestone_slab": {
+      "weight": 3.0
+    },
+    "minecraft:cobblestone_stairs": {
+      "weight": 4.0
+    },
+    "minecraft:cobblestone_wall": {
+      "weight": 5.0
+    },
+    "minecraft:cod": {
+      "weight": 0.5
+    },
+    "minecraft:cooked_beef": {
+      "weight": 0.6
+    },
+    "minecraft:cooked_chicken": {
+      "weight": 0.5
+    },
+    "minecraft:cooked_cod": {
+      "weight": 0.4
+    },
+    "minecraft:cooked_mutton": {
+      "weight": 0.5
+    },
+    "minecraft:cooked_porkchop": {
+      "weight": 0.6
+    },
+    "minecraft:cooked_rabbit": {
+      "weight": 0.5
+    },
+    "minecraft:cooked_salmon": {
+      "weight": 0.4
+    },
+    "minecraft:cookie": {
+      "weight": 0.15
+    },
+    "minecraft:copper_block": {
+      "weight": 5.0
+    },
+    "minecraft:copper_bulb": {
+      "weight": 2.0
+    },
+    "minecraft:copper_door": {
+      "weight": 5.0
+    },
+    "minecraft:copper_grate": {
+      "weight": 3.5
+    },
+    "minecraft:copper_trapdoor": {
+      "weight": 4.0
+    },
+    "minecraft:cracked_deepslate_bricks": {
+      "weight": 9.0
+    },
+    "minecraft:cracked_deepslate_tiles": {
+      "weight": 9.0
+    },
+    "minecraft:cracked_nether_bricks": {
+      "weight": 4.0
+    },
+    "minecraft:cracked_polished_blackstone_bricks": {
+      "weight": 6.0
+    },
+    "minecraft:cracked_stone_bricks": {
+      "weight": 5.5
+    },
+    "minecraft:crimson_button": {
+      "weight": 0.1
+    },
+    "minecraft:crimson_door": {
+      "weight": 1.8
+    },
+    "minecraft:crimson_fence": {
+      "weight": 1.0
+    },
+    "minecraft:crimson_fence_gate": {
+      "weight": 1.2
+    },
+    "minecraft:crimson_hyphae": {
+      "weight": 1.8
+    },
+    "minecraft:crimson_planks": {
+      "weight": 1.2
+    },
+    "minecraft:crimson_pressure_plate": {
+      "weight": 0.7
+    },
+    "minecraft:crimson_sign": {
+      "weight": 0.4
+    },
+    "minecraft:crimson_slab": {
+      "weight": 0.9
+    },
+    "minecraft:crimson_stairs": {
+      "weight": 1.2
+    },
+    "minecraft:crimson_stem": {
+      "weight": 2.5
+    },
+    "minecraft:crimson_trapdoor": {
+      "weight": 1.2
+    },
+    "minecraft:cut_copper": {
+      "weight": 5.0
+    },
+    "minecraft:cut_copper_slab": {
+      "weight": 3.5
+    },
+    "minecraft:cut_copper_stairs": {
+      "weight": 4.5
+    },
+    "minecraft:cut_red_sandstone": {
+      "weight": 5.0
+    },
+    "minecraft:cut_red_sandstone_slab": {
+      "weight": 4.5
+    },
+    "minecraft:cut_sandstone": {
+      "weight": 5.0
+    },
+    "minecraft:cut_sandstone_slab": {
+      "weight": 4.5
+    },
+    "minecraft:dark_oak_button": {
+      "weight": 0.1
+    },
+    "minecraft:dark_oak_door": {
+      "weight": 8.0
+    },
+    "minecraft:dark_oak_fence": {
+      "weight": 3.5
+    },
+    "minecraft:dark_oak_fence_gate": {
+      "weight": 5.5
+    },
+    "minecraft:dark_oak_log": {
+      "weight": 14.0
+    },
+    "minecraft:dark_oak_planks": {
+      "weight": 3.0
+    },
+    "minecraft:dark_oak_pressure_plate": {
+      "weight": 0.6
+    },
+    "minecraft:dark_oak_sign": {
+      "weight": 1.0
+    },
+    "minecraft:dark_oak_slab": {
+      "weight": 1.5
+    },
+    "minecraft:dark_oak_stairs": {
+      "weight": 5.0
+    },
+    "minecraft:dark_oak_trapdoor": {
+      "weight": 4.0
+    },
+    "minecraft:dark_oak_wood": {
+      "weight": 12.0
+    },
+    "minecraft:dark_prismarine": {
+      "weight": 4.0
+    },
+    "minecraft:dark_prismarine_slab": {
+      "weight": 5.0
+    },
+    "minecraft:dark_prismarine_stairs": {
+      "weight": 6.0
+    },
+    "minecraft:deepslate": {
+      "weight": 9.0
+    },
+    "minecraft:deepslate_brick_slab": {
+      "weight": 8.0
+    },
+    "minecraft:deepslate_brick_stairs": {
+      "weight": 7.0
+    },
+    "minecraft:deepslate_brick_wall": {
+      "weight": 9.0
+    },
+    "minecraft:deepslate_bricks": {
+      "weight": 9.0
+    },
+    "minecraft:deepslate_tile_slab": {
+      "weight": 8.0
+    },
+    "minecraft:deepslate_tile_stairs": {
+      "weight": 7.0
+    },
+    "minecraft:deepslate_tile_wall": {
+      "weight": 9.0
+    },
+    "minecraft:deepslate_tiles": {
+      "weight": 9.0
+    },
+    "minecraft:diamond_block": {
+      "weight": 10.0
+    },
+    "minecraft:diorite": {
+      "weight": 6.5
+    },
+    "minecraft:diorite_slab": {
+      "weight": 4.5
+    },
+    "minecraft:diorite_stairs": {
+      "weight": 5.5
+    },
+    "minecraft:diorite_wall": {
+      "weight": 6.5
+    },
+    "minecraft:dried_kelp": {
+      "weight": 0.1
+    },
+    "minecraft:emerald_block": {
+      "weight": 7.0
+    },
+    "minecraft:enchanted_golden_apple": {
+      "weight": 3.0
+    },
+    "minecraft:end_stone": {
+      "weight": 4.5
+    },
+    "minecraft:end_stone_brick_slab": {
+      "weight": 4.0
+    },
+    "minecraft:end_stone_brick_stairs": {
+      "weight": 5.5
+    },
+    "minecraft:end_stone_brick_wall": {
+      "weight": 5.5
+    },
+    "minecraft:end_stone_bricks": {
+      "weight": 5.0
+    },
+    "minecraft:exposed_chiseled_copper": {
+      "weight": 4.0
+    },
+    "minecraft:exposed_copper": {
+      "weight": 5.0
+    },
+    "minecraft:exposed_copper_bulb": {
+      "weight": 2.0
+    },
+    "minecraft:exposed_copper_door": {
+      "weight": 5.0
+    },
+    "minecraft:exposed_copper_grate": {
+      "weight": 3.5
+    },
+    "minecraft:exposed_copper_trapdoor": {
+      "weight": 4.0
+    },
+    "minecraft:exposed_cut_copper": {
+      "weight": 5.0
+    },
+    "minecraft:exposed_cut_copper_slab": {
+      "weight": 3.0
+    },
+    "minecraft:exposed_cut_copper_stairs": {
+      "weight": 4.5
+    },
+    "minecraft:gilded_blackstone": {
+      "weight": 6.0
+    },
+    "minecraft:glow_berries": {
+      "weight": 0.2
+    },
+    "minecraft:gold_block": {
+      "weight": 30.0
+    },
+    "minecraft:golden_apple": {
+      "weight": 2.0
+    },
+    "minecraft:golden_carrot": {
+      "weight": 0.5
+    },
+    "minecraft:granite": {
+      "weight": 6.5
+    },
+    "minecraft:granite_slab": {
+      "weight": 4.5
+    },
+    "minecraft:granite_stairs": {
+      "weight": 5.5
+    },
+    "minecraft:granite_wall": {
+      "weight": 6.5
+    },
+    "minecraft:heavy_weighted_pressure_plate": {
+      "weight": 4.5
+    },
+    "minecraft:honey_bottle": {
+      "weight": 0.5
+    },
+    "minecraft:iron_bars": {
+      "weight": 3.5
+    },
+    "minecraft:iron_block": {
+      "weight": 7.0
+    },
+    "minecraft:iron_door": {
+      "weight": 6.0
+    },
+    "minecraft:iron_trapdoor": {
+      "weight": 5.5
+    },
+    "minecraft:jungle_button": {
+      "weight": 0.1
+    },
+    "minecraft:jungle_door": {
+      "weight": 7.5
+    },
+    "minecraft:jungle_fence": {
+      "weight": 3.0
+    },
+    "minecraft:jungle_fence_gate": {
+      "weight": 5.0
+    },
+    "minecraft:jungle_log": {
+      "weight": 13.0
+    },
+    "minecraft:jungle_planks": {
+      "weight": 2.6
+    },
+    "minecraft:jungle_pressure_plate": {
+      "weight": 0.5
+    },
+    "minecraft:jungle_sign": {
+      "weight": 1.0
+    },
+    "minecraft:jungle_slab": {
+      "weight": 1.2
+    },
+    "minecraft:jungle_stairs": {
+      "weight": 4.5
+    },
+    "minecraft:jungle_trapdoor": {
+      "weight": 3.5
+    },
+    "minecraft:jungle_wood": {
+      "weight": 10.0
+    },
+    "minecraft:lapis_block": {
+      "weight": 6.0
+    },
+    "minecraft:light_weighted_pressure_plate": {
+      "weight": 5.0
+    },
+    "minecraft:lingering_potion": {
+      "weight": 1.0
+    },
+    "minecraft:mangrove_button": {
+      "weight": 0.2
+    },
+    "minecraft:mangrove_door": {
+      "weight": 8.0
+    },
+    "minecraft:mangrove_fence": {
+      "weight": 4.0
+    },
+    "minecraft:mangrove_fence_gate": {
+      "weight": 5.5
+    },
+    "minecraft:mangrove_log": {
+      "weight": 15.0
+    },
+    "minecraft:mangrove_planks": {
+      "weight": 3.5
+    },
+    "minecraft:mangrove_pressure_plate": {
+      "weight": 0.7
+    },
+    "minecraft:mangrove_sign": {
+      "weight": 1.5
+    },
+    "minecraft:mangrove_slab": {
+      "weight": 1.5
+    },
+    "minecraft:mangrove_stairs": {
+      "weight": 5.5
+    },
+    "minecraft:mangrove_trapdoor": {
+      "weight": 4.5
+    },
+    "minecraft:mangrove_wood": {
+      "weight": 12.0
+    },
+    "minecraft:melon_slice": {
+      "weight": 0.25
+    },
+    "minecraft:milk_bucket": {
+      "weight": 1.0
+    },
+    "minecraft:mossy_cobblestone": {
+      "weight": 5.0
+    },
+    "minecraft:mossy_cobblestone_slab": {
+      "weight": 2.5
+    },
+    "minecraft:mossy_cobblestone_stairs": {
+      "weight": 4.0
+    },
+    "minecraft:mossy_cobblestone_wall": {
+      "weight": 5.0
+    },
+    "minecraft:mossy_stone_brick_slab": {
+      "weight": 3.5
+    },
+    "minecraft:mossy_stone_brick_stairs": {
+      "weight": 5.0
+    },
+    "minecraft:mossy_stone_brick_wall": {
+      "weight": 6.0
+    },
+    "minecraft:mossy_stone_bricks": {
+      "weight": 6.0
+    },
+    "minecraft:mud_brick_slab": {
+      "weight": 3.5
+    },
+    "minecraft:mud_brick_stairs": {
+      "weight": 5.0
+    },
+    "minecraft:mud_brick_wall": {
+      "weight": 5.5
+    },
+    "minecraft:mud_bricks": {
+      "weight": 4.0
+    },
+    "minecraft:mushroom_stew": {
+      "weight": 0.5
+    },
+    "minecraft:mutton": {
+      "weight": 0.5
+    },
+    "minecraft:nether_brick_fence": {
+      "weight": 5.0
+    },
+    "minecraft:nether_brick_slab": {
+      "weight": 3.5
+    },
+    "minecraft:nether_brick_stairs": {
+      "weight": 5.0
+    },
+    "minecraft:nether_brick_wall": {
+      "weight": 6.0
+    },
+    "minecraft:nether_bricks": {
+      "weight": 4.0
+    },
+    "minecraft:netherite_block": {
+      "weight": 15.0
+    },
+    "minecraft:netherrack": {
+      "weight": 3.0
+    },
+    "minecraft:oak_button": {
+      "weight": 0.1
+    },
+    "minecraft:oak_door": {
+      "weight": 8.0
+    },
+    "minecraft:oak_fence": {
+      "weight": 4.0
+    },
+    "minecraft:oak_fence_gate": {
+      "weight": 5.0
+    },
+    "minecraft:oak_log": {
+      "weight": 15.0
+    },
+    "minecraft:oak_planks": {
+      "weight": 3.0
+    },
+    "minecraft:oak_pressure_plate": {
+      "weight": 0.5
+    },
+    "minecraft:oak_sign": {
+      "weight": 1.0
+    },
+    "minecraft:oak_slab": {
+      "weight": 1.5
+    },
+    "minecraft:oak_stairs": {
+      "weight": 5.0
+    },
+    "minecraft:oak_trapdoor": {
+      "weight": 4.0
+    },
+    "minecraft:oak_wood": {
+      "weight": 12.0
+    },
+    "minecraft:oxidized_chiseled_copper": {
+      "weight": 6.0
+    },
+    "minecraft:oxidized_copper": {
+      "weight": 7.0
+    },
+    "minecraft:oxidized_copper_bulb": {
+      "weight": 2.5
+    },
+    "minecraft:oxidized_copper_door": {
+      "weight": 7.0
+    },
+    "minecraft:oxidized_copper_grate": {
+      "weight": 5.0
+    },
+    "minecraft:oxidized_copper_trapdoor": {
+      "weight": 6.0
+    },
+    "minecraft:oxidized_cut_copper": {
+      "weight": 7.0
+    },
+    "minecraft:oxidized_cut_copper_slab": {
+      "weight": 4.5
+    },
+    "minecraft:oxidized_cut_copper_stairs": {
+      "weight": 6.0
+    },
+    "minecraft:packed_mud": {
+      "weight": 3.0
+    },
+    "minecraft:poisonous_potato": {
+      "weight": 0.2
+    },
+    "minecraft:polished_andesite": {
+      "weight": 7.0
+    },
+    "minecraft:polished_andesite_slab": {
+      "weight": 5.0
+    },
+    "minecraft:polished_andesite_stairs": {
+      "weight": 6.0
+    },
+    "minecraft:polished_basalt": {
+      "weight": 6.0
+    },
+    "minecraft:polished_blackstone": {
+      "weight": 6.0
+    },
+    "minecraft:polished_blackstone_brick_slab": {
+      "weight": 5.0
+    },
+    "minecraft:polished_blackstone_brick_stairs": {
+      "weight": 6.0
+    },
+    "minecraft:polished_blackstone_brick_wall": {
+      "weight": 6.0
+    },
+    "minecraft:polished_blackstone_bricks": {
+      "weight": 6.0
+    },
+    "minecraft:polished_blackstone_button": {
+      "weight": 3.0
+    },
+    "minecraft:polished_blackstone_pressure_plate": {
+      "weight": 4.0
+    },
+    "minecraft:polished_blackstone_slab": {
+      "weight": 5.0
+    },
+    "minecraft:polished_blackstone_stairs": {
+      "weight": 6.0
+    },
+    "minecraft:polished_blackstone_wall": {
+      "weight": 6.0
+    },
+    "minecraft:polished_deepslate": {
+      "weight": 8.0
+    },
+    "minecraft:polished_deepslate_slab": {
+      "weight": 6.0
+    },
+    "minecraft:polished_deepslate_stairs": {
+      "weight": 7.0
+    },
+    "minecraft:polished_deepslate_wall": {
+      "weight": 8.0
+    },
+    "minecraft:polished_diorite": {
+      "weight": 6.5
+    },
+    "minecraft:polished_diorite_slab": {
+      "weight": 4.5
+    },
+    "minecraft:polished_diorite_stairs": {
+      "weight": 5.5
+    },
+    "minecraft:polished_granite": {
+      "weight": 6.5
+    },
+    "minecraft:polished_granite_slab": {
+      "weight": 4.5
+    },
+    "minecraft:polished_granite_stairs": {
+      "weight": 5.5
+    },
+    "minecraft:polished_tuff": {
+      "weight": 5.5
+    },
+    "minecraft:polished_tuff_slab": {
+      "weight": 4.5
+    },
+    "minecraft:polished_tuff_stairs": {
+      "weight": 6.5
+    },
+    "minecraft:polished_tuff_wall": {
+      "weight": 7.0
+    },
+    "minecraft:porkchop": {
+      "weight": 0.6
+    },
+    "minecraft:potato": {
+      "weight": 0.3
+    },
+    "minecraft:potion": {
+      "weight": 1.0
+    },
+    "minecraft:prismarine": {
+      "weight": 3.0
+    },
+    "minecraft:prismarine_brick_slab": {
+      "weight": 4.0
+    },
+    "minecraft:prismarine_brick_stairs": {
+      "weight": 5.0
+    },
+    "minecraft:prismarine_bricks": {
+      "weight": 3.0
+    },
+    "minecraft:prismarine_slab": {
+      "weight": 4.0
+    },
+    "minecraft:prismarine_stairs": {
+      "weight": 5.0
+    },
+    "minecraft:prismarine_wall": {
+      "weight": 6.0
+    },
+    "minecraft:pufferfish": {
+      "weight": 0.5
+    },
+    "minecraft:pumpkin_pie": {
+      "weight": 0.7
+    },
+    "minecraft:purpur_block": {
+      "weight": 5.0
+    },
+    "minecraft:purpur_pillar": {
+      "weight": 5.0
+    },
+    "minecraft:purpur_slab": {
+      "weight": 4.0
+    },
+    "minecraft:purpur_stairs": {
+      "weight": 5.5
+    },
+    "minecraft:quartz_block": {
+      "weight": 4.5
+    },
+    "minecraft:quartz_bricks": {
+      "weight": 4.5
+    },
+    "minecraft:quartz_pillar": {
+      "weight": 5.5
+    },
+    "minecraft:quartz_slab": {
+      "weight": 3.5
+    },
+    "minecraft:quartz_stairs": {
+      "weight": 4.0
+    },
+    "minecraft:rabbit": {
+      "weight": 0.5
+    },
+    "minecraft:rabbit_stew": {
+      "weight": 0.6
+    },
+    "minecraft:red_nether_brick_slab": {
+      "weight": 3.5
+    },
+    "minecraft:red_nether_brick_stairs": {
+      "weight": 5.0
+    },
+    "minecraft:red_nether_brick_wall": {
+      "weight": 6.0
+    },
+    "minecraft:red_nether_bricks": {
+      "weight": 4.0
+    },
+    "minecraft:red_sandstone": {
+      "weight": 3.0
+    },
+    "minecraft:red_sandstone_slab": {
+      "weight": 3.5
+    },
+    "minecraft:red_sandstone_stairs": {
+      "weight": 5.0
+    },
+    "minecraft:red_sandstone_wall": {
+      "weight": 5.0
+    },
+    "minecraft:redstone_block": {
+      "weight": 8.0
+    },
+    "minecraft:reinforced_deepslate": {
+      "weight": 8.0
+    },
+    "minecraft:rotten_flesh": {
+      "weight": 0.5
+    },
+    "minecraft:salmon": {
+      "weight": 0.5
+    },
+    "minecraft:sandstone": {
+      "weight": 3.0
+    },
+    "minecraft:sandstone_slab": {
+      "weight": 3.5
+    },
+    "minecraft:sandstone_stairs": {
+      "weight": 5.0
+    },
+    "minecraft:sandstone_wall": {
+      "weight": 5.0
+    },
+    "minecraft:sea_lantern": {
+      "weight": 1.5
+    },
+    "minecraft:smooth_basalt": {
+      "weight": 5.5
+    },
+    "minecraft:smooth_quartz": {
+      "weight": 5.0
+    },
+    "minecraft:smooth_quartz_slab": {
+      "weight": 3.0
+    },
+    "minecraft:smooth_quartz_stairs": {
+      "weight": 4.5
+    },
+    "minecraft:smooth_red_sandstone": {
+      "weight": 3.5
+    },
+    "minecraft:smooth_red_sandstone_slab": {
+      "weight": 3.5
+    },
+    "minecraft:smooth_red_sandstone_stairs": {
+      "weight": 5.0
+    },
+    "minecraft:smooth_sandstone": {
+      "weight": 3.5
+    },
+    "minecraft:smooth_sandstone_slab": {
+      "weight": 3.5
+    },
+    "minecraft:smooth_sandstone_stairs": {
+      "weight": 5.0
+    },
+    "minecraft:smooth_stone": {
+      "weight": 5.0
+    },
+    "minecraft:smooth_stone_slab": {
+      "weight": 3.5
+    },
+    "minecraft:spider_eye": {
+      "weight": 0.25
+    },
+    "minecraft:splash_potion": {
+      "weight": 1.0
+    },
+    "minecraft:spruce_button": {
+      "weight": 0.1
+    },
+    "minecraft:spruce_door": {
+      "weight": 7.5
+    },
+    "minecraft:spruce_fence": {
+      "weight": 3.5
+    },
+    "minecraft:spruce_fence_gate": {
+      "weight": 5.0
+    },
+    "minecraft:spruce_log": {
+      "weight": 14.0
+    },
+    "minecraft:spruce_planks": {
+      "weight": 2.8
+    },
+    "minecraft:spruce_pressure_plate": {
+      "weight": 0.5
+    },
+    "minecraft:spruce_sign": {
+      "weight": 1.0
+    },
+    "minecraft:spruce_slab": {
+      "weight": 1.2
+    },
+    "minecraft:spruce_stairs": {
+      "weight": 4.5
+    },
+    "minecraft:spruce_trapdoor": {
+      "weight": 3.5
+    },
+    "minecraft:spruce_wood": {
+      "weight": 11.0
+    },
+    "minecraft:stone": {
+      "weight": 5.5
+    },
+    "minecraft:stone_brick_slab": {
+      "weight": 4.0
+    },
+    "minecraft:stone_brick_stairs": {
+      "weight": 5.0
+    },
+    "minecraft:stone_brick_wall": {
+      "weight": 6.0
+    },
+    "minecraft:stone_bricks": {
+      "weight": 6.0
+    },
+    "minecraft:stone_button": {
+      "weight": 0.5
+    },
+    "minecraft:stone_pressure_plate": {
+      "weight": 2.0
+    },
+    "minecraft:stone_slab": {
+      "weight": 3.0
+    },
+    "minecraft:stone_stairs": {
+      "weight": 4.5
+    },
+    "minecraft:stripped_acacia_log": {
+      "weight": 10.5
+    },
+    "minecraft:stripped_acacia_wood": {
+      "weight": 9.0
+    },
+    "minecraft:stripped_bamboo_block": {
+      "weight": 1.8
+    },
+    "minecraft:stripped_birch_log": {
+      "weight": 9.8
+    },
+    "minecraft:stripped_birch_wood": {
+      "weight": 8.0
+    },
+    "minecraft:stripped_cherry_log": {
+      "weight": 10.0
+    },
+    "minecraft:stripped_cherry_wood": {
+      "weight": 8.0
+    },
+    "minecraft:stripped_crimson_hyphae": {
+      "weight": 1.5
+    },
+    "minecraft:stripped_crimson_stem": {
+      "weight": 1.8
+    },
+    "minecraft:stripped_dark_oak_log": {
+      "weight": 12.5
+    },
+    "minecraft:stripped_dark_oak_wood": {
+      "weight": 11.0
+    },
+    "minecraft:stripped_jungle_log": {
+      "weight": 11.0
+    },
+    "minecraft:stripped_jungle_wood": {
+      "weight": 9.0
+    },
+    "minecraft:stripped_mangrove_log": {
+      "weight": 13.0
+    },
+    "minecraft:stripped_mangrove_wood": {
+      "weight": 10.5
+    },
+    "minecraft:stripped_oak_log": {
+      "weight": 12.0
+    },
+    "minecraft:stripped_oak_wood": {
+      "weight": 11.0
+    },
+    "minecraft:stripped_spruce_log": {
+      "weight": 12.0
+    },
+    "minecraft:stripped_spruce_wood": {
+      "weight": 10.0
+    },
+    "minecraft:stripped_warped_hyphae": {
+      "weight": 1.5
+    },
+    "minecraft:stripped_warped_stem": {
+      "weight": 1.8
+    },
+    "minecraft:suspicious_stew": {
+      "weight": 0.8
+    },
+    "minecraft:sweet_berries": {
+      "weight": 0.2
+    },
+    "minecraft:tropical_fish": {
+      "weight": 0.3
+    },
+    "minecraft:tuff": {
+      "weight": 5.0
+    },
+    "minecraft:tuff_brick_slab": {
+      "weight": 4.0
+    },
+    "minecraft:tuff_brick_stairs": {
+      "weight": 6.0
+    },
+    "minecraft:tuff_brick_wall": {
+      "weight": 6.5
+    },
+    "minecraft:tuff_bricks": {
+      "weight": 5.0
+    },
+    "minecraft:tuff_slab": {
+      "weight": 4.5
+    },
+    "minecraft:tuff_stairs": {
+      "weight": 6.5
+    },
+    "minecraft:tuff_wall": {
+      "weight": 7.0
+    },
+    "minecraft:warped_button": {
+      "weight": 0.1
+    },
+    "minecraft:warped_door": {
+      "weight": 1.8
+    },
+    "minecraft:warped_fence": {
+      "weight": 1.0
+    },
+    "minecraft:warped_fence_gate": {
+      "weight": 1.2
+    },
+    "minecraft:warped_hyphae": {
+      "weight": 1.8
+    },
+    "minecraft:warped_planks": {
+      "weight": 1.2
+    },
+    "minecraft:warped_pressure_plate": {
+      "weight": 0.7
+    },
+    "minecraft:warped_sign": {
+      "weight": 0.4
+    },
+    "minecraft:warped_slab": {
+      "weight": 0.9
+    },
+    "minecraft:warped_stairs": {
+      "weight": 1.2
+    },
+    "minecraft:warped_stem": {
+      "weight": 2.5
+    },
+    "minecraft:warped_trapdoor": {
+      "weight": 1.2
+    },
+    "minecraft:waxed_chiseled_copper": {
+      "weight": 3.5
+    },
+    "minecraft:waxed_copper_block": {
+      "weight": 4.5
+    },
+    "minecraft:waxed_copper_bulb": {
+      "weight": 2.5
+    },
+    "minecraft:waxed_copper_door": {
+      "weight": 4.5
+    },
+    "minecraft:waxed_copper_grate": {
+      "weight": 3.0
+    },
+    "minecraft:waxed_copper_trapdoor": {
+      "weight": 3.5
+    },
+    "minecraft:waxed_cut_copper": {
+      "weight": 4.5
+    },
+    "minecraft:waxed_cut_copper_slab": {
+      "weight": 3.0
+    },
+    "minecraft:waxed_cut_copper_stairs": {
+      "weight": 3.5
+    },
+    "minecraft:waxed_exposed_chiseled_copper": {
+      "weight": 4.5
+    },
+    "minecraft:waxed_exposed_copper": {
+      "weight": 5.5
+    },
+    "minecraft:waxed_exposed_copper_bulb": {
+      "weight": 2.5
+    },
+    "minecraft:waxed_exposed_copper_door": {
+      "weight": 5.5
+    },
+    "minecraft:waxed_exposed_copper_grate": {
+      "weight": 3.5
+    },
+    "minecraft:waxed_exposed_copper_trapdoor": {
+      "weight": 4.5
+    },
+    "minecraft:waxed_exposed_cut_copper": {
+      "weight": 5.5
+    },
+    "minecraft:waxed_exposed_cut_copper_slab": {
+      "weight": 3.5
+    },
+    "minecraft:waxed_exposed_cut_copper_stairs": {
+      "weight": 4.5
+    },
+    "minecraft:waxed_oxidized_chiseled_copper": {
+      "weight": 6.0
+    },
+    "minecraft:waxed_oxidized_copper": {
+      "weight": 7.0
+    },
+    "minecraft:waxed_oxidized_copper_bulb": {
+      "weight": 2.5
+    },
+    "minecraft:waxed_oxidized_copper_door": {
+      "weight": 7.0
+    },
+    "minecraft:waxed_oxidized_copper_grate": {
+      "weight": 5.0
+    },
+    "minecraft:waxed_oxidized_copper_trapdoor": {
+      "weight": 6.0
+    },
+    "minecraft:waxed_oxidized_cut_copper": {
+      "weight": 7.0
+    },
+    "minecraft:waxed_oxidized_cut_copper_slab": {
+      "weight": 4.5
+    },
+    "minecraft:waxed_oxidized_cut_copper_stairs": {
+      "weight": 6.0
+    },
+    "minecraft:waxed_weathered_chiseled_copper": {
+      "weight": 5.0
+    },
+    "minecraft:waxed_weathered_copper": {
+      "weight": 6.0
+    },
+    "minecraft:waxed_weathered_copper_bulb": {
+      "weight": 2.5
+    },
+    "minecraft:waxed_weathered_copper_door": {
+      "weight": 6.0
+    },
+    "minecraft:waxed_weathered_copper_grate": {
+      "weight": 4.0
+    },
+    "minecraft:waxed_weathered_copper_trapdoor": {
+      "weight": 5.0
+    },
+    "minecraft:waxed_weathered_cut_copper": {
+      "weight": 6.0
+    },
+    "minecraft:waxed_weathered_cut_copper_slab": {
+      "weight": 3.5
+    },
+    "minecraft:waxed_weathered_cut_copper_stairs": {
+      "weight": 5.0
+    },
+    "minecraft:weathered_chiseled_copper": {
+      "weight": 6.0
+    },
+    "minecraft:weathered_copper": {
+      "weight": 7.0
+    },
+    "minecraft:weathered_copper_bulb": {
+      "weight": 2.5
+    },
+    "minecraft:weathered_copper_door": {
+      "weight": 7.0
+    },
+    "minecraft:weathered_copper_grate": {
+      "weight": 5.0
+    },
+    "minecraft:weathered_copper_trapdoor": {
+      "weight": 6.0
+    },
+    "minecraft:weathered_cut_copper": {
+      "weight": 7.0
+    },
+    "minecraft:weathered_cut_copper_slab": {
+      "weight": 4.0
+    },
+    "minecraft:weathered_cut_copper_stairs": {
+      "weight": 6.0
+    },
+    "minecraft:wheat": {
+      "weight": 0.25
+    }
+  }
+}

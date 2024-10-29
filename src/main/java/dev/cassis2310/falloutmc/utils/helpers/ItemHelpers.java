@@ -338,4 +338,15 @@ public class ItemHelpers
         return BuiltInRegistries.ITEM.getOrCreateTag(tag).stream().map(Holder::value);
     }
 
+
+    /**
+     * Wraps the specified Item as a Holder.
+     *
+     * @param item the Item to wrap
+     * @return      the wrapped Item as a Holder
+     */
+    public static Holder<Item> wrapItemAsHolder(Item item)
+    {
+        return BuiltInRegistries.ITEM.wrapAsHolder(item);
+    }
 }
