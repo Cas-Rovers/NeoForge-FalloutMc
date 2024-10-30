@@ -12,7 +12,7 @@ import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.event.entity.player.ItemTooltipEvent;
 
-import static dev.cassis2310.falloutmc.datagen.datamaps.FalloutMcDataMaps.ITEM_WEIGHT;
+import static dev.cassis2310.falloutmc.datagen.datamaps.FalloutMcDataMaps.ITEM_ATTRIBUTES;
 
 @EventBusSubscriber(modid = FalloutMc.MOD_ID, bus = EventBusSubscriber.Bus.GAME, value = Dist.CLIENT)
 public class ClientEventHandler
@@ -23,7 +23,7 @@ public class ClientEventHandler
     {
         ItemStack stack = event.getItemStack();
         Holder<Item> holder = stack.getItemHolder();
-        ItemAttributes data = holder.getData(ITEM_WEIGHT);
+        ItemAttributes data = holder.getData(ITEM_ATTRIBUTES);
 
         if (data != null)
         {

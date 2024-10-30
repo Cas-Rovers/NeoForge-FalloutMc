@@ -60,7 +60,7 @@ public class FalloutMcDataMapProvider extends DataMapProvider
     private void addCustomItems()
     {
         // Custom items
-        this.builder(FalloutMcDataMaps.ITEM_WEIGHT)
+        this.builder(FalloutMcDataMaps.ITEM_ATTRIBUTES)
                 .add(FalloutMcItems.NUKA_COLA.getId(), new ItemAttributes(1.0), false);
     }
 
@@ -72,7 +72,7 @@ public class FalloutMcDataMapProvider extends DataMapProvider
      */
     private void addVanillaItems()
     {
-        this.builder(FalloutMcDataMaps.ITEM_WEIGHT)
+        this.builder(FalloutMcDataMaps.ITEM_ATTRIBUTES)
                 // Building Blocks
                 .add(wrapItemAsHolder(Items.OAK_LOG), new ItemAttributes(15.0), false)
                 .add(wrapItemAsHolder(Items.OAK_WOOD), new ItemAttributes(12.0), false)

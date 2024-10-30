@@ -27,7 +27,7 @@ public class FalloutMcDataMaps
      * excludes unnecessary fields for the client. In this case, it is specified using
      * {@link ItemAttributes#ITEM_ATTRIBUTES_CODEC} as the syncing codec.</p>
      */
-    public static final DataMapType<Item, ItemAttributes> ITEM_WEIGHT = DataMapType.builder(
+    public static final DataMapType<Item, ItemAttributes> ITEM_ATTRIBUTES = DataMapType.builder(
             ResourceHelpers.resourceLocation(FalloutMc.MOD_ID, "item_attributes"),
             Registries.ITEM,
             ItemAttributes.CODEC
@@ -44,6 +44,6 @@ public class FalloutMcDataMaps
     @SubscribeEvent
     private static void registerDataMapTypes(RegisterDataMapTypesEvent event)
     {
-        event.register(ITEM_WEIGHT);
+        event.register(ITEM_ATTRIBUTES);
     }
 }
