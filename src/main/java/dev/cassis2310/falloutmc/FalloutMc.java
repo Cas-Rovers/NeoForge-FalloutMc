@@ -3,6 +3,7 @@ package dev.cassis2310.falloutmc;
 import dev.cassis2310.falloutmc.Entities.FalloutMcEntities;
 import dev.cassis2310.falloutmc.blocks.FalloutMcBlocks;
 import dev.cassis2310.falloutmc.components.FalloutMcDataComponents;
+import dev.cassis2310.falloutmc.effects.FalloutMcEffects;
 import dev.cassis2310.falloutmc.items.FalloutMcItems;
 import dev.cassis2310.falloutmc.utils.helpers.ExceptionHelpers;
 import net.neoforged.fml.event.lifecycle.FMLLoadCompleteEvent;
@@ -47,6 +48,7 @@ public class FalloutMc
         FalloutMcBlocks.register(bus);
         FalloutMcEntities.register(bus);
         FalloutMcDataComponents.register(bus);
+        FalloutMcEffects.register(bus);
 
         NeoForge.EVENT_BUS.register(this);
 
