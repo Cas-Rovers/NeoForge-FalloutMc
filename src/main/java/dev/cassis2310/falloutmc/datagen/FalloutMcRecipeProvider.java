@@ -39,7 +39,7 @@ public class FalloutMcRecipeProvider extends RecipeProvider implements IConditio
      *
      * <h3>Usage Examples:</h3>
      * <p>
-     * <h4>Example 4 (Shaped recipe):</h4>
+     * <h4>Example 1 (Shaped recipe):</h4>
      * <pre>{@code
      * ShapedRecipeBuilder.shaped(RecipeCategory.MISC, FalloutMcBlocks.NUCLEAR_WASTE.get())
      *    .pattern("NNN")
@@ -50,7 +50,7 @@ public class FalloutMcRecipeProvider extends RecipeProvider implements IConditio
      *    .save(recipeOutput);
      * }</pre>
      *
-     * <h4>Example 5 (Shapeless recipe):</h4>
+     * <h4>Example 2 (Shapeless recipe):</h4>
      * <pre>{@code
      * ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, FalloutMcItems.NUCLEAR_SCRAP.get(), 9)
      *    .requires(FalloutMcBlocks.NUCLEAR_WASTE.get())
@@ -58,7 +58,7 @@ public class FalloutMcRecipeProvider extends RecipeProvider implements IConditio
      *    .save(recipeOutput);
      * }</pre>
      *
-     * <h4>Example 6 (Shapeless recipe with custom name):</h4>
+     * <h4>Example 3 (Shapeless recipe with custom name):</h4>
      * <pre>{@code
      * ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, FalloutMcItems.NUCLEAR_SCRAP.get(), 16)
      *    .requires(FalloutMcBlocks.COMPACT_NUCLEAR_WASTE.get())
@@ -66,13 +66,13 @@ public class FalloutMcRecipeProvider extends RecipeProvider implements IConditio
      *    .save(recipeOutput, "falloutmc:nuclear_waste_from_compact_nuclear_waste");
      * }</pre>
      *
-     * <h4>Example 7 (Smelting):</h4>
+     * <h4>Example 4 (Smelting):</h4>
      * <pre>{@code
      * oreSmelting(recipeOutput, NUCLEAR_SMELTABLES, RecipeCategory.MISC,
      *      FalloutMcItems.NUCLEAR_SCRAP.get(), 0.25f, 200, "nuclear_crafts");
      * }</pre>
      *
-     * <h4>Example 8 (Blasting):</h4>
+     * <h4>Example 5 (Blasting):</h4>
      * <pre>{@code
      * oreBlasting(recipeOutput, NUCLEAR_SMELTABLES, RecipeCategory.MISC,
      *      FalloutMcItems.NUCLEAR_SCRAP.get(), 0.25f, 200, "nuclear_crafts");

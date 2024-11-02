@@ -1,7 +1,7 @@
 package dev.cassis2310.falloutmc.datagen.datamaps;
 
 import dev.cassis2310.falloutmc.FalloutMc;
-import dev.cassis2310.falloutmc.datagen.records.ItemAttributes;
+import dev.cassis2310.falloutmc.datagen.codecs.items.Consumables.*;
 import dev.cassis2310.falloutmc.utils.helpers.ResourceHelpers;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.Item;
@@ -17,9 +17,9 @@ import net.neoforged.neoforge.registries.datamaps.RegisterDataMapTypesEvent;
 public class FalloutMcDataMaps
 {
     /**
-     * A data map type for item weights.
+     * A data map type for normal item attributes.
      *
-     * <p>This data map type links item weights to the {@link Item} class and uses
+     * <p>This data map type links item attributes to the {@link Item} class and uses
      * {@link ItemAttributes#CODEC} for serialization.</p>
      *
      * <p>The data map is marked as synced, meaning its values will be transmitted to clients.
@@ -34,6 +34,40 @@ public class FalloutMcDataMaps
     ).synced(ItemAttributes.ITEM_ATTRIBUTES_CODEC, false).build();
 
     /**
+     * A data map type for food item attributes.
+     *
+     * <p>This data map type links food attributes to the {@link Item} class and uses
+     * {@link FoodAttributes#CODEC} for serialization.</p>
+     *
+     * <p>The data map is marked as synced, meaning its values will be transmitted to clients.
+     * The syncing codec can be the same as the main codec or a simplified version that
+     * excludes unnecessary fields for the client. In this case, it is specified using
+     * {@link FoodAttributes#FOOD_ATTRIBUTES_CODEC} as the syncing codec.</p>
+     */
+    public static final DataMapType<Item, FoodAttributes> FOOD_ATTRIBUTES = DataMapType.builder(
+            ResourceHelpers.resourceLocation(FalloutMc.MOD_ID, "food_attributes"),
+            Registries.ITEM,
+            FoodAttributes.CODEC
+    ).synced(FoodAttributes.FOOD_ATTRIBUTES_CODEC, false).build();
+
+    /**
+     * A data map type for soup item attributes.
+     *
+     * <p>This data map type links soup item attributes to the {@link Item} class and uses
+     * {@link SoupAttributes#CODEC} for serialization.</p>
+     *
+     * <p>The data map is marked as synced, meaning its values will be transmitted to clients.
+     * The syncing codec can be the same as the main codec or a simplified version that
+     * excludes unnecessary fields for the client. In this case, it is specified using
+     * {@link SoupAttributes#SOUP_ATTRIBUTES_CODEC} as the syncing codec.</p>
+     */
+    public static final DataMapType<Item, SoupAttributes> SOUP_ATTRIBUTES = DataMapType.builder(
+            ResourceHelpers.resourceLocation(FalloutMc.MOD_ID, "soup_attributes"),
+            Registries.ITEM,
+            SoupAttributes.CODEC
+    ).synced(SoupAttributes.SOUP_ATTRIBUTES_CODEC, false).build();
+
+    /**
      * Registers the custom data map types for the Fallout Minecraft mod.
      *
      * <p>This method is subscribed to the {@link RegisterDataMapTypesEvent}
@@ -45,5 +79,7 @@ public class FalloutMcDataMaps
     private static void registerDataMapTypes(RegisterDataMapTypesEvent event)
     {
         event.register(ITEM_ATTRIBUTES);
+        event.register(FOOD_ATTRIBUTES);
+        event.register(SOUP_ATTRIBUTES);
     }
 }
