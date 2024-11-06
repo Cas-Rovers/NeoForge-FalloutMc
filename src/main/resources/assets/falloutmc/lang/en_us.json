@@ -2,5 +2,6 @@
   "item.falloutmc.nuka_cola": "Nuka Cola",
 
   "tooltip.item.item_type": "Item Type: %s",
-  "tooltip.item.weight": "Weight: %s Lbs"
+  "tooltip.item.weight": "Weight: %s Lbs",
+  "creativetab.falloutmc.consumables": "Consumables"
 }

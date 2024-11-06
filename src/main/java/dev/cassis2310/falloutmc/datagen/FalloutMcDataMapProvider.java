@@ -1,12 +1,13 @@
 package dev.cassis2310.falloutmc.datagen;
 
-import dev.cassis2310.falloutmc.datagen.codecs.items.Consumables.*;
+import dev.cassis2310.falloutmc.datagen.codecs.effects.EffectWithDuration;
+import dev.cassis2310.falloutmc.datagen.codecs.items.ItemAttributes;
+import dev.cassis2310.falloutmc.datagen.codecs.items.consumables.FoodAttributes;
 import dev.cassis2310.falloutmc.datagen.datamaps.FalloutMcDataMaps;
 import dev.cassis2310.falloutmc.effects.FalloutMcEffects;
 import dev.cassis2310.falloutmc.items.FalloutMcItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
-import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.item.Items;
 import net.neoforged.neoforge.common.data.DataMapProvider;
 
@@ -63,8 +64,8 @@ public class FalloutMcDataMapProvider extends DataMapProvider
     private void addCustomItems()
     {
         // Custom items
-        this.builder(FalloutMcDataMaps.ITEM_ATTRIBUTES)
-                .add(FalloutMcItems.NUKA_COLA.getId(), new ItemAttributes(1.0, 10), false);
+        this.builder(FalloutMcDataMaps.FOOD_ATTRIBUTES)
+                .add(FalloutMcItems.NUKA_COLA.getId(), new FoodAttributes(10, 0, List.of(new EffectWithDuration(FalloutMcEffects.EXAMPLE_EFFECT.value(), 0)), List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 1, false, false, false, 10), false);
     }
 
     /**
@@ -495,50 +496,50 @@ public class FalloutMcDataMapProvider extends DataMapProvider
 
         // Food & drinks
         this.builder(FalloutMcDataMaps.FOOD_ATTRIBUTES)
-                .add(wrapItemAsHolder(Items.APPLE), new FoodAttributes(10, 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.2, false, false, false, 0), false)
-                .add(wrapItemAsHolder(Items.BAKED_POTATO), new FoodAttributes(10, 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()),0, 0, 0, 0.4, false, false, false, 0), false)
-                .add(wrapItemAsHolder(Items.BEETROOT), new FoodAttributes(10, 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()),0, 0, 0, 0.3, false, false, false, 0), false)
-                .add(wrapItemAsHolder(Items.BEETROOT_SOUP), new FoodAttributes(10, 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.5, false, false, false, 0), false)
-                .add(wrapItemAsHolder(Items.BREAD), new FoodAttributes(10, 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.4, false, false, false, 0), false)
-                .add(wrapItemAsHolder(Items.CAKE), new FoodAttributes(10, 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.7, false, false, false, 0), false)
-                .add(wrapItemAsHolder(Items.CARROT), new FoodAttributes(10, 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.3, false, false, false, 0), false)
-                .add(wrapItemAsHolder(Items.CHICKEN), new FoodAttributes(10, 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.4, false, false, false, 0), false)
-                .add(wrapItemAsHolder(Items.CHORUS_FRUIT), new FoodAttributes(10, 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()),0, 0, 0, 0.4, false, false, false, 0), false)
-                .add(wrapItemAsHolder(Items.COD), new FoodAttributes(10, 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.5, false, false, false, 0), false)
-                .add(wrapItemAsHolder(Items.COOKIE), new FoodAttributes(10, 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.15, false, false, false, 0), false)
-                .add(wrapItemAsHolder(Items.COOKED_BEEF), new FoodAttributes(10, 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.6, false, false, false, 0), false)
-                .add(wrapItemAsHolder(Items.COOKED_CHICKEN), new FoodAttributes(10, 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.5, false, false, false, 0), false)
-                .add(wrapItemAsHolder(Items.COOKED_COD), new FoodAttributes(10, 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.4, false, false, false, 0), false)
-                .add(wrapItemAsHolder(Items.COOKED_MUTTON), new FoodAttributes(10, 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.5, false, false, false, 0), false)
-                .add(wrapItemAsHolder(Items.COOKED_PORKCHOP), new FoodAttributes(10, 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.6, false, false, false, 0), false)
-                .add(wrapItemAsHolder(Items.COOKED_RABBIT), new FoodAttributes(10, 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.5, false, false, false, 0), false)
-                .add(wrapItemAsHolder(Items.COOKED_SALMON), new FoodAttributes(10, 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.4, false, false, false, 0), false)
-                .add(wrapItemAsHolder(Items.DRIED_KELP), new FoodAttributes(10, 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.1, false, false, false, 0), false)
-                .add(wrapItemAsHolder(Items.ENCHANTED_GOLDEN_APPLE), new FoodAttributes(10, 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 3, false, false, false, 0), false)
-                .add(wrapItemAsHolder(Items.GLOW_BERRIES), new FoodAttributes(10, 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.2, false, false, false, 0), false)
-                .add(wrapItemAsHolder(Items.GOLDEN_APPLE), new FoodAttributes(10, 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 2, false, false, false, 0), false)
-                .add(wrapItemAsHolder(Items.GOLDEN_CARROT), new FoodAttributes(10, 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.5, false, false, false, 0), false)
-                .add(wrapItemAsHolder(Items.HONEY_BOTTLE), new FoodAttributes(10, 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.5, false, false, false, 0), false)
-                .add(wrapItemAsHolder(Items.LINGERING_POTION), new FoodAttributes(10, 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 1, false, false, false, 0), false)
-                .add(wrapItemAsHolder(Items.MELON_SLICE), new FoodAttributes(10, 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.25, false, false, false, 0), false)
-                .add(wrapItemAsHolder(Items.MILK_BUCKET), new FoodAttributes(10, 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 1, false, false, false, 0), false)
-                .add(wrapItemAsHolder(Items.MUSHROOM_STEW), new FoodAttributes(10, 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.5, false, false, false, 0), false)
-                .add(wrapItemAsHolder(Items.MUTTON), new FoodAttributes(10, 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.5, false, false, false, 0), false)
-                .add(wrapItemAsHolder(Items.POISONOUS_POTATO), new FoodAttributes(10, 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.2, false, false, false, 0), false)
-                .add(wrapItemAsHolder(Items.PORKCHOP), new FoodAttributes(10, 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.6, false, false, false, 0), false)
-                .add(wrapItemAsHolder(Items.POTATO), new FoodAttributes(10, 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.3, false, false, false, 0), false)
-                .add(wrapItemAsHolder(Items.POTION), new FoodAttributes(10, 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 1, false, false, false, 0), false)
-                .add(wrapItemAsHolder(Items.PUMPKIN_PIE), new FoodAttributes(10, 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.7, false, false, false, 0), false)
-                .add(wrapItemAsHolder(Items.PUFFERFISH), new FoodAttributes(10, 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.5, false, false, false, 0), false)
-                .add(wrapItemAsHolder(Items.RABBIT), new FoodAttributes(10, 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.5, false, false, false, 0), false)
-                .add(wrapItemAsHolder(Items.RABBIT_STEW), new FoodAttributes(10, 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.6, false, false, false, 0), false)
-                .add(wrapItemAsHolder(Items.ROTTEN_FLESH), new FoodAttributes(10, 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.5, false, false, false, 0), false)
-                .add(wrapItemAsHolder(Items.SALMON), new FoodAttributes(10, 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.5, false, false, false, 0), false)
-                .add(wrapItemAsHolder(Items.SPIDER_EYE), new FoodAttributes(10, 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.25, false, false, false, 0), false)
-                .add(wrapItemAsHolder(Items.SPLASH_POTION), new FoodAttributes(10, 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 1, false, false, false, 0), false)
-                .add(wrapItemAsHolder(Items.SUSPICIOUS_STEW), new FoodAttributes(10, 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.8, false, false, false, 0), false)
-                .add(wrapItemAsHolder(Items.SWEET_BERRIES), new FoodAttributes(10, 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.2, false, false, false, 0), false)
-                .add(wrapItemAsHolder(Items.TROPICAL_FISH), new FoodAttributes(10, 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.3, false, false, false, 0), false)
-                .add(wrapItemAsHolder(Items.WHEAT), new FoodAttributes(10, 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.25, false, false, false, 0), false);
+                .add(wrapItemAsHolder(Items.APPLE), new FoodAttributes(10, 0, List.of(new EffectWithDuration(FalloutMcEffects.EXAMPLE_EFFECT.value(), 0)), List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.2, false, false, false, 0), false)
+                .add(wrapItemAsHolder(Items.BAKED_POTATO), new FoodAttributes(10, 0, List.of(new EffectWithDuration(FalloutMcEffects.EXAMPLE_EFFECT.value(), 0)), List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()),0, 0, 0, 0.4, false, false, false, 0), false)
+                .add(wrapItemAsHolder(Items.BEETROOT), new FoodAttributes(10, 0, List.of(new EffectWithDuration(FalloutMcEffects.EXAMPLE_EFFECT.value(), 0)), List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()),0, 0, 0, 0.3, false, false, false, 0), false)
+                .add(wrapItemAsHolder(Items.BEETROOT_SOUP), new FoodAttributes(10, 0, List.of(new EffectWithDuration(FalloutMcEffects.EXAMPLE_EFFECT.value(), 0)), List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.5, false, false, false, 0), false)
+                .add(wrapItemAsHolder(Items.BREAD), new FoodAttributes(10, 0, List.of(new EffectWithDuration(FalloutMcEffects.EXAMPLE_EFFECT.value(), 0)), List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.4, false, false, false, 0), false)
+                .add(wrapItemAsHolder(Items.CAKE), new FoodAttributes(10, 0, List.of(new EffectWithDuration(FalloutMcEffects.EXAMPLE_EFFECT.value(), 0)), List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.7, false, false, false, 0), false)
+                .add(wrapItemAsHolder(Items.CARROT), new FoodAttributes(10, 0, List.of(new EffectWithDuration(FalloutMcEffects.EXAMPLE_EFFECT.value(), 0)), List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.3, false, false, false, 0), false)
+                .add(wrapItemAsHolder(Items.CHICKEN), new FoodAttributes(10, 0, List.of(new EffectWithDuration(FalloutMcEffects.EXAMPLE_EFFECT.value(), 0)), List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.4, false, false, false, 0), false)
+                .add(wrapItemAsHolder(Items.CHORUS_FRUIT), new FoodAttributes(10, 0, List.of(new EffectWithDuration(FalloutMcEffects.EXAMPLE_EFFECT.value(), 0)), List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()),0, 0, 0, 0.4, false, false, false, 0), false)
+                .add(wrapItemAsHolder(Items.COD), new FoodAttributes(10, 0, List.of(new EffectWithDuration(FalloutMcEffects.EXAMPLE_EFFECT.value(), 0)), List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.5, false, false, false, 0), false)
+                .add(wrapItemAsHolder(Items.COOKIE), new FoodAttributes(10, 0, List.of(new EffectWithDuration(FalloutMcEffects.EXAMPLE_EFFECT.value(), 0)), List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.15, false, false, false, 0), false)
+                .add(wrapItemAsHolder(Items.COOKED_BEEF), new FoodAttributes(10, 0, List.of(new EffectWithDuration(FalloutMcEffects.EXAMPLE_EFFECT.value(), 0)), List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.6, false, false, false, 0), false)
+                .add(wrapItemAsHolder(Items.COOKED_CHICKEN), new FoodAttributes(10, 0, List.of(new EffectWithDuration(FalloutMcEffects.EXAMPLE_EFFECT.value(), 0)), List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.5, false, false, false, 0), false)
+                .add(wrapItemAsHolder(Items.COOKED_COD), new FoodAttributes(10, 0, List.of(new EffectWithDuration(FalloutMcEffects.EXAMPLE_EFFECT.value(), 0)), List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.4, false, false, false, 0), false)
+                .add(wrapItemAsHolder(Items.COOKED_MUTTON), new FoodAttributes(10, 0, List.of(new EffectWithDuration(FalloutMcEffects.EXAMPLE_EFFECT.value(), 0)), List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.5, false, false, false, 0), false)
+                .add(wrapItemAsHolder(Items.COOKED_PORKCHOP), new FoodAttributes(10, 0, List.of(new EffectWithDuration(FalloutMcEffects.EXAMPLE_EFFECT.value(), 0)), List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.6, false, false, false, 0), false)
+                .add(wrapItemAsHolder(Items.COOKED_RABBIT), new FoodAttributes(10, 0, List.of(new EffectWithDuration(FalloutMcEffects.EXAMPLE_EFFECT.value(), 0)), List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.5, false, false, false, 0), false)
+                .add(wrapItemAsHolder(Items.COOKED_SALMON), new FoodAttributes(10, 0, List.of(new EffectWithDuration(FalloutMcEffects.EXAMPLE_EFFECT.value(), 0)), List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.4, false, false, false, 0), false)
+                .add(wrapItemAsHolder(Items.DRIED_KELP), new FoodAttributes(10, 0, List.of(new EffectWithDuration(FalloutMcEffects.EXAMPLE_EFFECT.value(), 0)), List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.1, false, false, false, 0), false)
+                .add(wrapItemAsHolder(Items.ENCHANTED_GOLDEN_APPLE), new FoodAttributes(10, 0, List.of(new EffectWithDuration(FalloutMcEffects.EXAMPLE_EFFECT.value(), 0)), List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 3, false, false, false, 0), false)
+                .add(wrapItemAsHolder(Items.GLOW_BERRIES), new FoodAttributes(10, 0, List.of(new EffectWithDuration(FalloutMcEffects.EXAMPLE_EFFECT.value(), 0)), List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.2, false, false, false, 0), false)
+                .add(wrapItemAsHolder(Items.GOLDEN_APPLE), new FoodAttributes(10, 0, List.of(new EffectWithDuration(FalloutMcEffects.EXAMPLE_EFFECT.value(), 0)), List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 2, false, false, false, 0), false)
+                .add(wrapItemAsHolder(Items.GOLDEN_CARROT), new FoodAttributes(10, 0, List.of(new EffectWithDuration(FalloutMcEffects.EXAMPLE_EFFECT.value(), 0)), List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.5, false, false, false, 0), false)
+                .add(wrapItemAsHolder(Items.HONEY_BOTTLE), new FoodAttributes(10, 0, List.of(new EffectWithDuration(FalloutMcEffects.EXAMPLE_EFFECT.value(), 0)), List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.5, false, false, false, 0), false)
+                .add(wrapItemAsHolder(Items.LINGERING_POTION), new FoodAttributes(10, 0, List.of(new EffectWithDuration(FalloutMcEffects.EXAMPLE_EFFECT.value(), 0)), List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 1, false, false, false, 0), false)
+                .add(wrapItemAsHolder(Items.MELON_SLICE), new FoodAttributes(10, 0, List.of(new EffectWithDuration(FalloutMcEffects.EXAMPLE_EFFECT.value(), 0)), List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.25, false, false, false, 0), false)
+                .add(wrapItemAsHolder(Items.MILK_BUCKET), new FoodAttributes(10, 0, List.of(new EffectWithDuration(FalloutMcEffects.EXAMPLE_EFFECT.value(), 0)), List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 1, false, false, false, 0), false)
+                .add(wrapItemAsHolder(Items.MUSHROOM_STEW), new FoodAttributes(10, 0, List.of(new EffectWithDuration(FalloutMcEffects.EXAMPLE_EFFECT.value(), 0)), List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.5, false, false, false, 0), false)
+                .add(wrapItemAsHolder(Items.MUTTON), new FoodAttributes(10, 0, List.of(new EffectWithDuration(FalloutMcEffects.EXAMPLE_EFFECT.value(), 0)), List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.5, false, false, false, 0), false)
+                .add(wrapItemAsHolder(Items.POISONOUS_POTATO), new FoodAttributes(10, 0, List.of(new EffectWithDuration(FalloutMcEffects.EXAMPLE_EFFECT.value(), 0)), List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.2, false, false, false, 0), false)
+                .add(wrapItemAsHolder(Items.PORKCHOP), new FoodAttributes(10, 0, List.of(new EffectWithDuration(FalloutMcEffects.EXAMPLE_EFFECT.value(), 0)), List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.6, false, false, false, 0), false)
+                .add(wrapItemAsHolder(Items.POTATO), new FoodAttributes(10, 0, List.of(new EffectWithDuration(FalloutMcEffects.EXAMPLE_EFFECT.value(), 0)), List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.3, false, false, false, 0), false)
+                .add(wrapItemAsHolder(Items.POTION), new FoodAttributes(10, 0, List.of(new EffectWithDuration(FalloutMcEffects.EXAMPLE_EFFECT.value(), 0)), List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 1, false, false, false, 0), false)
+                .add(wrapItemAsHolder(Items.PUMPKIN_PIE), new FoodAttributes(10, 0, List.of(new EffectWithDuration(FalloutMcEffects.EXAMPLE_EFFECT.value(), 0)), List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.7, false, false, false, 0), false)
+                .add(wrapItemAsHolder(Items.PUFFERFISH), new FoodAttributes(10, 0, List.of(new EffectWithDuration(FalloutMcEffects.EXAMPLE_EFFECT.value(), 0)), List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.5, false, false, false, 0), false)
+                .add(wrapItemAsHolder(Items.RABBIT), new FoodAttributes(10, 0, List.of(new EffectWithDuration(FalloutMcEffects.EXAMPLE_EFFECT.value(), 0)), List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.5, false, false, false, 0), false)
+                .add(wrapItemAsHolder(Items.RABBIT_STEW), new FoodAttributes(10, 0, List.of(new EffectWithDuration(FalloutMcEffects.EXAMPLE_EFFECT.value(), 0)), List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.6, false, false, false, 0), false)
+                .add(wrapItemAsHolder(Items.ROTTEN_FLESH), new FoodAttributes(10, 0, List.of(new EffectWithDuration(FalloutMcEffects.EXAMPLE_EFFECT.value(), 0)), List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.5, false, false, false, 0), false)
+                .add(wrapItemAsHolder(Items.SALMON), new FoodAttributes(10, 0, List.of(new EffectWithDuration(FalloutMcEffects.EXAMPLE_EFFECT.value(), 0)), List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.5, false, false, false, 0), false)
+                .add(wrapItemAsHolder(Items.SPIDER_EYE), new FoodAttributes(10, 0, List.of(new EffectWithDuration(FalloutMcEffects.EXAMPLE_EFFECT.value(), 0)), List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.25, false, false, false, 0), false)
+                .add(wrapItemAsHolder(Items.SPLASH_POTION), new FoodAttributes(10, 0, List.of(new EffectWithDuration(FalloutMcEffects.EXAMPLE_EFFECT.value(), 0)), List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 1, false, false, false, 0), false)
+                .add(wrapItemAsHolder(Items.SUSPICIOUS_STEW), new FoodAttributes(10, 0, List.of(new EffectWithDuration(FalloutMcEffects.EXAMPLE_EFFECT.value(), 0)), List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.8, false, false, false, 0), false)
+                .add(wrapItemAsHolder(Items.SWEET_BERRIES), new FoodAttributes(10, 0, List.of(new EffectWithDuration(FalloutMcEffects.EXAMPLE_EFFECT.value(), 0)), List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.2, false, false, false, 0), false)
+                .add(wrapItemAsHolder(Items.TROPICAL_FISH), new FoodAttributes(10, 0, List.of(new EffectWithDuration(FalloutMcEffects.EXAMPLE_EFFECT.value(), 0)), List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.3, false, false, false, 0), false)
+                .add(wrapItemAsHolder(Items.WHEAT), new FoodAttributes(10, 0, List.of(new EffectWithDuration(FalloutMcEffects.EXAMPLE_EFFECT.value(), 0)), List.of(FalloutMcEffects.EXAMPLE_EFFECT.value()), 0, 0, 0, 0.25, false, false, false, 0), false);
     }
 }

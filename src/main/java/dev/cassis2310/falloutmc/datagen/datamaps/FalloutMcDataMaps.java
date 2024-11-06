@@ -1,7 +1,9 @@
 package dev.cassis2310.falloutmc.datagen.datamaps;
 
 import dev.cassis2310.falloutmc.FalloutMc;
-import dev.cassis2310.falloutmc.datagen.codecs.items.Consumables.*;
+import dev.cassis2310.falloutmc.datagen.codecs.items.ItemAttributes;
+import dev.cassis2310.falloutmc.datagen.codecs.items.consumables.FoodAttributes;
+import dev.cassis2310.falloutmc.datagen.codecs.items.consumables.SoupAttributes;
 import dev.cassis2310.falloutmc.utils.helpers.ResourceHelpers;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.Item;
@@ -28,7 +30,7 @@ public class FalloutMcDataMaps
      * {@link ItemAttributes#ITEM_ATTRIBUTES_CODEC} as the syncing codec.</p>
      */
     public static final DataMapType<Item, ItemAttributes> ITEM_ATTRIBUTES = DataMapType.builder(
-            ResourceHelpers.resourceLocation(FalloutMc.MOD_ID, "item_attributes"),
+            ResourceHelpers.resourceWithNamespace(FalloutMc.MOD_ID, "item_attributes"),
             Registries.ITEM,
             ItemAttributes.CODEC
     ).synced(ItemAttributes.ITEM_ATTRIBUTES_CODEC, false).build();
@@ -45,7 +47,7 @@ public class FalloutMcDataMaps
      * {@link FoodAttributes#FOOD_ATTRIBUTES_CODEC} as the syncing codec.</p>
      */
     public static final DataMapType<Item, FoodAttributes> FOOD_ATTRIBUTES = DataMapType.builder(
-            ResourceHelpers.resourceLocation(FalloutMc.MOD_ID, "food_attributes"),
+            ResourceHelpers.resourceWithNamespace(FalloutMc.MOD_ID, "food_attributes"),
             Registries.ITEM,
             FoodAttributes.CODEC
     ).synced(FoodAttributes.FOOD_ATTRIBUTES_CODEC, false).build();
@@ -62,7 +64,7 @@ public class FalloutMcDataMaps
      * {@link SoupAttributes#SOUP_ATTRIBUTES_CODEC} as the syncing codec.</p>
      */
     public static final DataMapType<Item, SoupAttributes> SOUP_ATTRIBUTES = DataMapType.builder(
-            ResourceHelpers.resourceLocation(FalloutMc.MOD_ID, "soup_attributes"),
+            ResourceHelpers.resourceWithNamespace(FalloutMc.MOD_ID, "soup_attributes"),
             Registries.ITEM,
             SoupAttributes.CODEC
     ).synced(SoupAttributes.SOUP_ATTRIBUTES_CODEC, false).build();

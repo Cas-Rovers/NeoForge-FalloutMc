@@ -25,9 +25,9 @@ public class ResourceHelpers
      * @param name The path of the resource.
      * @return     A {@link ResourceLocation} with the "falloutmc" namespace.
      */
-    public static ResourceLocation identifier(String name)
+    public static ResourceLocation falloutMcResource(String name)
     {
-        return resourceLocation(FalloutMc.MOD_ID, name);
+        return resourceWithNamespace(FalloutMc.MOD_ID, name);
     }
 
     /**
@@ -37,9 +37,9 @@ public class ResourceHelpers
      * @param name The path of the resource.
      * @return     A {@link ResourceLocation} with the "minecraft" namespace.
      */
-    public static ResourceLocation identifierMc(String name)
+    public static ResourceLocation minecraftResource(String name)
     {
-        return resourceLocation("minecraft", name);
+        return resourceWithNamespace("minecraft", name);
     }
 
     /**
@@ -49,7 +49,7 @@ public class ResourceHelpers
      * @param name The full name of the resource, including optional namespace.
      * @return     A {@link ResourceLocation} with the inferred namespace.
      */
-    public static ResourceLocation resourceLocation(String name)
+    public static ResourceLocation resourceWithNamespace(String name)
     {
         return ResourceLocation.parse(name);
     }
@@ -62,7 +62,7 @@ public class ResourceHelpers
      * @param path The path of the resource within the namespace.
      * @return     A {@link ResourceLocation} with the given namespace and path.
      */
-    public static ResourceLocation resourceLocation(String namespace, String path)
+    public static ResourceLocation resourceWithNamespace(String namespace, String path)
     {
         return ResourceLocation.fromNamespaceAndPath(namespace, path);
     }

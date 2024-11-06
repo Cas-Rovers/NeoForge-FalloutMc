@@ -1,16 +1,39 @@
 {
   "values": {
+    "falloutmc:nuka_cola": {
+      "addiction": false,
+      "deceaseChance": 0,
+      "deceaseEffects": [
+        "falloutmc:example_effect"
+      ],
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
+      ],
+      "hpRestore": 0,
+      "hunger": 0,
+      "plantable": false,
+      "radiation": 10,
+      "recipe": false,
+      "thirst": 0,
+      "value": 10,
+      "weight": 1.0
+    },
     "minecraft:apple": {
       "addiction": false,
-      "decease_chance": 0,
-      "decease_effect": [
+      "deceaseChance": 0,
+      "deceaseEffects": [
         "falloutmc:example_effect"
       ],
-      "effect": [
-        "falloutmc:example_effect"
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
       ],
-      "effect_duration": 0,
-      "hp_restore": 0,
+      "hpRestore": 0,
       "hunger": 0,
       "plantable": false,
       "radiation": 10,
@@ -21,15 +44,17 @@
     },
     "minecraft:baked_potato": {
       "addiction": false,
-      "decease_chance": 0,
-      "decease_effect": [
+      "deceaseChance": 0,
+      "deceaseEffects": [
         "falloutmc:example_effect"
       ],
-      "effect": [
-        "falloutmc:example_effect"
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
       ],
-      "effect_duration": 0,
-      "hp_restore": 0,
+      "hpRestore": 0,
       "hunger": 0,
       "plantable": false,
       "radiation": 10,
@@ -40,15 +65,17 @@
     },
     "minecraft:beetroot": {
       "addiction": false,
-      "decease_chance": 0,
-      "decease_effect": [
+      "deceaseChance": 0,
+      "deceaseEffects": [
         "falloutmc:example_effect"
       ],
-      "effect": [
-        "falloutmc:example_effect"
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
       ],
-      "effect_duration": 0,
-      "hp_restore": 0,
+      "hpRestore": 0,
       "hunger": 0,
       "plantable": false,
       "radiation": 10,
@@ -59,15 +86,17 @@
     },
     "minecraft:beetroot_soup": {
       "addiction": false,
-      "decease_chance": 0,
-      "decease_effect": [
+      "deceaseChance": 0,
+      "deceaseEffects": [
         "falloutmc:example_effect"
       ],
-      "effect": [
-        "falloutmc:example_effect"
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
       ],
-      "effect_duration": 0,
-      "hp_restore": 0,
+      "hpRestore": 0,
       "hunger": 0,
       "plantable": false,
       "radiation": 10,
@@ -78,15 +107,17 @@
     },
     "minecraft:bread": {
       "addiction": false,
-      "decease_chance": 0,
-      "decease_effect": [
+      "deceaseChance": 0,
+      "deceaseEffects": [
         "falloutmc:example_effect"
       ],
-      "effect": [
-        "falloutmc:example_effect"
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
       ],
-      "effect_duration": 0,
-      "hp_restore": 0,
+      "hpRestore": 0,
       "hunger": 0,
       "plantable": false,
       "radiation": 10,
@@ -97,15 +128,17 @@
     },
     "minecraft:cake": {
       "addiction": false,
-      "decease_chance": 0,
-      "decease_effect": [
+      "deceaseChance": 0,
+      "deceaseEffects": [
         "falloutmc:example_effect"
       ],
-      "effect": [
-        "falloutmc:example_effect"
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
       ],
-      "effect_duration": 0,
-      "hp_restore": 0,
+      "hpRestore": 0,
       "hunger": 0,
       "plantable": false,
       "radiation": 10,
@@ -116,15 +149,17 @@
     },
     "minecraft:carrot": {
       "addiction": false,
-      "decease_chance": 0,
-      "decease_effect": [
+      "deceaseChance": 0,
+      "deceaseEffects": [
         "falloutmc:example_effect"
       ],
-      "effect": [
-        "falloutmc:example_effect"
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
       ],
-      "effect_duration": 0,
-      "hp_restore": 0,
+      "hpRestore": 0,
       "hunger": 0,
       "plantable": false,
       "radiation": 10,
@@ -135,15 +170,17 @@
     },
     "minecraft:chicken": {
       "addiction": false,
-      "decease_chance": 0,
-      "decease_effect": [
+      "deceaseChance": 0,
+      "deceaseEffects": [
         "falloutmc:example_effect"
       ],
-      "effect": [
-        "falloutmc:example_effect"
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
       ],
-      "effect_duration": 0,
-      "hp_restore": 0,
+      "hpRestore": 0,
       "hunger": 0,
       "plantable": false,
       "radiation": 10,
@@ -154,15 +191,17 @@
     },
     "minecraft:chorus_fruit": {
       "addiction": false,
-      "decease_chance": 0,
-      "decease_effect": [
+      "deceaseChance": 0,
+      "deceaseEffects": [
         "falloutmc:example_effect"
       ],
-      "effect": [
-        "falloutmc:example_effect"
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
       ],
-      "effect_duration": 0,
-      "hp_restore": 0,
+      "hpRestore": 0,
       "hunger": 0,
       "plantable": false,
       "radiation": 10,
@@ -173,15 +212,17 @@
     },
     "minecraft:cod": {
       "addiction": false,
-      "decease_chance": 0,
-      "decease_effect": [
+      "deceaseChance": 0,
+      "deceaseEffects": [
         "falloutmc:example_effect"
       ],
-      "effect": [
-        "falloutmc:example_effect"
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
       ],
-      "effect_duration": 0,
-      "hp_restore": 0,
+      "hpRestore": 0,
       "hunger": 0,
       "plantable": false,
       "radiation": 10,
@@ -192,15 +233,17 @@
     },
     "minecraft:cooked_beef": {
       "addiction": false,
-      "decease_chance": 0,
-      "decease_effect": [
+      "deceaseChance": 0,
+      "deceaseEffects": [
         "falloutmc:example_effect"
       ],
-      "effect": [
-        "falloutmc:example_effect"
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
       ],
-      "effect_duration": 0,
-      "hp_restore": 0,
+      "hpRestore": 0,
       "hunger": 0,
       "plantable": false,
       "radiation": 10,
@@ -211,15 +254,17 @@
     },
     "minecraft:cooked_chicken": {
       "addiction": false,
-      "decease_chance": 0,
-      "decease_effect": [
+      "deceaseChance": 0,
+      "deceaseEffects": [
         "falloutmc:example_effect"
       ],
-      "effect": [
-        "falloutmc:example_effect"
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
       ],
-      "effect_duration": 0,
-      "hp_restore": 0,
+      "hpRestore": 0,
       "hunger": 0,
       "plantable": false,
       "radiation": 10,
@@ -230,15 +275,17 @@
     },
     "minecraft:cooked_cod": {
       "addiction": false,
-      "decease_chance": 0,
-      "decease_effect": [
+      "deceaseChance": 0,
+      "deceaseEffects": [
         "falloutmc:example_effect"
       ],
-      "effect": [
-        "falloutmc:example_effect"
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
       ],
-      "effect_duration": 0,
-      "hp_restore": 0,
+      "hpRestore": 0,
       "hunger": 0,
       "plantable": false,
       "radiation": 10,
@@ -249,15 +296,17 @@
     },
     "minecraft:cooked_mutton": {
       "addiction": false,
-      "decease_chance": 0,
-      "decease_effect": [
+      "deceaseChance": 0,
+      "deceaseEffects": [
         "falloutmc:example_effect"
       ],
-      "effect": [
-        "falloutmc:example_effect"
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
       ],
-      "effect_duration": 0,
-      "hp_restore": 0,
+      "hpRestore": 0,
       "hunger": 0,
       "plantable": false,
       "radiation": 10,
@@ -268,15 +317,17 @@
     },
     "minecraft:cooked_porkchop": {
       "addiction": false,
-      "decease_chance": 0,
-      "decease_effect": [
+      "deceaseChance": 0,
+      "deceaseEffects": [
         "falloutmc:example_effect"
       ],
-      "effect": [
-        "falloutmc:example_effect"
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
       ],
-      "effect_duration": 0,
-      "hp_restore": 0,
+      "hpRestore": 0,
       "hunger": 0,
       "plantable": false,
       "radiation": 10,
@@ -287,15 +338,17 @@
     },
     "minecraft:cooked_rabbit": {
       "addiction": false,
-      "decease_chance": 0,
-      "decease_effect": [
+      "deceaseChance": 0,
+      "deceaseEffects": [
         "falloutmc:example_effect"
       ],
-      "effect": [
-        "falloutmc:example_effect"
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
       ],
-      "effect_duration": 0,
-      "hp_restore": 0,
+      "hpRestore": 0,
       "hunger": 0,
       "plantable": false,
       "radiation": 10,
@@ -306,15 +359,17 @@
     },
     "minecraft:cooked_salmon": {
       "addiction": false,
-      "decease_chance": 0,
-      "decease_effect": [
+      "deceaseChance": 0,
+      "deceaseEffects": [
         "falloutmc:example_effect"
       ],
-      "effect": [
-        "falloutmc:example_effect"
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
       ],
-      "effect_duration": 0,
-      "hp_restore": 0,
+      "hpRestore": 0,
       "hunger": 0,
       "plantable": false,
       "radiation": 10,
@@ -325,15 +380,17 @@
     },
     "minecraft:cookie": {
       "addiction": false,
-      "decease_chance": 0,
-      "decease_effect": [
+      "deceaseChance": 0,
+      "deceaseEffects": [
         "falloutmc:example_effect"
       ],
-      "effect": [
-        "falloutmc:example_effect"
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
       ],
-      "effect_duration": 0,
-      "hp_restore": 0,
+      "hpRestore": 0,
       "hunger": 0,
       "plantable": false,
       "radiation": 10,
@@ -344,15 +401,17 @@
     },
     "minecraft:dried_kelp": {
       "addiction": false,
-      "decease_chance": 0,
-      "decease_effect": [
+      "deceaseChance": 0,
+      "deceaseEffects": [
         "falloutmc:example_effect"
       ],
-      "effect": [
-        "falloutmc:example_effect"
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
       ],
-      "effect_duration": 0,
-      "hp_restore": 0,
+      "hpRestore": 0,
       "hunger": 0,
       "plantable": false,
       "radiation": 10,
@@ -363,15 +422,17 @@
     },
     "minecraft:enchanted_golden_apple": {
       "addiction": false,
-      "decease_chance": 0,
-      "decease_effect": [
+      "deceaseChance": 0,
+      "deceaseEffects": [
         "falloutmc:example_effect"
       ],
-      "effect": [
-        "falloutmc:example_effect"
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
       ],
-      "effect_duration": 0,
-      "hp_restore": 0,
+      "hpRestore": 0,
       "hunger": 0,
       "plantable": false,
       "radiation": 10,
@@ -382,15 +443,17 @@
     },
     "minecraft:glow_berries": {
       "addiction": false,
-      "decease_chance": 0,
-      "decease_effect": [
+      "deceaseChance": 0,
+      "deceaseEffects": [
         "falloutmc:example_effect"
       ],
-      "effect": [
-        "falloutmc:example_effect"
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
       ],
-      "effect_duration": 0,
-      "hp_restore": 0,
+      "hpRestore": 0,
       "hunger": 0,
       "plantable": false,
       "radiation": 10,
@@ -401,15 +464,17 @@
     },
     "minecraft:golden_apple": {
       "addiction": false,
-      "decease_chance": 0,
-      "decease_effect": [
+      "deceaseChance": 0,
+      "deceaseEffects": [
         "falloutmc:example_effect"
       ],
-      "effect": [
-        "falloutmc:example_effect"
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
       ],
-      "effect_duration": 0,
-      "hp_restore": 0,
+      "hpRestore": 0,
       "hunger": 0,
       "plantable": false,
       "radiation": 10,
@@ -420,15 +485,17 @@
     },
     "minecraft:golden_carrot": {
       "addiction": false,
-      "decease_chance": 0,
-      "decease_effect": [
+      "deceaseChance": 0,
+      "deceaseEffects": [
         "falloutmc:example_effect"
       ],
-      "effect": [
-        "falloutmc:example_effect"
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
       ],
-      "effect_duration": 0,
-      "hp_restore": 0,
+      "hpRestore": 0,
       "hunger": 0,
       "plantable": false,
       "radiation": 10,
@@ -439,15 +506,17 @@
     },
     "minecraft:honey_bottle": {
       "addiction": false,
-      "decease_chance": 0,
-      "decease_effect": [
+      "deceaseChance": 0,
+      "deceaseEffects": [
         "falloutmc:example_effect"
       ],
-      "effect": [
-        "falloutmc:example_effect"
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
       ],
-      "effect_duration": 0,
-      "hp_restore": 0,
+      "hpRestore": 0,
       "hunger": 0,
       "plantable": false,
       "radiation": 10,
@@ -458,15 +527,17 @@
     },
     "minecraft:lingering_potion": {
       "addiction": false,
-      "decease_chance": 0,
-      "decease_effect": [
+      "deceaseChance": 0,
+      "deceaseEffects": [
         "falloutmc:example_effect"
       ],
-      "effect": [
-        "falloutmc:example_effect"
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
       ],
-      "effect_duration": 0,
-      "hp_restore": 0,
+      "hpRestore": 0,
       "hunger": 0,
       "plantable": false,
       "radiation": 10,
@@ -477,15 +548,17 @@
     },
     "minecraft:melon_slice": {
       "addiction": false,
-      "decease_chance": 0,
-      "decease_effect": [
+      "deceaseChance": 0,
+      "deceaseEffects": [
         "falloutmc:example_effect"
       ],
-      "effect": [
-        "falloutmc:example_effect"
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
       ],
-      "effect_duration": 0,
-      "hp_restore": 0,
+      "hpRestore": 0,
       "hunger": 0,
       "plantable": false,
       "radiation": 10,
@@ -496,15 +569,17 @@
     },
     "minecraft:milk_bucket": {
       "addiction": false,
-      "decease_chance": 0,
-      "decease_effect": [
+      "deceaseChance": 0,
+      "deceaseEffects": [
         "falloutmc:example_effect"
       ],
-      "effect": [
-        "falloutmc:example_effect"
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
       ],
-      "effect_duration": 0,
-      "hp_restore": 0,
+      "hpRestore": 0,
       "hunger": 0,
       "plantable": false,
       "radiation": 10,
@@ -515,15 +590,17 @@
     },
     "minecraft:mushroom_stew": {
       "addiction": false,
-      "decease_chance": 0,
-      "decease_effect": [
+      "deceaseChance": 0,
+      "deceaseEffects": [
         "falloutmc:example_effect"
       ],
-      "effect": [
-        "falloutmc:example_effect"
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
       ],
-      "effect_duration": 0,
-      "hp_restore": 0,
+      "hpRestore": 0,
       "hunger": 0,
       "plantable": false,
       "radiation": 10,
@@ -534,15 +611,17 @@
     },
     "minecraft:mutton": {
       "addiction": false,
-      "decease_chance": 0,
-      "decease_effect": [
+      "deceaseChance": 0,
+      "deceaseEffects": [
         "falloutmc:example_effect"
       ],
-      "effect": [
-        "falloutmc:example_effect"
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
       ],
-      "effect_duration": 0,
-      "hp_restore": 0,
+      "hpRestore": 0,
       "hunger": 0,
       "plantable": false,
       "radiation": 10,
@@ -553,15 +632,17 @@
     },
     "minecraft:poisonous_potato": {
       "addiction": false,
-      "decease_chance": 0,
-      "decease_effect": [
+      "deceaseChance": 0,
+      "deceaseEffects": [
         "falloutmc:example_effect"
       ],
-      "effect": [
-        "falloutmc:example_effect"
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
       ],
-      "effect_duration": 0,
-      "hp_restore": 0,
+      "hpRestore": 0,
       "hunger": 0,
       "plantable": false,
       "radiation": 10,
@@ -572,15 +653,17 @@
     },
     "minecraft:porkchop": {
       "addiction": false,
-      "decease_chance": 0,
-      "decease_effect": [
+      "deceaseChance": 0,
+      "deceaseEffects": [
         "falloutmc:example_effect"
       ],
-      "effect": [
-        "falloutmc:example_effect"
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
       ],
-      "effect_duration": 0,
-      "hp_restore": 0,
+      "hpRestore": 0,
       "hunger": 0,
       "plantable": false,
       "radiation": 10,
@@ -591,15 +674,17 @@
     },
     "minecraft:potato": {
       "addiction": false,
-      "decease_chance": 0,
-      "decease_effect": [
+      "deceaseChance": 0,
+      "deceaseEffects": [
         "falloutmc:example_effect"
       ],
-      "effect": [
-        "falloutmc:example_effect"
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
       ],
-      "effect_duration": 0,
-      "hp_restore": 0,
+      "hpRestore": 0,
       "hunger": 0,
       "plantable": false,
       "radiation": 10,
@@ -610,15 +695,17 @@
     },
     "minecraft:potion": {
       "addiction": false,
-      "decease_chance": 0,
-      "decease_effect": [
+      "deceaseChance": 0,
+      "deceaseEffects": [
         "falloutmc:example_effect"
       ],
-      "effect": [
-        "falloutmc:example_effect"
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
       ],
-      "effect_duration": 0,
-      "hp_restore": 0,
+      "hpRestore": 0,
       "hunger": 0,
       "plantable": false,
       "radiation": 10,
@@ -629,15 +716,17 @@
     },
     "minecraft:pufferfish": {
       "addiction": false,
-      "decease_chance": 0,
-      "decease_effect": [
+      "deceaseChance": 0,
+      "deceaseEffects": [
         "falloutmc:example_effect"
       ],
-      "effect": [
-        "falloutmc:example_effect"
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
       ],
-      "effect_duration": 0,
-      "hp_restore": 0,
+      "hpRestore": 0,
       "hunger": 0,
       "plantable": false,
       "radiation": 10,
@@ -648,15 +737,17 @@
     },
     "minecraft:pumpkin_pie": {
       "addiction": false,
-      "decease_chance": 0,
-      "decease_effect": [
+      "deceaseChance": 0,
+      "deceaseEffects": [
         "falloutmc:example_effect"
       ],
-      "effect": [
-        "falloutmc:example_effect"
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
       ],
-      "effect_duration": 0,
-      "hp_restore": 0,
+      "hpRestore": 0,
       "hunger": 0,
       "plantable": false,
       "radiation": 10,
@@ -667,15 +758,17 @@
     },
     "minecraft:rabbit": {
       "addiction": false,
-      "decease_chance": 0,
-      "decease_effect": [
+      "deceaseChance": 0,
+      "deceaseEffects": [
         "falloutmc:example_effect"
       ],
-      "effect": [
-        "falloutmc:example_effect"
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
       ],
-      "effect_duration": 0,
-      "hp_restore": 0,
+      "hpRestore": 0,
       "hunger": 0,
       "plantable": false,
       "radiation": 10,
@@ -686,15 +779,17 @@
     },
     "minecraft:rabbit_stew": {
       "addiction": false,
-      "decease_chance": 0,
-      "decease_effect": [
+      "deceaseChance": 0,
+      "deceaseEffects": [
         "falloutmc:example_effect"
       ],
-      "effect": [
-        "falloutmc:example_effect"
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
       ],
-      "effect_duration": 0,
-      "hp_restore": 0,
+      "hpRestore": 0,
       "hunger": 0,
       "plantable": false,
       "radiation": 10,
@@ -705,15 +800,17 @@
     },
     "minecraft:rotten_flesh": {
       "addiction": false,
-      "decease_chance": 0,
-      "decease_effect": [
+      "deceaseChance": 0,
+      "deceaseEffects": [
         "falloutmc:example_effect"
       ],
-      "effect": [
-        "falloutmc:example_effect"
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
       ],
-      "effect_duration": 0,
-      "hp_restore": 0,
+      "hpRestore": 0,
       "hunger": 0,
       "plantable": false,
       "radiation": 10,
@@ -724,15 +821,17 @@
     },
     "minecraft:salmon": {
       "addiction": false,
-      "decease_chance": 0,
-      "decease_effect": [
+      "deceaseChance": 0,
+      "deceaseEffects": [
         "falloutmc:example_effect"
       ],
-      "effect": [
-        "falloutmc:example_effect"
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
       ],
-      "effect_duration": 0,
-      "hp_restore": 0,
+      "hpRestore": 0,
       "hunger": 0,
       "plantable": false,
       "radiation": 10,
@@ -743,15 +842,17 @@
     },
     "minecraft:spider_eye": {
       "addiction": false,
-      "decease_chance": 0,
-      "decease_effect": [
+      "deceaseChance": 0,
+      "deceaseEffects": [
         "falloutmc:example_effect"
       ],
-      "effect": [
-        "falloutmc:example_effect"
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
       ],
-      "effect_duration": 0,
-      "hp_restore": 0,
+      "hpRestore": 0,
       "hunger": 0,
       "plantable": false,
       "radiation": 10,
@@ -762,15 +863,17 @@
     },
     "minecraft:splash_potion": {
       "addiction": false,
-      "decease_chance": 0,
-      "decease_effect": [
+      "deceaseChance": 0,
+      "deceaseEffects": [
         "falloutmc:example_effect"
       ],
-      "effect": [
-        "falloutmc:example_effect"
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
       ],
-      "effect_duration": 0,
-      "hp_restore": 0,
+      "hpRestore": 0,
       "hunger": 0,
       "plantable": false,
       "radiation": 10,
@@ -781,15 +884,17 @@
     },
     "minecraft:suspicious_stew": {
       "addiction": false,
-      "decease_chance": 0,
-      "decease_effect": [
+      "deceaseChance": 0,
+      "deceaseEffects": [
         "falloutmc:example_effect"
       ],
-      "effect": [
-        "falloutmc:example_effect"
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
       ],
-      "effect_duration": 0,
-      "hp_restore": 0,
+      "hpRestore": 0,
       "hunger": 0,
       "plantable": false,
       "radiation": 10,
@@ -800,15 +905,17 @@
     },
     "minecraft:sweet_berries": {
       "addiction": false,
-      "decease_chance": 0,
-      "decease_effect": [
+      "deceaseChance": 0,
+      "deceaseEffects": [
         "falloutmc:example_effect"
       ],
-      "effect": [
-        "falloutmc:example_effect"
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
       ],
-      "effect_duration": 0,
-      "hp_restore": 0,
+      "hpRestore": 0,
       "hunger": 0,
       "plantable": false,
       "radiation": 10,
@@ -819,15 +926,17 @@
     },
     "minecraft:tropical_fish": {
       "addiction": false,
-      "decease_chance": 0,
-      "decease_effect": [
+      "deceaseChance": 0,
+      "deceaseEffects": [
         "falloutmc:example_effect"
       ],
-      "effect": [
-        "falloutmc:example_effect"
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
       ],
-      "effect_duration": 0,
-      "hp_restore": 0,
+      "hpRestore": 0,
       "hunger": 0,
       "plantable": false,
       "radiation": 10,
@@ -838,15 +947,17 @@
     },
     "minecraft:wheat": {
       "addiction": false,
-      "decease_chance": 0,
-      "decease_effect": [
+      "deceaseChance": 0,
+      "deceaseEffects": [
         "falloutmc:example_effect"
       ],
-      "effect": [
-        "falloutmc:example_effect"
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
       ],
-      "effect_duration": 0,
-      "hp_restore": 0,
+      "hpRestore": 0,
       "hunger": 0,
       "plantable": false,
       "radiation": 10,

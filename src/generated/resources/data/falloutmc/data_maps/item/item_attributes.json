@@ -1,9 +1,5 @@
 {
   "values": {
-    "falloutmc:nuka_cola": {
-      "value": 10,
-      "weight": 1.0
-    },
     "minecraft:acacia_button": {
       "value": -1,
       "weight": 0.1
