@@ -1,7 +1,9 @@
-package dev.cassis2310.falloutmc.client;
+package dev.cassis2310.falloutmc.events.client;
 
 import dev.cassis2310.falloutmc.FalloutMc;
-import dev.cassis2310.falloutmc.datagen.codecs.items.Consumables.*;
+import dev.cassis2310.falloutmc.datagen.codecs.items.ItemAttributes;
+import dev.cassis2310.falloutmc.datagen.codecs.items.consumables.FoodAttributes;
+import dev.cassis2310.falloutmc.datagen.codecs.items.consumables.SoupAttributes;
 import net.minecraft.ChatFormatting;
 import net.minecraft.core.Holder;
 import net.minecraft.network.chat.Component;
@@ -14,10 +16,18 @@ import net.neoforged.neoforge.event.entity.player.ItemTooltipEvent;
 
 import static dev.cassis2310.falloutmc.datagen.datamaps.FalloutMcDataMaps.*;
 
+/**
+ * Handles client-side events such as item tooltips.
+ */
 @EventBusSubscriber(modid = FalloutMc.MOD_ID, bus = EventBusSubscriber.Bus.GAME, value = Dist.CLIENT)
 public class ClientEventHandler
 {
 
+    /**
+     * Adds weight information to the tooltips of items.
+     *
+     * @param event the tooltip event
+     */
     @SubscribeEvent
     public static void onTooltip(ItemTooltipEvent event)
     {

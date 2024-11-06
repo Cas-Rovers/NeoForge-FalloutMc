@@ -7,7 +7,8 @@
     "TestMixin"
   ],
   "client": [
-    "InventoryMenuMixin"
+    "InventoryMenuMixin",
+    "client.MinecraftMixin"
   ],
   "server": [],
   "injectors": {

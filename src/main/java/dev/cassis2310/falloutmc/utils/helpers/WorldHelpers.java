@@ -22,7 +22,8 @@ public class WorldHelpers
      */
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    private WorldHelpers() {
+    private WorldHelpers()
+    {
         throw new UnsupportedOperationException("Utility class cannot be instantiated");
     }
 
