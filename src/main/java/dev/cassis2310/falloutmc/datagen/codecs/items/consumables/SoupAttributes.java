@@ -2,10 +2,13 @@ package dev.cassis2310.falloutmc.datagen.codecs.items.consumables;
 
 import com.mojang.serialization.Codec;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
+import dev.cassis2310.falloutmc.datagen.codecs.effects.EffectWithDuration;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.effect.MobEffect;
 
 import java.util.List;
+
+import static dev.cassis2310.falloutmc.datagen.codecs.effects.EffectWithDuration.EFFECT_WITH_DURATION_CODEC;
 
 /**
  * A record representing the attributes of soup items in the mod.
@@ -31,7 +34,7 @@ import java.util.List;
  * @param thirstRestore  The thirst points replenished by the soup.
  * @param weight         The item's weight, affecting inventory management and mechanics.
  */
-public record SoupAttributes(int radiation, int hpRestore, List<MobEffect> effects, int effectDuration, List<MobEffect> deceaseEffects, int deceaseChance, int hungerRestore, int thirstRestore, double weight, boolean recipe, int value)
+public record SoupAttributes(int radiation, int hpRestore, List<EffectWithDuration> effects, List<MobEffect> deceaseEffects, int deceaseChance, int hungerRestore, int thirstRestore, double weight, boolean recipe, int value)
 {
     /**
      * A codec that directly maps to the attributes defined in this record.
@@ -39,8 +42,7 @@ public record SoupAttributes(int radiation, int hpRestore, List<MobEffect> effec
     public static final Codec<SoupAttributes> SOUP_ATTRIBUTES_CODEC = RecordCodecBuilder.create(instance -> instance.group(
             Codec.INT.fieldOf("radiation").forGetter(SoupAttributes::radiation),
             Codec.INT.fieldOf("hpRestore").forGetter(SoupAttributes::hpRestore),
-            BuiltInRegistries.MOB_EFFECT.byNameCodec().listOf().fieldOf("effect").forGetter(SoupAttributes::effects),
-            Codec.INT.fieldOf("effectDuration").forGetter(SoupAttributes::effectDuration),
+            EFFECT_WITH_DURATION_CODEC.listOf().fieldOf("effects").forGetter(SoupAttributes::effects),
             BuiltInRegistries.MOB_EFFECT.byNameCodec().listOf().fieldOf("deceaseEffect").forGetter(SoupAttributes::deceaseEffects),
             Codec.INT.fieldOf("deceaseChance").forGetter(SoupAttributes::deceaseChance),
             Codec.INT.fieldOf("hungerRestore").forGetter(SoupAttributes::hungerRestore),
@@ -58,8 +60,7 @@ public record SoupAttributes(int radiation, int hpRestore, List<MobEffect> effec
             RecordCodecBuilder.create(instance -> instance.group(
                     Codec.INT.fieldOf("radiation").forGetter(SoupAttributes::radiation),
                     Codec.INT.fieldOf("hpRestore").forGetter(SoupAttributes::hpRestore),
-                    BuiltInRegistries.MOB_EFFECT.byNameCodec().listOf().fieldOf("effects").forGetter(SoupAttributes::effects),
-                    Codec.INT.fieldOf("effectDuration").forGetter(SoupAttributes::effectDuration),
+                    EFFECT_WITH_DURATION_CODEC.listOf().fieldOf("effects").forGetter(SoupAttributes::effects),
                     BuiltInRegistries.MOB_EFFECT.byNameCodec().listOf().fieldOf("deceaseEffects").forGetter(SoupAttributes::deceaseEffects),
                     Codec.INT.fieldOf("deceaseChance").forGetter(SoupAttributes::deceaseChance),
                     Codec.INT.fieldOf("hungerRestore").forGetter(SoupAttributes::hungerRestore),

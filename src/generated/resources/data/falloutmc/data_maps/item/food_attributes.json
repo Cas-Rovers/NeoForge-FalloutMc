@@ -13,11 +13,11 @@
         }
       ],
       "hpRestore": 0,
-      "hunger": 0,
+      "hungerRestore": 0,
       "plantable": false,
       "radiation": 10,
       "recipe": false,
-      "thirst": 0,
+      "thirstRestore": 0,
       "value": 10,
       "weight": 1.0
     },
@@ -33,13 +33,13 @@
           "effect": "falloutmc:example_effect"
         }
       ],
-      "hpRestore": 0,
-      "hunger": 0,
-      "plantable": false,
-      "radiation": 10,
+      "hpRestore": 3,
+      "hungerRestore": 10,
+      "plantable": true,
+      "radiation": 5,
       "recipe": false,
-      "thirst": 0,
-      "value": 0,
+      "thirstRestore": 2,
+      "value": 5,
       "weight": 0.2
     },
     "minecraft:baked_potato": {
@@ -54,14 +54,35 @@
           "effect": "falloutmc:example_effect"
         }
       ],
-      "hpRestore": 0,
-      "hunger": 0,
+      "hpRestore": 5,
+      "hungerRestore": 15,
       "plantable": false,
-      "radiation": 10,
-      "recipe": false,
-      "thirst": 0,
-      "value": 0,
+      "radiation": 8,
+      "recipe": true,
+      "thirstRestore": 3,
+      "value": 6,
       "weight": 0.4
+    },
+    "minecraft:beef": {
+      "addiction": false,
+      "deceaseChance": 0,
+      "deceaseEffects": [
+        "falloutmc:example_effect"
+      ],
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
+      ],
+      "hpRestore": 6,
+      "hungerRestore": 12,
+      "plantable": false,
+      "radiation": 15,
+      "recipe": false,
+      "thirstRestore": 2,
+      "value": 8,
+      "weight": 0.5
     },
     "minecraft:beetroot": {
       "addiction": false,
@@ -75,35 +96,14 @@
           "effect": "falloutmc:example_effect"
         }
       ],
-      "hpRestore": 0,
-      "hunger": 0,
-      "plantable": false,
-      "radiation": 10,
+      "hpRestore": 6,
+      "hungerRestore": 5,
+      "plantable": true,
+      "radiation": 3,
       "recipe": false,
-      "thirst": 0,
-      "value": 0,
+      "thirstRestore": 1,
+      "value": 2,
       "weight": 0.3
-    },
-    "minecraft:beetroot_soup": {
-      "addiction": false,
-      "deceaseChance": 0,
-      "deceaseEffects": [
-        "falloutmc:example_effect"
-      ],
-      "effects": [
-        {
-          "duration": 0,
-          "effect": "falloutmc:example_effect"
-        }
-      ],
-      "hpRestore": 0,
-      "hunger": 0,
-      "plantable": false,
-      "radiation": 10,
-      "recipe": false,
-      "thirst": 0,
-      "value": 0,
-      "weight": 0.5
     },
     "minecraft:bread": {
       "addiction": false,
@@ -117,13 +117,13 @@
           "effect": "falloutmc:example_effect"
         }
       ],
-      "hpRestore": 0,
-      "hunger": 0,
+      "hpRestore": 8,
+      "hungerRestore": 7,
       "plantable": false,
-      "radiation": 10,
-      "recipe": false,
-      "thirst": 0,
-      "value": 0,
+      "radiation": 5,
+      "recipe": true,
+      "thirstRestore": 0,
+      "value": 5,
       "weight": 0.4
     },
     "minecraft:cake": {
@@ -138,13 +138,13 @@
           "effect": "falloutmc:example_effect"
         }
       ],
-      "hpRestore": 0,
-      "hunger": 0,
+      "hpRestore": 7,
+      "hungerRestore": 18,
       "plantable": false,
-      "radiation": 10,
-      "recipe": false,
-      "thirst": 0,
-      "value": 0,
+      "radiation": 8,
+      "recipe": true,
+      "thirstRestore": 5,
+      "value": 12,
       "weight": 0.7
     },
     "minecraft:carrot": {
@@ -159,13 +159,13 @@
           "effect": "falloutmc:example_effect"
         }
       ],
-      "hpRestore": 0,
-      "hunger": 0,
-      "plantable": false,
-      "radiation": 10,
+      "hpRestore": 2,
+      "hungerRestore": 5,
+      "plantable": true,
+      "radiation": 2,
       "recipe": false,
-      "thirst": 0,
-      "value": 0,
+      "thirstRestore": 1,
+      "value": 2,
       "weight": 0.3
     },
     "minecraft:chicken": {
@@ -180,13 +180,13 @@
           "effect": "falloutmc:example_effect"
         }
       ],
-      "hpRestore": 0,
-      "hunger": 0,
+      "hpRestore": 3,
+      "hungerRestore": 6,
       "plantable": false,
-      "radiation": 10,
+      "radiation": 4,
       "recipe": false,
-      "thirst": 0,
-      "value": 0,
+      "thirstRestore": 1,
+      "value": 2,
       "weight": 0.4
     },
     "minecraft:chorus_fruit": {
@@ -201,13 +201,13 @@
           "effect": "falloutmc:example_effect"
         }
       ],
-      "hpRestore": 0,
-      "hunger": 0,
+      "hpRestore": 10,
+      "hungerRestore": 20,
       "plantable": false,
       "radiation": 10,
       "recipe": false,
-      "thirst": 0,
-      "value": 0,
+      "thirstRestore": 20,
+      "value": 33,
       "weight": 0.4
     },
     "minecraft:cod": {
@@ -222,13 +222,13 @@
           "effect": "falloutmc:example_effect"
         }
       ],
-      "hpRestore": 0,
-      "hunger": 0,
+      "hpRestore": 6,
+      "hungerRestore": 6,
       "plantable": false,
-      "radiation": 10,
+      "radiation": 6,
       "recipe": false,
-      "thirst": 0,
-      "value": 0,
+      "thirstRestore": 2,
+      "value": 4,
       "weight": 0.5
     },
     "minecraft:cooked_beef": {
@@ -243,13 +243,13 @@
           "effect": "falloutmc:example_effect"
         }
       ],
-      "hpRestore": 0,
-      "hunger": 0,
+      "hpRestore": 6,
+      "hungerRestore": 15,
       "plantable": false,
-      "radiation": 10,
+      "radiation": 8,
       "recipe": false,
-      "thirst": 0,
-      "value": 0,
+      "thirstRestore": 1,
+      "value": 15,
       "weight": 0.6
     },
     "minecraft:cooked_chicken": {
@@ -264,13 +264,13 @@
           "effect": "falloutmc:example_effect"
         }
       ],
-      "hpRestore": 0,
-      "hunger": 0,
+      "hpRestore": 6,
+      "hungerRestore": 17,
       "plantable": false,
-      "radiation": 10,
+      "radiation": 5,
       "recipe": false,
-      "thirst": 0,
-      "value": 0,
+      "thirstRestore": 2,
+      "value": 15,
       "weight": 0.5
     },
     "minecraft:cooked_cod": {
@@ -285,13 +285,13 @@
           "effect": "falloutmc:example_effect"
         }
       ],
-      "hpRestore": 0,
-      "hunger": 0,
+      "hpRestore": 8,
+      "hungerRestore": 12,
       "plantable": false,
-      "radiation": 10,
+      "radiation": 5,
       "recipe": false,
-      "thirst": 0,
-      "value": 0,
+      "thirstRestore": 1,
+      "value": 15,
       "weight": 0.4
     },
     "minecraft:cooked_mutton": {
@@ -306,13 +306,13 @@
           "effect": "falloutmc:example_effect"
         }
       ],
-      "hpRestore": 0,
-      "hunger": 0,
+      "hpRestore": 7,
+      "hungerRestore": 13,
       "plantable": false,
-      "radiation": 10,
+      "radiation": 9,
       "recipe": false,
-      "thirst": 0,
-      "value": 0,
+      "thirstRestore": 1,
+      "value": 15,
       "weight": 0.5
     },
     "minecraft:cooked_porkchop": {
@@ -327,13 +327,13 @@
           "effect": "falloutmc:example_effect"
         }
       ],
-      "hpRestore": 0,
-      "hunger": 0,
+      "hpRestore": 6,
+      "hungerRestore": 12,
       "plantable": false,
       "radiation": 10,
       "recipe": false,
-      "thirst": 0,
-      "value": 0,
+      "thirstRestore": 1,
+      "value": 15,
       "weight": 0.6
     },
     "minecraft:cooked_rabbit": {
@@ -348,13 +348,13 @@
           "effect": "falloutmc:example_effect"
         }
       ],
-      "hpRestore": 0,
-      "hunger": 0,
+      "hpRestore": 8,
+      "hungerRestore": 10,
       "plantable": false,
-      "radiation": 10,
+      "radiation": 3,
       "recipe": false,
-      "thirst": 0,
-      "value": 0,
+      "thirstRestore": 2,
+      "value": 15,
       "weight": 0.5
     },
     "minecraft:cooked_salmon": {
@@ -369,13 +369,13 @@
           "effect": "falloutmc:example_effect"
         }
       ],
-      "hpRestore": 0,
-      "hunger": 0,
+      "hpRestore": 5,
+      "hungerRestore": 14,
       "plantable": false,
-      "radiation": 10,
+      "radiation": 2,
       "recipe": false,
-      "thirst": 0,
-      "value": 0,
+      "thirstRestore": 1,
+      "value": 15,
       "weight": 0.4
     },
     "minecraft:cookie": {
@@ -390,13 +390,13 @@
           "effect": "falloutmc:example_effect"
         }
       ],
-      "hpRestore": 0,
-      "hunger": 0,
+      "hpRestore": 7,
+      "hungerRestore": 5,
       "plantable": false,
-      "radiation": 10,
+      "radiation": 4,
       "recipe": false,
-      "thirst": 0,
-      "value": 0,
+      "thirstRestore": 0,
+      "value": 12,
       "weight": 0.15
     },
     "minecraft:dried_kelp": {
@@ -411,13 +411,13 @@
           "effect": "falloutmc:example_effect"
         }
       ],
-      "hpRestore": 0,
-      "hunger": 0,
+      "hpRestore": 4,
+      "hungerRestore": 8,
       "plantable": false,
-      "radiation": 10,
+      "radiation": 14,
       "recipe": false,
-      "thirst": 0,
-      "value": 0,
+      "thirstRestore": 0,
+      "value": 4,
       "weight": 0.1
     },
     "minecraft:enchanted_golden_apple": {
@@ -432,13 +432,13 @@
           "effect": "falloutmc:example_effect"
         }
       ],
-      "hpRestore": 0,
-      "hunger": 0,
+      "hpRestore": 30,
+      "hungerRestore": 30,
       "plantable": false,
-      "radiation": 10,
+      "radiation": 0,
       "recipe": false,
-      "thirst": 0,
-      "value": 0,
+      "thirstRestore": 30,
+      "value": 100,
       "weight": 3.0
     },
     "minecraft:glow_berries": {
@@ -453,13 +453,13 @@
           "effect": "falloutmc:example_effect"
         }
       ],
-      "hpRestore": 0,
-      "hunger": 0,
+      "hpRestore": 4,
+      "hungerRestore": 6,
       "plantable": false,
-      "radiation": 10,
+      "radiation": 16,
       "recipe": false,
-      "thirst": 0,
-      "value": 0,
+      "thirstRestore": 4,
+      "value": 5,
       "weight": 0.2
     },
     "minecraft:golden_apple": {
@@ -474,13 +474,13 @@
           "effect": "falloutmc:example_effect"
         }
       ],
-      "hpRestore": 0,
-      "hunger": 0,
+      "hpRestore": 19,
+      "hungerRestore": 12,
       "plantable": false,
-      "radiation": 10,
+      "radiation": 2,
       "recipe": false,
-      "thirst": 0,
-      "value": 0,
+      "thirstRestore": 14,
+      "value": 50,
       "weight": 2.0
     },
     "minecraft:golden_carrot": {
@@ -495,13 +495,13 @@
           "effect": "falloutmc:example_effect"
         }
       ],
-      "hpRestore": 0,
-      "hunger": 0,
+      "hpRestore": 15,
+      "hungerRestore": 11,
       "plantable": false,
-      "radiation": 10,
+      "radiation": 2,
       "recipe": false,
-      "thirst": 0,
-      "value": 0,
+      "thirstRestore": 3,
+      "value": 33,
       "weight": 0.5
     },
     "minecraft:honey_bottle": {
@@ -516,13 +516,13 @@
           "effect": "falloutmc:example_effect"
         }
       ],
-      "hpRestore": 0,
-      "hunger": 0,
+      "hpRestore": 3,
+      "hungerRestore": 12,
       "plantable": false,
-      "radiation": 10,
+      "radiation": 7,
       "recipe": false,
-      "thirst": 0,
-      "value": 0,
+      "thirstRestore": 3,
+      "value": 12,
       "weight": 0.5
     },
     "minecraft:lingering_potion": {
@@ -538,11 +538,11 @@
         }
       ],
       "hpRestore": 0,
-      "hunger": 0,
+      "hungerRestore": 0,
       "plantable": false,
-      "radiation": 10,
+      "radiation": 20,
       "recipe": false,
-      "thirst": 0,
+      "thirstRestore": 12,
       "value": 0,
       "weight": 1.0
     },
@@ -558,13 +558,13 @@
           "effect": "falloutmc:example_effect"
         }
       ],
-      "hpRestore": 0,
-      "hunger": 0,
+      "hpRestore": 2,
+      "hungerRestore": 4,
       "plantable": false,
-      "radiation": 10,
+      "radiation": 3,
       "recipe": false,
-      "thirst": 0,
-      "value": 0,
+      "thirstRestore": 15,
+      "value": 2,
       "weight": 0.25
     },
     "minecraft:milk_bucket": {
@@ -579,35 +579,14 @@
           "effect": "falloutmc:example_effect"
         }
       ],
-      "hpRestore": 0,
-      "hunger": 0,
+      "hpRestore": 6,
+      "hungerRestore": 2,
       "plantable": false,
-      "radiation": 10,
+      "radiation": 4,
       "recipe": false,
-      "thirst": 0,
-      "value": 0,
+      "thirstRestore": 20,
+      "value": 6,
       "weight": 1.0
-    },
-    "minecraft:mushroom_stew": {
-      "addiction": false,
-      "deceaseChance": 0,
-      "deceaseEffects": [
-        "falloutmc:example_effect"
-      ],
-      "effects": [
-        {
-          "duration": 0,
-          "effect": "falloutmc:example_effect"
-        }
-      ],
-      "hpRestore": 0,
-      "hunger": 0,
-      "plantable": false,
-      "radiation": 10,
-      "recipe": false,
-      "thirst": 0,
-      "value": 0,
-      "weight": 0.5
     },
     "minecraft:mutton": {
       "addiction": false,
@@ -621,13 +600,13 @@
           "effect": "falloutmc:example_effect"
         }
       ],
-      "hpRestore": 0,
-      "hunger": 0,
+      "hpRestore": 6,
+      "hungerRestore": 11,
       "plantable": false,
-      "radiation": 10,
+      "radiation": 11,
       "recipe": false,
-      "thirst": 0,
-      "value": 0,
+      "thirstRestore": 1,
+      "value": 5,
       "weight": 0.5
     },
     "minecraft:poisonous_potato": {
@@ -643,12 +622,12 @@
         }
       ],
       "hpRestore": 0,
-      "hunger": 0,
+      "hungerRestore": 4,
       "plantable": false,
-      "radiation": 10,
+      "radiation": 25,
       "recipe": false,
-      "thirst": 0,
-      "value": 0,
+      "thirstRestore": 1,
+      "value": 1,
       "weight": 0.2
     },
     "minecraft:porkchop": {
@@ -663,13 +642,13 @@
           "effect": "falloutmc:example_effect"
         }
       ],
-      "hpRestore": 0,
-      "hunger": 0,
+      "hpRestore": 4,
+      "hungerRestore": 9,
       "plantable": false,
-      "radiation": 10,
+      "radiation": 12,
       "recipe": false,
-      "thirst": 0,
-      "value": 0,
+      "thirstRestore": 2,
+      "value": 7,
       "weight": 0.6
     },
     "minecraft:potato": {
@@ -684,13 +663,13 @@
           "effect": "falloutmc:example_effect"
         }
       ],
-      "hpRestore": 0,
-      "hunger": 0,
+      "hpRestore": 4,
+      "hungerRestore": 11,
       "plantable": false,
       "radiation": 10,
       "recipe": false,
-      "thirst": 0,
-      "value": 0,
+      "thirstRestore": 0,
+      "value": 4,
       "weight": 0.3
     },
     "minecraft:potion": {
@@ -706,11 +685,11 @@
         }
       ],
       "hpRestore": 0,
-      "hunger": 0,
+      "hungerRestore": 0,
       "plantable": false,
-      "radiation": 10,
+      "radiation": 20,
       "recipe": false,
-      "thirst": 0,
+      "thirstRestore": 12,
       "value": 0,
       "weight": 1.0
     },
@@ -726,13 +705,13 @@
           "effect": "falloutmc:example_effect"
         }
       ],
-      "hpRestore": 0,
-      "hunger": 0,
+      "hpRestore": 1,
+      "hungerRestore": 3,
       "plantable": false,
-      "radiation": 10,
+      "radiation": 12,
       "recipe": false,
-      "thirst": 0,
-      "value": 0,
+      "thirstRestore": 10,
+      "value": 4,
       "weight": 0.5
     },
     "minecraft:pumpkin_pie": {
@@ -747,13 +726,13 @@
           "effect": "falloutmc:example_effect"
         }
       ],
-      "hpRestore": 0,
-      "hunger": 0,
+      "hpRestore": 7,
+      "hungerRestore": 15,
       "plantable": false,
-      "radiation": 10,
+      "radiation": 6,
       "recipe": false,
-      "thirst": 0,
-      "value": 0,
+      "thirstRestore": 1,
+      "value": 15,
       "weight": 0.7
     },
     "minecraft:rabbit": {
@@ -768,35 +747,14 @@
           "effect": "falloutmc:example_effect"
         }
       ],
-      "hpRestore": 0,
-      "hunger": 0,
+      "hpRestore": 3,
+      "hungerRestore": 8,
       "plantable": false,
-      "radiation": 10,
+      "radiation": 9,
       "recipe": false,
-      "thirst": 0,
+      "thirstRestore": 1,
       "value": 0,
       "weight": 0.5
-    },
-    "minecraft:rabbit_stew": {
-      "addiction": false,
-      "deceaseChance": 0,
-      "deceaseEffects": [
-        "falloutmc:example_effect"
-      ],
-      "effects": [
-        {
-          "duration": 0,
-          "effect": "falloutmc:example_effect"
-        }
-      ],
-      "hpRestore": 0,
-      "hunger": 0,
-      "plantable": false,
-      "radiation": 10,
-      "recipe": false,
-      "thirst": 0,
-      "value": 0,
-      "weight": 0.6
     },
     "minecraft:rotten_flesh": {
       "addiction": false,
@@ -810,13 +768,13 @@
           "effect": "falloutmc:example_effect"
         }
       ],
-      "hpRestore": 0,
-      "hunger": 0,
+      "hpRestore": 1,
+      "hungerRestore": 5,
       "plantable": false,
-      "radiation": 10,
+      "radiation": 35,
       "recipe": false,
-      "thirst": 0,
-      "value": 0,
+      "thirstRestore": 0,
+      "value": 1,
       "weight": 0.5
     },
     "minecraft:salmon": {
@@ -831,13 +789,13 @@
           "effect": "falloutmc:example_effect"
         }
       ],
-      "hpRestore": 0,
-      "hunger": 0,
+      "hpRestore": 4,
+      "hungerRestore": 6,
       "plantable": false,
-      "radiation": 10,
+      "radiation": 4,
       "recipe": false,
-      "thirst": 0,
-      "value": 0,
+      "thirstRestore": 3,
+      "value": 5,
       "weight": 0.5
     },
     "minecraft:spider_eye": {
@@ -852,13 +810,13 @@
           "effect": "falloutmc:example_effect"
         }
       ],
-      "hpRestore": 0,
-      "hunger": 0,
+      "hpRestore": 1,
+      "hungerRestore": 7,
       "plantable": false,
-      "radiation": 10,
+      "radiation": 15,
       "recipe": false,
-      "thirst": 0,
-      "value": 0,
+      "thirstRestore": 2,
+      "value": 3,
       "weight": 0.25
     },
     "minecraft:splash_potion": {
@@ -874,34 +832,13 @@
         }
       ],
       "hpRestore": 0,
-      "hunger": 0,
+      "hungerRestore": 0,
       "plantable": false,
-      "radiation": 10,
+      "radiation": 20,
       "recipe": false,
-      "thirst": 0,
+      "thirstRestore": 12,
       "value": 0,
       "weight": 1.0
-    },
-    "minecraft:suspicious_stew": {
-      "addiction": false,
-      "deceaseChance": 0,
-      "deceaseEffects": [
-        "falloutmc:example_effect"
-      ],
-      "effects": [
-        {
-          "duration": 0,
-          "effect": "falloutmc:example_effect"
-        }
-      ],
-      "hpRestore": 0,
-      "hunger": 0,
-      "plantable": false,
-      "radiation": 10,
-      "recipe": false,
-      "thirst": 0,
-      "value": 0,
-      "weight": 0.8
     },
     "minecraft:sweet_berries": {
       "addiction": false,
@@ -915,13 +852,13 @@
           "effect": "falloutmc:example_effect"
         }
       ],
-      "hpRestore": 0,
-      "hunger": 0,
+      "hpRestore": 3,
+      "hungerRestore": 5,
       "plantable": false,
-      "radiation": 10,
+      "radiation": 9,
       "recipe": false,
-      "thirst": 0,
-      "value": 0,
+      "thirstRestore": 3,
+      "value": 4,
       "weight": 0.2
     },
     "minecraft:tropical_fish": {
@@ -936,13 +873,13 @@
           "effect": "falloutmc:example_effect"
         }
       ],
-      "hpRestore": 0,
-      "hunger": 0,
+      "hpRestore": 4,
+      "hungerRestore": 7,
       "plantable": false,
-      "radiation": 10,
+      "radiation": 13,
       "recipe": false,
-      "thirst": 0,
-      "value": 0,
+      "thirstRestore": 6,
+      "value": 6,
       "weight": 0.3
     },
     "minecraft:wheat": {
@@ -957,13 +894,13 @@
           "effect": "falloutmc:example_effect"
         }
       ],
-      "hpRestore": 0,
-      "hunger": 0,
+      "hpRestore": 2,
+      "hungerRestore": 2,
       "plantable": false,
-      "radiation": 10,
+      "radiation": 14,
       "recipe": false,
-      "thirst": 0,
-      "value": 0,
+      "thirstRestore": 0,
+      "value": 1,
       "weight": 0.25
     }
   }
