@@ -1,0 +1,80 @@
+{
+  "values": {
+    "minecraft:beetroot_soup": {
+      "deceaseChance": 0,
+      "deceaseEffects": [
+        "falloutmc:example_effect"
+      ],
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
+      ],
+      "hpRestore": 8,
+      "hungerRestore": 10,
+      "radiation": 5,
+      "recipe": true,
+      "thirstRestore": 15,
+      "value": 5,
+      "weight": 0.5
+    },
+    "minecraft:mushroom_stew": {
+      "deceaseChance": 0,
+      "deceaseEffects": [
+        "falloutmc:example_effect"
+      ],
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
+      ],
+      "hpRestore": 25,
+      "hungerRestore": 10,
+      "radiation": 5,
+      "recipe": true,
+      "thirstRestore": 15,
+      "value": 12,
+      "weight": 0.5
+    },
+    "minecraft:rabbit_stew": {
+      "deceaseChance": 0,
+      "deceaseEffects": [
+        "falloutmc:example_effect"
+      ],
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
+      ],
+      "hpRestore": 11,
+      "hungerRestore": 10,
+      "radiation": 5,
+      "recipe": true,
+      "thirstRestore": 15,
+      "value": 7,
+      "weight": 0.6
+    },
+    "minecraft:suspicious_stew": {
+      "deceaseChance": 0,
+      "deceaseEffects": [
+        "falloutmc:example_effect"
+      ],
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
+      ],
+      "hpRestore": 30,
+      "hungerRestore": 10,
+      "radiation": 5,
+      "recipe": true,
+      "thirstRestore": 15,
+      "value": 25,
+      "weight": 0.8
+    }
+  }
+}
