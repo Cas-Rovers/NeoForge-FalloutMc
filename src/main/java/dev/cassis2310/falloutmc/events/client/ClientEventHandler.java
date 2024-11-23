@@ -2,6 +2,7 @@ package dev.cassis2310.falloutmc.events.client;
 
 import dev.cassis2310.falloutmc.FalloutMc;
 import dev.cassis2310.falloutmc.datagen.codecs.items.ItemAttributes;
+import dev.cassis2310.falloutmc.datagen.codecs.items.consumables.DrinkAttributes;
 import dev.cassis2310.falloutmc.datagen.codecs.items.consumables.FoodAttributes;
 import dev.cassis2310.falloutmc.datagen.codecs.items.consumables.SoupAttributes;
 import net.minecraft.ChatFormatting;
@@ -36,6 +37,7 @@ public class ClientEventHandler
         ItemAttributes itemData = holder.getData(ITEM_ATTRIBUTES);
         FoodAttributes foodData = holder.getData(FOOD_ATTRIBUTES);
         SoupAttributes soupData = holder.getData(SOUP_ATTRIBUTES);
+        DrinkAttributes drinkData = holder.getData(DRINK_ATTRIBUTES);
 
 
         if (itemData != null)
@@ -53,6 +55,12 @@ public class ClientEventHandler
         if (soupData != null)
         {
             event.getToolTip().add(Component.translatable("tooltip.item.weight", soupData.weight())
+                    .withStyle(ChatFormatting.GRAY));
+        }
+
+        if (drinkData != null)
+        {
+            event.getToolTip().add(Component.translatable("tooltip.item.weight", drinkData.weight())
                     .withStyle(ChatFormatting.GRAY));
         }
     }

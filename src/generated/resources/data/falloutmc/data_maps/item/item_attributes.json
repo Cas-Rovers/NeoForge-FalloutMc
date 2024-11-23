@@ -16,9 +16,13 @@
       "value": -1,
       "weight": 4.5
     },
+    "minecraft:acacia_leaves": {
+      "value": -1,
+      "weight": 0.3
+    },
     "minecraft:acacia_log": {
       "value": -1,
-      "weight": 12.0
+      "weight": 9.0
     },
     "minecraft:acacia_planks": {
       "value": -1,
@@ -27,6 +31,10 @@
     "minecraft:acacia_pressure_plate": {
       "value": -1,
       "weight": 0.5
+    },
+    "minecraft:acacia_sapling": {
+      "value": 2,
+      "weight": 0.1
     },
     "minecraft:acacia_sign": {
       "value": -1,
@@ -48,13 +56,25 @@
       "value": -1,
       "weight": 10.0
     },
+    "minecraft:allium": {
+      "value": 4,
+      "weight": 0.02
+    },
     "minecraft:amethyst_block": {
       "value": -1,
-      "weight": 6.0
+      "weight": 19.0
+    },
+    "minecraft:amethyst_cluster": {
+      "value": -1,
+      "weight": 4.0
+    },
+    "minecraft:ancient_debris": {
+      "value": -1,
+      "weight": 30.0
     },
     "minecraft:andesite": {
       "value": -1,
-      "weight": 7.0
+      "weight": 5.5
     },
     "minecraft:andesite_slab": {
       "value": -1,
@@ -67,6 +87,22 @@
     "minecraft:andesite_wall": {
       "value": -1,
       "weight": 7.0
+    },
+    "minecraft:azalea": {
+      "value": -1,
+      "weight": 0.15
+    },
+    "minecraft:azalea_leaves": {
+      "value": -1,
+      "weight": 0.4
+    },
+    "minecraft:azure_bluet": {
+      "value": 3,
+      "weight": 0.02
+    },
+    "minecraft:bamboo": {
+      "value": 2,
+      "weight": 0.3
     },
     "minecraft:bamboo_block": {
       "value": -1,
@@ -126,7 +162,23 @@
     },
     "minecraft:basalt": {
       "value": -1,
-      "weight": 5.0
+      "weight": 6.5
+    },
+    "minecraft:bedrock": {
+      "value": -1,
+      "weight": 100.0
+    },
+    "minecraft:bee_nest": {
+      "value": 50,
+      "weight": 4.0
+    },
+    "minecraft:beetroot_seeds": {
+      "value": 1,
+      "weight": 0.05
+    },
+    "minecraft:big_dripleaf": {
+      "value": -1,
+      "weight": 1.0
     },
     "minecraft:birch_button": {
       "value": -1,
@@ -144,9 +196,13 @@
       "value": -1,
       "weight": 4.0
     },
+    "minecraft:birch_leaves": {
+      "value": -1,
+      "weight": 0.3
+    },
     "minecraft:birch_log": {
       "value": -1,
-      "weight": 12.0
+      "weight": 7.5
     },
     "minecraft:birch_planks": {
       "value": -1,
@@ -155,6 +211,10 @@
     "minecraft:birch_pressure_plate": {
       "value": -1,
       "weight": 0.4
+    },
+    "minecraft:birch_sapling": {
+      "value": 2,
+      "weight": 0.1
     },
     "minecraft:birch_sign": {
       "value": -1,
@@ -176,9 +236,57 @@
       "value": -1,
       "weight": 9.5
     },
+    "minecraft:black_banner": {
+      "value": -1,
+      "weight": 0.8
+    },
+    "minecraft:black_bed": {
+      "value": -1,
+      "weight": 5.5
+    },
+    "minecraft:black_candle": {
+      "value": -1,
+      "weight": 0.1
+    },
+    "minecraft:black_carpet": {
+      "value": -1,
+      "weight": 0.4
+    },
+    "minecraft:black_concrete": {
+      "value": -1,
+      "weight": 10.5
+    },
+    "minecraft:black_concrete_powder": {
+      "value": -1,
+      "weight": 5.7
+    },
+    "minecraft:black_glazed_terracotta": {
+      "value": -1,
+      "weight": 6.5
+    },
+    "minecraft:black_shulker_box": {
+      "value": -1,
+      "weight": 2.5
+    },
+    "minecraft:black_stained_glass": {
+      "value": -1,
+      "weight": 3.2
+    },
+    "minecraft:black_stained_glass_pane": {
+      "value": -1,
+      "weight": 0.6
+    },
+    "minecraft:black_terracotta": {
+      "value": -1,
+      "weight": 6.0
+    },
+    "minecraft:black_wool": {
+      "value": -1,
+      "weight": 0.75
+    },
     "minecraft:blackstone": {
       "value": -1,
-      "weight": 5.0
+      "weight": 6.5
     },
     "minecraft:blackstone_slab": {
       "value": -1,
@@ -191,6 +299,78 @@
     "minecraft:blackstone_wall": {
       "value": -1,
       "weight": 6.0
+    },
+    "minecraft:blue_banner": {
+      "value": -1,
+      "weight": 0.8
+    },
+    "minecraft:blue_bed": {
+      "value": -1,
+      "weight": 5.0
+    },
+    "minecraft:blue_candle": {
+      "value": -1,
+      "weight": 0.1
+    },
+    "minecraft:blue_carpet": {
+      "value": -1,
+      "weight": 0.3
+    },
+    "minecraft:blue_concrete": {
+      "value": -1,
+      "weight": 10.0
+    },
+    "minecraft:blue_concrete_powder": {
+      "value": -1,
+      "weight": 5.5
+    },
+    "minecraft:blue_glazed_terracotta": {
+      "value": -1,
+      "weight": 6.0
+    },
+    "minecraft:blue_ice": {
+      "value": -1,
+      "weight": 7.5
+    },
+    "minecraft:blue_orchid": {
+      "value": 5,
+      "weight": 0.02
+    },
+    "minecraft:blue_shulker_box": {
+      "value": -1,
+      "weight": 2.5
+    },
+    "minecraft:blue_stained_glass": {
+      "value": -1,
+      "weight": 3.1
+    },
+    "minecraft:blue_stained_glass_pane": {
+      "value": -1,
+      "weight": 0.6
+    },
+    "minecraft:blue_terracotta": {
+      "value": -1,
+      "weight": 5.5
+    },
+    "minecraft:blue_wool": {
+      "value": -1,
+      "weight": 0.5
+    },
+    "minecraft:bone_block": {
+      "value": -1,
+      "weight": 7.0
+    },
+    "minecraft:brain_coral": {
+      "value": 15,
+      "weight": 1.0
+    },
+    "minecraft:brain_coral_block": {
+      "value": 40,
+      "weight": 4.0
+    },
+    "minecraft:brain_coral_fan": {
+      "value": 8,
+      "weight": 0.5
     },
     "minecraft:brick_slab": {
       "value": -1,
@@ -207,6 +387,94 @@
     "minecraft:bricks": {
       "value": -1,
       "weight": 4.0
+    },
+    "minecraft:brown_banner": {
+      "value": -1,
+      "weight": 0.8
+    },
+    "minecraft:brown_bed": {
+      "value": -1,
+      "weight": 5.5
+    },
+    "minecraft:brown_candle": {
+      "value": -1,
+      "weight": 0.1
+    },
+    "minecraft:brown_carpet": {
+      "value": -1,
+      "weight": 0.4
+    },
+    "minecraft:brown_concrete": {
+      "value": -1,
+      "weight": 10.5
+    },
+    "minecraft:brown_concrete_powder": {
+      "value": -1,
+      "weight": 5.7
+    },
+    "minecraft:brown_glazed_terracotta": {
+      "value": -1,
+      "weight": 6.5
+    },
+    "minecraft:brown_mushroom": {
+      "value": 5,
+      "weight": 0.05
+    },
+    "minecraft:brown_mushroom_block": {
+      "value": -1,
+      "weight": 1.0
+    },
+    "minecraft:brown_shulker_box": {
+      "value": -1,
+      "weight": 2.5
+    },
+    "minecraft:brown_stained_glass": {
+      "value": -1,
+      "weight": 3.2
+    },
+    "minecraft:brown_stained_glass_pane": {
+      "value": -1,
+      "weight": 0.6
+    },
+    "minecraft:brown_terracotta": {
+      "value": -1,
+      "weight": 6.0
+    },
+    "minecraft:brown_wool": {
+      "value": -1,
+      "weight": 0.75
+    },
+    "minecraft:bubble_coral": {
+      "value": 12,
+      "weight": 1.0
+    },
+    "minecraft:bubble_coral_block": {
+      "value": 35,
+      "weight": 4.0
+    },
+    "minecraft:bubble_coral_fan": {
+      "value": 7,
+      "weight": 0.5
+    },
+    "minecraft:budding_amethyst": {
+      "value": -1,
+      "weight": 5.5
+    },
+    "minecraft:cactus": {
+      "value": -1,
+      "weight": 1.0
+    },
+    "minecraft:calcite": {
+      "value": -1,
+      "weight": 5.0
+    },
+    "minecraft:candle": {
+      "value": -1,
+      "weight": 0.1
+    },
+    "minecraft:carved_pumpkin": {
+      "value": 8,
+      "weight": 3.0
     },
     "minecraft:chain": {
       "value": -1,
@@ -228,9 +496,13 @@
       "value": -1,
       "weight": 4.5
     },
+    "minecraft:cherry_leaves": {
+      "value": -1,
+      "weight": 0.3
+    },
     "minecraft:cherry_log": {
       "value": -1,
-      "weight": 11.0
+      "weight": 8.5
     },
     "minecraft:cherry_planks": {
       "value": -1,
@@ -239,6 +511,10 @@
     "minecraft:cherry_pressure_plate": {
       "value": -1,
       "weight": 0.6
+    },
+    "minecraft:cherry_sapling": {
+      "value": 2,
+      "weight": 0.1
     },
     "minecraft:cherry_sign": {
       "value": -1,
@@ -300,9 +576,29 @@
       "value": -1,
       "weight": 5.5
     },
+    "minecraft:chorus_flower": {
+      "value": 12,
+      "weight": 0.7
+    },
+    "minecraft:chorus_plant": {
+      "value": -1,
+      "weight": 1.5
+    },
+    "minecraft:clay": {
+      "value": -1,
+      "weight": 5.5
+    },
     "minecraft:coal_block": {
       "value": -1,
       "weight": 6.0
+    },
+    "minecraft:coal_ore": {
+      "value": -1,
+      "weight": 8.0
+    },
+    "minecraft:coarse_dirt": {
+      "value": -1,
+      "weight": 8.0
     },
     "minecraft:cobbled_deepslate": {
       "value": -1,
@@ -336,6 +632,14 @@
       "value": -1,
       "weight": 5.0
     },
+    "minecraft:cobweb": {
+      "value": 10,
+      "weight": 1.0
+    },
+    "minecraft:cocoa_beans": {
+      "value": 3,
+      "weight": 0.1
+    },
     "minecraft:copper_block": {
       "value": -1,
       "weight": 5.0
@@ -352,9 +656,17 @@
       "value": -1,
       "weight": 3.5
     },
+    "minecraft:copper_ore": {
+      "value": -1,
+      "weight": 7.0
+    },
     "minecraft:copper_trapdoor": {
       "value": -1,
       "weight": 4.0
+    },
+    "minecraft:cornflower": {
+      "value": 5,
+      "weight": 0.02
     },
     "minecraft:cracked_deepslate_bricks": {
       "value": -1,
@@ -392,9 +704,17 @@
       "value": -1,
       "weight": 1.2
     },
+    "minecraft:crimson_fungus": {
+      "value": 9,
+      "weight": 0.1
+    },
     "minecraft:crimson_hyphae": {
       "value": -1,
       "weight": 1.8
+    },
+    "minecraft:crimson_nylium": {
+      "value": -1,
+      "weight": 5.0
     },
     "minecraft:crimson_planks": {
       "value": -1,
@@ -402,6 +722,10 @@
     },
     "minecraft:crimson_pressure_plate": {
       "value": -1,
+      "weight": 0.7
+    },
+    "minecraft:crimson_roots": {
+      "value": 8,
       "weight": 0.7
     },
     "minecraft:crimson_sign": {
@@ -418,11 +742,15 @@
     },
     "minecraft:crimson_stem": {
       "value": -1,
-      "weight": 2.5
+      "weight": 7.0
     },
     "minecraft:crimson_trapdoor": {
       "value": -1,
       "weight": 1.2
+    },
+    "minecraft:crying_obsidian": {
+      "value": -1,
+      "weight": 10.0
     },
     "minecraft:cut_copper": {
       "value": -1,
@@ -452,6 +780,58 @@
       "value": -1,
       "weight": 4.5
     },
+    "minecraft:cyan_banner": {
+      "value": -1,
+      "weight": 0.8
+    },
+    "minecraft:cyan_bed": {
+      "value": -1,
+      "weight": 5.0
+    },
+    "minecraft:cyan_candle": {
+      "value": -1,
+      "weight": 0.1
+    },
+    "minecraft:cyan_carpet": {
+      "value": -1,
+      "weight": 0.3
+    },
+    "minecraft:cyan_concrete": {
+      "value": -1,
+      "weight": 10.0
+    },
+    "minecraft:cyan_concrete_powder": {
+      "value": -1,
+      "weight": 5.5
+    },
+    "minecraft:cyan_glazed_terracotta": {
+      "value": -1,
+      "weight": 6.0
+    },
+    "minecraft:cyan_shulker_box": {
+      "value": -1,
+      "weight": 2.5
+    },
+    "minecraft:cyan_stained_glass": {
+      "value": -1,
+      "weight": 3.1
+    },
+    "minecraft:cyan_stained_glass_pane": {
+      "value": -1,
+      "weight": 0.6
+    },
+    "minecraft:cyan_terracotta": {
+      "value": -1,
+      "weight": 5.5
+    },
+    "minecraft:cyan_wool": {
+      "value": -1,
+      "weight": 0.5
+    },
+    "minecraft:dandelion": {
+      "value": 2,
+      "weight": 0.02
+    },
     "minecraft:dark_oak_button": {
       "value": -1,
       "weight": 0.1
@@ -468,9 +848,13 @@
       "value": -1,
       "weight": 5.5
     },
+    "minecraft:dark_oak_leaves": {
+      "value": -1,
+      "weight": 0.3
+    },
     "minecraft:dark_oak_log": {
       "value": -1,
-      "weight": 14.0
+      "weight": 9.5
     },
     "minecraft:dark_oak_planks": {
       "value": -1,
@@ -479,6 +863,10 @@
     "minecraft:dark_oak_pressure_plate": {
       "value": -1,
       "weight": 0.6
+    },
+    "minecraft:dark_oak_sapling": {
+      "value": 2,
+      "weight": 0.1
     },
     "minecraft:dark_oak_sign": {
       "value": -1,
@@ -512,9 +900,61 @@
       "value": -1,
       "weight": 6.0
     },
+    "minecraft:dead_brain_coral": {
+      "value": 5,
+      "weight": 0.8
+    },
+    "minecraft:dead_brain_coral_block": {
+      "value": 10,
+      "weight": 3.5
+    },
+    "minecraft:dead_brain_coral_fan": {
+      "value": 2,
+      "weight": 0.3
+    },
+    "minecraft:dead_bubble_coral": {
+      "value": 4,
+      "weight": 0.8
+    },
+    "minecraft:dead_bubble_coral_block": {
+      "value": 8,
+      "weight": 3.5
+    },
+    "minecraft:dead_bubble_coral_fan": {
+      "value": 1,
+      "weight": 0.3
+    },
+    "minecraft:dead_bush": {
+      "value": 1,
+      "weight": 0.07
+    },
+    "minecraft:dead_fire_coral": {
+      "value": 6,
+      "weight": 0.8
+    },
+    "minecraft:dead_fire_coral_block": {
+      "value": 12,
+      "weight": 3.5
+    },
+    "minecraft:dead_fire_coral_fan": {
+      "value": 3,
+      "weight": 0.3
+    },
+    "minecraft:dead_horn_coral": {
+      "value": 3,
+      "weight": 0.8
+    },
+    "minecraft:dead_horn_coral_block": {
+      "value": 6,
+      "weight": 3.5
+    },
+    "minecraft:dead_horn_coral_fan": {
+      "value": 1,
+      "weight": 0.3
+    },
     "minecraft:deepslate": {
       "value": -1,
-      "weight": 9.0
+      "weight": 6.5
     },
     "minecraft:deepslate_brick_slab": {
       "value": -1,
@@ -531,6 +971,38 @@
     "minecraft:deepslate_bricks": {
       "value": -1,
       "weight": 9.0
+    },
+    "minecraft:deepslate_coal_ore": {
+      "value": -1,
+      "weight": 10.0
+    },
+    "minecraft:deepslate_copper_ore": {
+      "value": -1,
+      "weight": 9.0
+    },
+    "minecraft:deepslate_diamond_ore": {
+      "value": -1,
+      "weight": 11.5
+    },
+    "minecraft:deepslate_emerald_ore": {
+      "value": -1,
+      "weight": 11.0
+    },
+    "minecraft:deepslate_gold_ore": {
+      "value": -1,
+      "weight": 10.0
+    },
+    "minecraft:deepslate_iron_ore": {
+      "value": -1,
+      "weight": 9.5
+    },
+    "minecraft:deepslate_lapis_ore": {
+      "value": -1,
+      "weight": 9.5
+    },
+    "minecraft:deepslate_redstone_ore": {
+      "value": -1,
+      "weight": 9.5
     },
     "minecraft:deepslate_tile_slab": {
       "value": -1,
@@ -552,9 +1024,13 @@
       "value": -1,
       "weight": 10.0
     },
+    "minecraft:diamond_ore": {
+      "value": -1,
+      "weight": 10.5
+    },
     "minecraft:diorite": {
       "value": -1,
-      "weight": 6.5
+      "weight": 5.5
     },
     "minecraft:diorite_slab": {
       "value": -1,
@@ -568,13 +1044,33 @@
       "value": -1,
       "weight": 6.5
     },
+    "minecraft:dirt": {
+      "value": -1,
+      "weight": 7.5
+    },
+    "minecraft:dirt_path": {
+      "value": -1,
+      "weight": 7.0
+    },
+    "minecraft:dried_kelp_block": {
+      "value": -1,
+      "weight": 2.0
+    },
+    "minecraft:dripstone_block": {
+      "value": -1,
+      "weight": 7.5
+    },
     "minecraft:emerald_block": {
       "value": -1,
       "weight": 7.0
     },
+    "minecraft:emerald_ore": {
+      "value": -1,
+      "weight": 10.0
+    },
     "minecraft:end_stone": {
       "value": -1,
-      "weight": 4.5
+      "weight": 9.0
     },
     "minecraft:end_stone_brick_slab": {
       "value": -1,
@@ -628,17 +1124,69 @@
       "value": -1,
       "weight": 4.5
     },
+    "minecraft:farmland": {
+      "value": -1,
+      "weight": 9.0
+    },
+    "minecraft:fern": {
+      "value": 1,
+      "weight": 0.05
+    },
+    "minecraft:fire_coral": {
+      "value": 20,
+      "weight": 1.0
+    },
+    "minecraft:fire_coral_block": {
+      "value": 45,
+      "weight": 4.0
+    },
+    "minecraft:fire_coral_fan": {
+      "value": 10,
+      "weight": 0.5
+    },
+    "minecraft:flowering_azalea": {
+      "value": -1,
+      "weight": 0.2
+    },
+    "minecraft:flowering_azalea_leaves": {
+      "value": -1,
+      "weight": 0.4
+    },
+    "minecraft:frogspawn": {
+      "value": 20,
+      "weight": 0.5
+    },
     "minecraft:gilded_blackstone": {
       "value": -1,
       "weight": 6.0
+    },
+    "minecraft:glass": {
+      "value": -1,
+      "weight": 3.0
+    },
+    "minecraft:glass_pane": {
+      "value": -1,
+      "weight": 0.5
+    },
+    "minecraft:glow_lichen": {
+      "value": 10,
+      "weight": 0.3
+    },
+    "minecraft:glowstone": {
+      "value": -1,
+      "weight": 7.0
     },
     "minecraft:gold_block": {
       "value": -1,
       "weight": 30.0
     },
+    "minecraft:gold_ore": {
+      "value": -1,
+      "weight": 8.0
+    },
     "minecraft:granite": {
       "value": -1,
-      "weight": 6.5
+      "weight": 5.5
     },
     "minecraft:granite_slab": {
       "value": -1,
@@ -652,9 +1200,145 @@
       "value": -1,
       "weight": 6.5
     },
+    "minecraft:grass_block": {
+      "value": -1,
+      "weight": 10.0
+    },
+    "minecraft:gravel": {
+      "value": -1,
+      "weight": 7.0
+    },
+    "minecraft:gray_banner": {
+      "value": -1,
+      "weight": 0.8
+    },
+    "minecraft:gray_bed": {
+      "value": -1,
+      "weight": 5.5
+    },
+    "minecraft:gray_candle": {
+      "value": -1,
+      "weight": 0.1
+    },
+    "minecraft:gray_carpet": {
+      "value": -1,
+      "weight": 0.3
+    },
+    "minecraft:gray_concrete": {
+      "value": -1,
+      "weight": 10.0
+    },
+    "minecraft:gray_concrete_powder": {
+      "value": -1,
+      "weight": 5.5
+    },
+    "minecraft:gray_glazed_terracotta": {
+      "value": -1,
+      "weight": 6.0
+    },
+    "minecraft:gray_shulker_box": {
+      "value": -1,
+      "weight": 2.5
+    },
+    "minecraft:gray_stained_glass": {
+      "value": -1,
+      "weight": 3.1
+    },
+    "minecraft:gray_stained_glass_pane": {
+      "value": -1,
+      "weight": 0.6
+    },
+    "minecraft:gray_terracotta": {
+      "value": -1,
+      "weight": 5.5
+    },
+    "minecraft:gray_wool": {
+      "value": -1,
+      "weight": 0.5
+    },
+    "minecraft:green_banner": {
+      "value": -1,
+      "weight": 0.8
+    },
+    "minecraft:green_bed": {
+      "value": -1,
+      "weight": 5.0
+    },
+    "minecraft:green_candle": {
+      "value": -1,
+      "weight": 0.1
+    },
+    "minecraft:green_carpet": {
+      "value": -1,
+      "weight": 0.4
+    },
+    "minecraft:green_concrete": {
+      "value": -1,
+      "weight": 10.5
+    },
+    "minecraft:green_concrete_powder": {
+      "value": -1,
+      "weight": 5.7
+    },
+    "minecraft:green_glazed_terracotta": {
+      "value": -1,
+      "weight": 6.5
+    },
+    "minecraft:green_shulker_box": {
+      "value": -1,
+      "weight": 2.5
+    },
+    "minecraft:green_stained_glass": {
+      "value": -1,
+      "weight": 3.2
+    },
+    "minecraft:green_stained_glass_pane": {
+      "value": -1,
+      "weight": 0.6
+    },
+    "minecraft:green_terracotta": {
+      "value": -1,
+      "weight": 6.0
+    },
+    "minecraft:green_wool": {
+      "value": -1,
+      "weight": 0.75
+    },
+    "minecraft:hanging_roots": {
+      "value": 8,
+      "weight": 0.4
+    },
+    "minecraft:hay_block": {
+      "value": 15,
+      "weight": 9.0
+    },
     "minecraft:heavy_weighted_pressure_plate": {
       "value": -1,
       "weight": 4.5
+    },
+    "minecraft:honey_block": {
+      "value": 45,
+      "weight": 4.0
+    },
+    "minecraft:honeycomb_block": {
+      "value": 40,
+      "weight": 5.0
+    },
+    "minecraft:horn_coral": {
+      "value": 10,
+      "weight": 1.0
+    },
+    "minecraft:horn_coral_block": {
+      "value": 25,
+      "weight": 4.0
+    },
+    "minecraft:horn_coral_fan": {
+      "value": 6,
+      "weight": 0.5
+    },
+    "minecraft:ice": {
+      "value": -1,
+      "weight": 5.0
     },
     "minecraft:iron_bars": {
       "value": -1,
@@ -668,9 +1352,17 @@
       "value": -1,
       "weight": 6.0
     },
+    "minecraft:iron_ore": {
+      "value": -1,
+      "weight": 7.5
+    },
     "minecraft:iron_trapdoor": {
       "value": -1,
       "weight": 5.5
+    },
+    "minecraft:jack_o_lantern": {
+      "value": 10,
+      "weight": 3.0
     },
     "minecraft:jungle_button": {
       "value": -1,
@@ -688,9 +1380,13 @@
       "value": -1,
       "weight": 5.0
     },
+    "minecraft:jungle_leaves": {
+      "value": -1,
+      "weight": 0.3
+    },
     "minecraft:jungle_log": {
       "value": -1,
-      "weight": 13.0
+      "weight": 9.0
     },
     "minecraft:jungle_planks": {
       "value": -1,
@@ -699,6 +1395,10 @@
     "minecraft:jungle_pressure_plate": {
       "value": -1,
       "weight": 0.5
+    },
+    "minecraft:jungle_sapling": {
+      "value": 2,
+      "weight": 0.1
     },
     "minecraft:jungle_sign": {
       "value": -1,
@@ -720,13 +1420,237 @@
       "value": -1,
       "weight": 10.0
     },
+    "minecraft:kelp": {
+      "value": 3,
+      "weight": 0.3
+    },
     "minecraft:lapis_block": {
       "value": -1,
       "weight": 6.0
     },
+    "minecraft:lapis_ore": {
+      "value": -1,
+      "weight": 8.5
+    },
+    "minecraft:large_amethyst_bud": {
+      "value": -1,
+      "weight": 3.5
+    },
+    "minecraft:large_fern": {
+      "value": 3,
+      "weight": 0.3
+    },
+    "minecraft:light_blue_banner": {
+      "value": -1,
+      "weight": 0.8
+    },
+    "minecraft:light_blue_bed": {
+      "value": -1,
+      "weight": 5.0
+    },
+    "minecraft:light_blue_candle": {
+      "value": -1,
+      "weight": 0.1
+    },
+    "minecraft:light_blue_carpet": {
+      "value": -1,
+      "weight": 0.3
+    },
+    "minecraft:light_blue_concrete": {
+      "value": -1,
+      "weight": 10.0
+    },
+    "minecraft:light_blue_concrete_powder": {
+      "value": -1,
+      "weight": 5.5
+    },
+    "minecraft:light_blue_glazed_terracotta": {
+      "value": -1,
+      "weight": 6.0
+    },
+    "minecraft:light_blue_shulker_box": {
+      "value": -1,
+      "weight": 2.5
+    },
+    "minecraft:light_blue_stained_glass": {
+      "value": -1,
+      "weight": 3.1
+    },
+    "minecraft:light_blue_stained_glass_pane": {
+      "value": -1,
+      "weight": 0.6
+    },
+    "minecraft:light_blue_terracotta": {
+      "value": -1,
+      "weight": 5.5
+    },
+    "minecraft:light_blue_wool": {
+      "value": -1,
+      "weight": 0.5
+    },
+    "minecraft:light_gray_banner": {
+      "value": -1,
+      "weight": 0.8
+    },
+    "minecraft:light_gray_bed": {
+      "value": -1,
+      "weight": 5.0
+    },
+    "minecraft:light_gray_candle": {
+      "value": -1,
+      "weight": 0.1
+    },
+    "minecraft:light_gray_carpet": {
+      "value": -1,
+      "weight": 0.3
+    },
+    "minecraft:light_gray_concrete": {
+      "value": -1,
+      "weight": 10.0
+    },
+    "minecraft:light_gray_concrete_powder": {
+      "value": -1,
+      "weight": 5.5
+    },
+    "minecraft:light_gray_glazed_terracotta": {
+      "value": -1,
+      "weight": 6.0
+    },
+    "minecraft:light_gray_shulker_box": {
+      "value": -1,
+      "weight": 2.5
+    },
+    "minecraft:light_gray_stained_glass": {
+      "value": -1,
+      "weight": 3.1
+    },
+    "minecraft:light_gray_stained_glass_pane": {
+      "value": -1,
+      "weight": 0.6
+    },
+    "minecraft:light_gray_terracotta": {
+      "value": -1,
+      "weight": 5.5
+    },
+    "minecraft:light_gray_wool": {
+      "value": -1,
+      "weight": 0.5
+    },
     "minecraft:light_weighted_pressure_plate": {
       "value": -1,
       "weight": 5.0
+    },
+    "minecraft:lilac": {
+      "value": 4,
+      "weight": 0.5
+    },
+    "minecraft:lily_of_the_valley": {
+      "value": 8,
+      "weight": 0.03
+    },
+    "minecraft:lily_pad": {
+      "value": 5,
+      "weight": 0.5
+    },
+    "minecraft:lime_banner": {
+      "value": -1,
+      "weight": 0.8
+    },
+    "minecraft:lime_bed": {
+      "value": -1,
+      "weight": 5.0
+    },
+    "minecraft:lime_candle": {
+      "value": -1,
+      "weight": 0.1
+    },
+    "minecraft:lime_carpet": {
+      "value": -1,
+      "weight": 0.3
+    },
+    "minecraft:lime_concrete": {
+      "value": -1,
+      "weight": 10.0
+    },
+    "minecraft:lime_concrete_powder": {
+      "value": -1,
+      "weight": 5.5
+    },
+    "minecraft:lime_glazed_terracotta": {
+      "value": -1,
+      "weight": 6.0
+    },
+    "minecraft:lime_shulker_box": {
+      "value": -1,
+      "weight": 2.5
+    },
+    "minecraft:lime_stained_glass": {
+      "value": -1,
+      "weight": 3.1
+    },
+    "minecraft:lime_stained_glass_pane": {
+      "value": -1,
+      "weight": 0.6
+    },
+    "minecraft:lime_terracotta": {
+      "value": -1,
+      "weight": 5.5
+    },
+    "minecraft:lime_wool": {
+      "value": -1,
+      "weight": 0.5
+    },
+    "minecraft:magenta_banner": {
+      "value": -1,
+      "weight": 0.8
+    },
+    "minecraft:magenta_bed": {
+      "value": -1,
+      "weight": 5.0
+    },
+    "minecraft:magenta_candle": {
+      "value": -1,
+      "weight": 0.1
+    },
+    "minecraft:magenta_carpet": {
+      "value": -1,
+      "weight": 0.3
+    },
+    "minecraft:magenta_concrete": {
+      "value": -1,
+      "weight": 10.0
+    },
+    "minecraft:magenta_concrete_powder": {
+      "value": -1,
+      "weight": 5.5
+    },
+    "minecraft:magenta_glazed_terracotta": {
+      "value": -1,
+      "weight": 6.0
+    },
+    "minecraft:magenta_shulker_box": {
+      "value": -1,
+      "weight": 2.5
+    },
+    "minecraft:magenta_stained_glass": {
+      "value": -1,
+      "weight": 3.1
+    },
+    "minecraft:magenta_stained_glass_pane": {
+      "value": -1,
+      "weight": 0.6
+    },
+    "minecraft:magenta_terracotta": {
+      "value": -1,
+      "weight": 5.5
+    },
+    "minecraft:magenta_wool": {
+      "value": -1,
+      "weight": 0.5
+    },
+    "minecraft:magma_block": {
+      "value": -1,
+      "weight": 8.0
     },
     "minecraft:mangrove_button": {
       "value": -1,
@@ -744,9 +1668,13 @@
       "value": -1,
       "weight": 5.5
     },
+    "minecraft:mangrove_leaves": {
+      "value": -1,
+      "weight": 0.4
+    },
     "minecraft:mangrove_log": {
       "value": -1,
-      "weight": 15.0
+      "weight": 9.0
     },
     "minecraft:mangrove_planks": {
       "value": -1,
@@ -755,6 +1683,14 @@
     "minecraft:mangrove_pressure_plate": {
       "value": -1,
       "weight": 0.7
+    },
+    "minecraft:mangrove_propagule": {
+      "value": -1,
+      "weight": 0.2
+    },
+    "minecraft:mangrove_roots": {
+      "value": -1,
+      "weight": 3.5
     },
     "minecraft:mangrove_sign": {
       "value": -1,
@@ -775,6 +1711,26 @@
     "minecraft:mangrove_wood": {
       "value": -1,
       "weight": 12.0
+    },
+    "minecraft:medium_amethyst_bud": {
+      "value": -1,
+      "weight": 2.5
+    },
+    "minecraft:melon": {
+      "value": 5,
+      "weight": 2.5
+    },
+    "minecraft:melon_seeds": {
+      "value": 1,
+      "weight": 0.05
+    },
+    "minecraft:moss_block": {
+      "value": -1,
+      "weight": 4.5
+    },
+    "minecraft:moss_carpet": {
+      "value": -1,
+      "weight": 3.5
     },
     "minecraft:mossy_cobblestone": {
       "value": -1,
@@ -808,6 +1764,10 @@
       "value": -1,
       "weight": 6.0
     },
+    "minecraft:mud": {
+      "value": -1,
+      "weight": 8.5
+    },
     "minecraft:mud_brick_slab": {
       "value": -1,
       "weight": 3.5
@@ -823,6 +1783,18 @@
     "minecraft:mud_bricks": {
       "value": -1,
       "weight": 4.0
+    },
+    "minecraft:muddy_mangrove_roots": {
+      "value": -1,
+      "weight": 4.0
+    },
+    "minecraft:mushroom_stem": {
+      "value": -1,
+      "weight": 6.0
+    },
+    "minecraft:mycelium": {
+      "value": -1,
+      "weight": 9.5
     },
     "minecraft:nether_brick_fence": {
       "value": -1,
@@ -844,13 +1816,33 @@
       "value": -1,
       "weight": 4.0
     },
+    "minecraft:nether_gold_ore": {
+      "value": -1,
+      "weight": 12.5
+    },
+    "minecraft:nether_quartz_ore": {
+      "value": -1,
+      "weight": 10.5
+    },
+    "minecraft:nether_sprouts": {
+      "value": 10,
+      "weight": 0.5
+    },
+    "minecraft:nether_wart": {
+      "value": 12,
+      "weight": 0.3
+    },
+    "minecraft:nether_wart_block": {
+      "value": -1,
+      "weight": 1.2
+    },
     "minecraft:netherite_block": {
       "value": -1,
       "weight": 15.0
     },
     "minecraft:netherrack": {
       "value": -1,
-      "weight": 3.0
+      "weight": 4.5
     },
     "minecraft:oak_button": {
       "value": -1,
@@ -868,9 +1860,13 @@
       "value": -1,
       "weight": 5.0
     },
+    "minecraft:oak_leaves": {
+      "value": -1,
+      "weight": 0.3
+    },
     "minecraft:oak_log": {
       "value": -1,
-      "weight": 15.0
+      "weight": 8.0
     },
     "minecraft:oak_planks": {
       "value": -1,
@@ -879,6 +1875,10 @@
     "minecraft:oak_pressure_plate": {
       "value": -1,
       "weight": 0.5
+    },
+    "minecraft:oak_sapling": {
+      "value": 2,
+      "weight": 0.1
     },
     "minecraft:oak_sign": {
       "value": -1,
@@ -899,6 +1899,70 @@
     "minecraft:oak_wood": {
       "value": -1,
       "weight": 12.0
+    },
+    "minecraft:obsidian": {
+      "value": -1,
+      "weight": 10.0
+    },
+    "minecraft:ochre_froglight": {
+      "value": 22,
+      "weight": 2.5
+    },
+    "minecraft:orange_banner": {
+      "value": -1,
+      "weight": 0.8
+    },
+    "minecraft:orange_bed": {
+      "value": -1,
+      "weight": 5.0
+    },
+    "minecraft:orange_candle": {
+      "value": -1,
+      "weight": 0.1
+    },
+    "minecraft:orange_carpet": {
+      "value": -1,
+      "weight": 0.3
+    },
+    "minecraft:orange_concrete": {
+      "value": -1,
+      "weight": 10.0
+    },
+    "minecraft:orange_concrete_powder": {
+      "value": -1,
+      "weight": 5.5
+    },
+    "minecraft:orange_glazed_terracotta": {
+      "value": -1,
+      "weight": 6.0
+    },
+    "minecraft:orange_shulker_box": {
+      "value": -1,
+      "weight": 2.5
+    },
+    "minecraft:orange_stained_glass": {
+      "value": -1,
+      "weight": 3.1
+    },
+    "minecraft:orange_stained_glass_pane": {
+      "value": -1,
+      "weight": 0.6
+    },
+    "minecraft:orange_terracotta": {
+      "value": -1,
+      "weight": 5.5
+    },
+    "minecraft:orange_tulip": {
+      "value": 6,
+      "weight": 0.03
+    },
+    "minecraft:orange_wool": {
+      "value": -1,
+      "weight": 0.5
+    },
+    "minecraft:oxeye_daisy": {
+      "value": 3,
+      "weight": 0.02
     },
     "minecraft:oxidized_chiseled_copper": {
       "value": -1,
@@ -936,9 +2000,93 @@
       "value": -1,
       "weight": 6.0
     },
+    "minecraft:packed_ice": {
+      "value": -1,
+      "weight": 7.0
+    },
     "minecraft:packed_mud": {
       "value": -1,
       "weight": 3.0
+    },
+    "minecraft:pearlescent_froglight": {
+      "value": 20,
+      "weight": 2.5
+    },
+    "minecraft:peony": {
+      "value": 4,
+      "weight": 0.5
+    },
+    "minecraft:pink_banner": {
+      "value": -1,
+      "weight": 0.8
+    },
+    "minecraft:pink_bed": {
+      "value": -1,
+      "weight": 5.0
+    },
+    "minecraft:pink_candle": {
+      "value": -1,
+      "weight": 0.1
+    },
+    "minecraft:pink_carpet": {
+      "value": -1,
+      "weight": 0.3
+    },
+    "minecraft:pink_concrete": {
+      "value": -1,
+      "weight": 10.0
+    },
+    "minecraft:pink_concrete_powder": {
+      "value": -1,
+      "weight": 5.5
+    },
+    "minecraft:pink_glazed_terracotta": {
+      "value": -1,
+      "weight": 6.0
+    },
+    "minecraft:pink_petals": {
+      "value": 7,
+      "weight": 0.02
+    },
+    "minecraft:pink_shulker_box": {
+      "value": -1,
+      "weight": 2.5
+    },
+    "minecraft:pink_stained_glass": {
+      "value": -1,
+      "weight": 3.1
+    },
+    "minecraft:pink_stained_glass_pane": {
+      "value": -1,
+      "weight": 0.6
+    },
+    "minecraft:pink_terracotta": {
+      "value": -1,
+      "weight": 5.5
+    },
+    "minecraft:pink_tulip": {
+      "value": 6,
+      "weight": 0.03
+    },
+    "minecraft:pink_wool": {
+      "value": -1,
+      "weight": 0.5
+    },
+    "minecraft:pitcher_plant": {
+      "value": 8,
+      "weight": 0.6
+    },
+    "minecraft:pitcher_pod": {
+      "value": 8,
+      "weight": 0.2
+    },
+    "minecraft:podzol": {
+      "value": -1,
+      "weight": 9.0
+    },
+    "minecraft:pointed_dripstone": {
+      "value": -1,
+      "weight": 6.0
     },
     "minecraft:polished_andesite": {
       "value": -1,
@@ -1052,9 +2200,13 @@
       "value": -1,
       "weight": 7.0
     },
+    "minecraft:poppy": {
+      "value": 3,
+      "weight": 0.02
+    },
     "minecraft:prismarine": {
       "value": -1,
-      "weight": 3.0
+      "weight": 6.5
     },
     "minecraft:prismarine_brick_slab": {
       "value": -1,
@@ -1079,6 +2231,62 @@
     "minecraft:prismarine_wall": {
       "value": -1,
       "weight": 6.0
+    },
+    "minecraft:pumpkin": {
+      "value": 6,
+      "weight": 3.0
+    },
+    "minecraft:pumpkin_seeds": {
+      "value": 1,
+      "weight": 0.05
+    },
+    "minecraft:purple_banner": {
+      "value": -1,
+      "weight": 0.8
+    },
+    "minecraft:purple_bed": {
+      "value": -1,
+      "weight": 5.0
+    },
+    "minecraft:purple_candle": {
+      "value": -1,
+      "weight": 0.1
+    },
+    "minecraft:purple_carpet": {
+      "value": -1,
+      "weight": 0.3
+    },
+    "minecraft:purple_concrete": {
+      "value": -1,
+      "weight": 10.0
+    },
+    "minecraft:purple_concrete_powder": {
+      "value": -1,
+      "weight": 5.5
+    },
+    "minecraft:purple_glazed_terracotta": {
+      "value": -1,
+      "weight": 6.0
+    },
+    "minecraft:purple_shulker_box": {
+      "value": -1,
+      "weight": 2.5
+    },
+    "minecraft:purple_stained_glass": {
+      "value": -1,
+      "weight": 3.1
+    },
+    "minecraft:purple_stained_glass_pane": {
+      "value": -1,
+      "weight": 0.6
+    },
+    "minecraft:purple_terracotta": {
+      "value": -1,
+      "weight": 5.5
+    },
+    "minecraft:purple_wool": {
+      "value": -1,
+      "weight": 0.5
     },
     "minecraft:purpur_block": {
       "value": -1,
@@ -1116,6 +2324,54 @@
       "value": -1,
       "weight": 4.0
     },
+    "minecraft:raw_copper_block": {
+      "value": -1,
+      "weight": 24.0
+    },
+    "minecraft:raw_gold_block": {
+      "value": -1,
+      "weight": 23.0
+    },
+    "minecraft:raw_iron_block": {
+      "value": -1,
+      "weight": 24.5
+    },
+    "minecraft:red_banner": {
+      "value": -1,
+      "weight": 0.8
+    },
+    "minecraft:red_bed": {
+      "value": -1,
+      "weight": 5.0
+    },
+    "minecraft:red_candle": {
+      "value": -1,
+      "weight": 0.1
+    },
+    "minecraft:red_carpet": {
+      "value": -1,
+      "weight": 0.4
+    },
+    "minecraft:red_concrete": {
+      "value": -1,
+      "weight": 10.5
+    },
+    "minecraft:red_concrete_powder": {
+      "value": -1,
+      "weight": 5.7
+    },
+    "minecraft:red_glazed_terracotta": {
+      "value": -1,
+      "weight": 6.5
+    },
+    "minecraft:red_mushroom": {
+      "value": 5,
+      "weight": 0.05
+    },
+    "minecraft:red_mushroom_block": {
+      "value": -1,
+      "weight": 1.0
+    },
     "minecraft:red_nether_brick_slab": {
       "value": -1,
       "weight": 3.5
@@ -1132,9 +2388,13 @@
       "value": -1,
       "weight": 4.0
     },
+    "minecraft:red_sand": {
+      "value": -1,
+      "weight": 6.0
+    },
     "minecraft:red_sandstone": {
       "value": -1,
-      "weight": 3.0
+      "weight": 7.5
     },
     "minecraft:red_sandstone_slab": {
       "value": -1,
@@ -1148,17 +2408,57 @@
       "value": -1,
       "weight": 5.0
     },
+    "minecraft:red_shulker_box": {
+      "value": -1,
+      "weight": 2.5
+    },
+    "minecraft:red_stained_glass": {
+      "value": -1,
+      "weight": 3.2
+    },
+    "minecraft:red_stained_glass_pane": {
+      "value": -1,
+      "weight": 0.6
+    },
+    "minecraft:red_terracotta": {
+      "value": -1,
+      "weight": 6.0
+    },
+    "minecraft:red_tulip": {
+      "value": 6,
+      "weight": 0.03
+    },
+    "minecraft:red_wool": {
+      "value": -1,
+      "weight": 0.75
+    },
     "minecraft:redstone_block": {
       "value": -1,
       "weight": 8.0
+    },
+    "minecraft:redstone_ore": {
+      "value": -1,
+      "weight": 7.5
     },
     "minecraft:reinforced_deepslate": {
       "value": -1,
       "weight": 8.0
     },
+    "minecraft:rooted_dirt": {
+      "value": -1,
+      "weight": 9.5
+    },
+    "minecraft:rose_bush": {
+      "value": 5,
+      "weight": 0.5
+    },
+    "minecraft:sand": {
+      "value": -1,
+      "weight": 6.0
+    },
     "minecraft:sandstone": {
       "value": -1,
-      "weight": 3.0
+      "weight": 7.5
     },
     "minecraft:sandstone_slab": {
       "value": -1,
@@ -1172,13 +2472,65 @@
       "value": -1,
       "weight": 5.0
     },
+    "minecraft:sculk": {
+      "value": 30,
+      "weight": 4.0
+    },
+    "minecraft:sculk_catalyst": {
+      "value": 60,
+      "weight": 5.0
+    },
+    "minecraft:sculk_sensor": {
+      "value": 50,
+      "weight": 3.0
+    },
+    "minecraft:sculk_shrieker": {
+      "value": 75,
+      "weight": 6.0
+    },
+    "minecraft:sculk_vein": {
+      "value": 12,
+      "weight": 0.5
+    },
     "minecraft:sea_lantern": {
       "value": -1,
       "weight": 1.5
     },
+    "minecraft:sea_pickle": {
+      "value": 8,
+      "weight": 0.2
+    },
+    "minecraft:seagrass": {
+      "value": 4,
+      "weight": 0.2
+    },
+    "minecraft:short_grass": {
+      "value": 1,
+      "weight": 0.03
+    },
+    "minecraft:shroomlight": {
+      "value": -1,
+      "weight": 1.0
+    },
+    "minecraft:shulker_box": {
+      "value": -1,
+      "weight": 2.5
+    },
+    "minecraft:slime_block": {
+      "value": 35,
+      "weight": 4.0
+    },
+    "minecraft:small_amethyst_bud": {
+      "value": -1,
+      "weight": 1.5
+    },
+    "minecraft:small_dripleaf": {
+      "value": -1,
+      "weight": 0.8
+    },
     "minecraft:smooth_basalt": {
       "value": -1,
-      "weight": 5.5
+      "weight": 6.5
     },
     "minecraft:smooth_quartz": {
       "value": -1,
@@ -1224,6 +2576,34 @@
       "value": -1,
       "weight": 3.5
     },
+    "minecraft:sniffer_egg": {
+      "value": 40,
+      "weight": 1.5
+    },
+    "minecraft:snow": {
+      "value": -1,
+      "weight": 4.0
+    },
+    "minecraft:snow_block": {
+      "value": -1,
+      "weight": 5.5
+    },
+    "minecraft:soul_sand": {
+      "value": -1,
+      "weight": 6.0
+    },
+    "minecraft:soul_soil": {
+      "value": -1,
+      "weight": 6.0
+    },
+    "minecraft:sponge": {
+      "value": 20,
+      "weight": 0.5
+    },
+    "minecraft:spore_blossom": {
+      "value": 15,
+      "weight": 0.05
+    },
     "minecraft:spruce_button": {
       "value": -1,
       "weight": 0.1
@@ -1240,9 +2620,13 @@
       "value": -1,
       "weight": 5.0
     },
+    "minecraft:spruce_leaves": {
+      "value": -1,
+      "weight": 0.3
+    },
     "minecraft:spruce_log": {
       "value": -1,
-      "weight": 14.0
+      "weight": 8.0
     },
     "minecraft:spruce_planks": {
       "value": -1,
@@ -1251,6 +2635,10 @@
     "minecraft:spruce_pressure_plate": {
       "value": -1,
       "weight": 0.5
+    },
+    "minecraft:spruce_sapling": {
+      "value": 2,
+      "weight": 0.1
     },
     "minecraft:spruce_sign": {
       "value": -1,
@@ -1274,7 +2662,7 @@
     },
     "minecraft:stone": {
       "value": -1,
-      "weight": 5.5
+      "weight": 5.0
     },
     "minecraft:stone_brick_slab": {
       "value": -1,
@@ -1310,7 +2698,7 @@
     },
     "minecraft:stripped_acacia_log": {
       "value": -1,
-      "weight": 10.5
+      "weight": 8.5
     },
     "minecraft:stripped_acacia_wood": {
       "value": -1,
@@ -1322,7 +2710,7 @@
     },
     "minecraft:stripped_birch_log": {
       "value": -1,
-      "weight": 9.8
+      "weight": 7.0
     },
     "minecraft:stripped_birch_wood": {
       "value": -1,
@@ -1330,7 +2718,7 @@
     },
     "minecraft:stripped_cherry_log": {
       "value": -1,
-      "weight": 10.0
+      "weight": 8.0
     },
     "minecraft:stripped_cherry_wood": {
       "value": -1,
@@ -1346,7 +2734,7 @@
     },
     "minecraft:stripped_dark_oak_log": {
       "value": -1,
-      "weight": 12.5
+      "weight": 9.0
     },
     "minecraft:stripped_dark_oak_wood": {
       "value": -1,
@@ -1354,7 +2742,7 @@
     },
     "minecraft:stripped_jungle_log": {
       "value": -1,
-      "weight": 11.0
+      "weight": 8.5
     },
     "minecraft:stripped_jungle_wood": {
       "value": -1,
@@ -1362,7 +2750,7 @@
     },
     "minecraft:stripped_mangrove_log": {
       "value": -1,
-      "weight": 13.0
+      "weight": 8.5
     },
     "minecraft:stripped_mangrove_wood": {
       "value": -1,
@@ -1370,7 +2758,7 @@
     },
     "minecraft:stripped_oak_log": {
       "value": -1,
-      "weight": 12.0
+      "weight": 7.5
     },
     "minecraft:stripped_oak_wood": {
       "value": -1,
@@ -1378,7 +2766,7 @@
     },
     "minecraft:stripped_spruce_log": {
       "value": -1,
-      "weight": 12.0
+      "weight": 7.5
     },
     "minecraft:stripped_spruce_wood": {
       "value": -1,
@@ -1391,6 +2779,38 @@
     "minecraft:stripped_warped_stem": {
       "value": -1,
       "weight": 1.8
+    },
+    "minecraft:sugar_cane": {
+      "value": 3,
+      "weight": 0.5
+    },
+    "minecraft:sunflower": {
+      "value": 3,
+      "weight": 0.5
+    },
+    "minecraft:tall_grass": {
+      "value": 1,
+      "weight": 0.1
+    },
+    "minecraft:terracotta": {
+      "value": -1,
+      "weight": 5.5
+    },
+    "minecraft:tinted_glass": {
+      "value": -1,
+      "weight": 2.8
+    },
+    "minecraft:torchflower": {
+      "value": 10,
+      "weight": 0.03
+    },
+    "minecraft:torchflower_seeds": {
+      "value": 6,
+      "weight": 0.05
+    },
+    "minecraft:tube_coral_block": {
+      "value": 30,
+      "weight": 4.0
     },
     "minecraft:tuff": {
       "value": -1,
@@ -1424,6 +2844,22 @@
       "value": -1,
       "weight": 7.0
     },
+    "minecraft:turtle_egg": {
+      "value": 25,
+      "weight": 1.0
+    },
+    "minecraft:twisting_vines": {
+      "value": 12,
+      "weight": 0.4
+    },
+    "minecraft:verdant_froglight": {
+      "value": 18,
+      "weight": 2.5
+    },
+    "minecraft:vine": {
+      "value": 4,
+      "weight": 0.2
+    },
     "minecraft:warped_button": {
       "value": -1,
       "weight": 0.1
@@ -1440,9 +2876,17 @@
       "value": -1,
       "weight": 1.2
     },
+    "minecraft:warped_fungus": {
+      "value": 9,
+      "weight": 0.1
+    },
     "minecraft:warped_hyphae": {
       "value": -1,
       "weight": 1.8
+    },
+    "minecraft:warped_nylium": {
+      "value": -1,
+      "weight": 5.0
     },
     "minecraft:warped_planks": {
       "value": -1,
@@ -1450,6 +2894,10 @@
     },
     "minecraft:warped_pressure_plate": {
       "value": -1,
+      "weight": 0.7
+    },
+    "minecraft:warped_roots": {
+      "value": 8,
       "weight": 0.7
     },
     "minecraft:warped_sign": {
@@ -1466,9 +2914,13 @@
     },
     "minecraft:warped_stem": {
       "value": -1,
-      "weight": 2.5
+      "weight": 7.0
     },
     "minecraft:warped_trapdoor": {
+      "value": -1,
+      "weight": 1.2
+    },
+    "minecraft:warped_wart_block": {
       "value": -1,
       "weight": 1.2
     },
@@ -1651,6 +3103,122 @@
     "minecraft:weathered_cut_copper_stairs": {
       "value": -1,
       "weight": 6.0
+    },
+    "minecraft:weeping_vines": {
+      "value": 12,
+      "weight": 0.4
+    },
+    "minecraft:wet_sponge": {
+      "value": 25,
+      "weight": 0.8
+    },
+    "minecraft:wheat_seeds": {
+      "value": 2,
+      "weight": 0.2
+    },
+    "minecraft:white_banner": {
+      "value": -1,
+      "weight": 0.8
+    },
+    "minecraft:white_bed": {
+      "value": -1,
+      "weight": 5.0
+    },
+    "minecraft:white_candle": {
+      "value": -1,
+      "weight": 0.1
+    },
+    "minecraft:white_carpet": {
+      "value": -1,
+      "weight": 0.3
+    },
+    "minecraft:white_concrete": {
+      "value": -1,
+      "weight": 10.0
+    },
+    "minecraft:white_concrete_powder": {
+      "value": -1,
+      "weight": 5.5
+    },
+    "minecraft:white_glazed_terracotta": {
+      "value": -1,
+      "weight": 6.0
+    },
+    "minecraft:white_shulker_box": {
+      "value": -1,
+      "weight": 2.5
+    },
+    "minecraft:white_stained_glass": {
+      "value": -1,
+      "weight": 3.1
+    },
+    "minecraft:white_stained_glass_pane": {
+      "value": -1,
+      "weight": 0.6
+    },
+    "minecraft:white_terracotta": {
+      "value": -1,
+      "weight": 5.5
+    },
+    "minecraft:white_tulip": {
+      "value": 6,
+      "weight": 0.03
+    },
+    "minecraft:white_wool": {
+      "value": -1,
+      "weight": 0.5
+    },
+    "minecraft:wither_rose": {
+      "value": 12,
+      "weight": 0.04
+    },
+    "minecraft:yellow_banner": {
+      "value": -1,
+      "weight": 0.8
+    },
+    "minecraft:yellow_bed": {
+      "value": -1,
+      "weight": 5.0
+    },
+    "minecraft:yellow_candle": {
+      "value": -1,
+      "weight": 0.1
+    },
+    "minecraft:yellow_carpet": {
+      "value": -1,
+      "weight": 0.3
+    },
+    "minecraft:yellow_concrete": {
+      "value": -1,
+      "weight": 10.0
+    },
+    "minecraft:yellow_concrete_powder": {
+      "value": -1,
+      "weight": 5.5
+    },
+    "minecraft:yellow_glazed_terracotta": {
+      "value": -1,
+      "weight": 6.0
+    },
+    "minecraft:yellow_shulker_box": {
+      "value": -1,
+      "weight": 2.5
+    },
+    "minecraft:yellow_stained_glass": {
+      "value": -1,
+      "weight": 3.1
+    },
+    "minecraft:yellow_stained_glass_pane": {
+      "value": -1,
+      "weight": 0.6
+    },
+    "minecraft:yellow_terracotta": {
+      "value": -1,
+      "weight": 5.5
+    },
+    "minecraft:yellow_wool": {
+      "value": -1,
+      "weight": 0.5
     }
   }
 }

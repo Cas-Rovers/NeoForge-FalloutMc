@@ -1,0 +1,104 @@
+{
+  "values": {
+    "falloutmc:nuka_cola": {
+      "addiction": false,
+      "apBoost": 0,
+      "deceaseChance": 0,
+      "deceaseEffects": [
+        "falloutmc:example_effect"
+      ],
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
+      ],
+      "hpRestore": 0,
+      "radiation": 20,
+      "recipe": false,
+      "thirstRestore": 12,
+      "value": 0,
+      "weight": 1.0
+    },
+    "minecraft:lingering_potion": {
+      "addiction": false,
+      "apBoost": 0,
+      "deceaseChance": 0,
+      "deceaseEffects": [
+        "falloutmc:example_effect"
+      ],
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
+      ],
+      "hpRestore": 0,
+      "radiation": 20,
+      "recipe": false,
+      "thirstRestore": 12,
+      "value": 0,
+      "weight": 1.0
+    },
+    "minecraft:ominous_bottle": {
+      "addiction": false,
+      "apBoost": 0,
+      "deceaseChance": 0,
+      "deceaseEffects": [
+        "falloutmc:example_effect"
+      ],
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
+      ],
+      "hpRestore": 0,
+      "radiation": 20,
+      "recipe": false,
+      "thirstRestore": 12,
+      "value": 0,
+      "weight": 1.0
+    },
+    "minecraft:potion": {
+      "addiction": false,
+      "apBoost": 0,
+      "deceaseChance": 0,
+      "deceaseEffects": [
+        "falloutmc:example_effect"
+      ],
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
+      ],
+      "hpRestore": 0,
+      "radiation": 20,
+      "recipe": false,
+      "thirstRestore": 12,
+      "value": 0,
+      "weight": 1.0
+    },
+    "minecraft:splash_potion": {
+      "addiction": false,
+      "apBoost": 0,
+      "deceaseChance": 0,
+      "deceaseEffects": [
+        "falloutmc:example_effect"
+      ],
+      "effects": [
+        {
+          "duration": 0,
+          "effect": "falloutmc:example_effect"
+        }
+      ],
+      "hpRestore": 0,
+      "radiation": 20,
+      "recipe": false,
+      "thirstRestore": 12,
+      "value": 0,
+      "weight": 1.0
+    }
+  }
+}

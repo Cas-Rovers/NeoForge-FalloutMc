@@ -1,26 +1,5 @@
 {
   "values": {
-    "falloutmc:nuka_cola": {
-      "addiction": false,
-      "deceaseChance": 0,
-      "deceaseEffects": [
-        "falloutmc:example_effect"
-      ],
-      "effects": [
-        {
-          "duration": 0,
-          "effect": "falloutmc:example_effect"
-        }
-      ],
-      "hpRestore": 0,
-      "hungerRestore": 0,
-      "plantable": false,
-      "radiation": 10,
-      "recipe": false,
-      "thirstRestore": 0,
-      "value": 10,
-      "weight": 1.0
-    },
     "minecraft:apple": {
       "addiction": false,
       "deceaseChance": 0,
@@ -525,27 +504,6 @@
       "value": 12,
       "weight": 0.5
     },
-    "minecraft:lingering_potion": {
-      "addiction": false,
-      "deceaseChance": 0,
-      "deceaseEffects": [
-        "falloutmc:example_effect"
-      ],
-      "effects": [
-        {
-          "duration": 0,
-          "effect": "falloutmc:example_effect"
-        }
-      ],
-      "hpRestore": 0,
-      "hungerRestore": 0,
-      "plantable": false,
-      "radiation": 20,
-      "recipe": false,
-      "thirstRestore": 12,
-      "value": 0,
-      "weight": 1.0
-    },
     "minecraft:melon_slice": {
       "addiction": false,
       "deceaseChance": 0,
@@ -672,27 +630,6 @@
       "value": 4,
       "weight": 0.3
     },
-    "minecraft:potion": {
-      "addiction": false,
-      "deceaseChance": 0,
-      "deceaseEffects": [
-        "falloutmc:example_effect"
-      ],
-      "effects": [
-        {
-          "duration": 0,
-          "effect": "falloutmc:example_effect"
-        }
-      ],
-      "hpRestore": 0,
-      "hungerRestore": 0,
-      "plantable": false,
-      "radiation": 20,
-      "recipe": false,
-      "thirstRestore": 12,
-      "value": 0,
-      "weight": 1.0
-    },
     "minecraft:pufferfish": {
       "addiction": false,
       "deceaseChance": 0,
@@ -818,27 +755,6 @@
       "thirstRestore": 2,
       "value": 3,
       "weight": 0.25
-    },
-    "minecraft:splash_potion": {
-      "addiction": false,
-      "deceaseChance": 0,
-      "deceaseEffects": [
-        "falloutmc:example_effect"
-      ],
-      "effects": [
-        {
-          "duration": 0,
-          "effect": "falloutmc:example_effect"
-        }
-      ],
-      "hpRestore": 0,
-      "hungerRestore": 0,
-      "plantable": false,
-      "radiation": 20,
-      "recipe": false,
-      "thirstRestore": 12,
-      "value": 0,
-      "weight": 1.0
     },
     "minecraft:sweet_berries": {
       "addiction": false,
